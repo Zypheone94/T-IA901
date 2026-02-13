@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.so
+.Python
+
+# Environnements virtuels (CRITIQUE!)
+venv/
+env/
+ENV/
+.venv/
+lib/
+lib64/
+pyvenv.cfg
+bin/
+include/
+share/
+
+# Modèles
+*.pth
+*.pt
+*.h5
+model_ner_cities/
+
+# Datasets (adapte selon tes besoins)
+# dataset_ner_cities.json
+
+# Outputs
+*.png
+*.jpg
+results/
+logs/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Cache pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+*.cpg
+*.dbf
+*.prf
+*.shp
+*.shx
+*.prj
+CACHEDIR.TAG
