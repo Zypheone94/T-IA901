@@ -147,8 +147,8 @@ def main():
             g_dep, g_arr,
             raw_pred,
             p_dep, p_arr,
-            int(not g_is_invalid),  # gold_is_valid
-            int(not p_is_invalid),  # pred_is_valid
+            int(not g_is_invalid),
+            int(not p_is_invalid),
             ok,
             error_type,
             len(sentence) if sentence else 0
@@ -183,10 +183,6 @@ def main():
             "gold_is_valid","pred_is_valid","ok","error_type","sentence_len"
         ])
         w.writerows(per_rows)
-
-    print(" Summary:", OUT_SUMMARY.resolve())
-    print(" Per-example CSV:", OUT_PER_EX.resolve())
-    print("=== METRICS ===")
     for k,v in summary.items():
         if isinstance(v, float):
             print(f"{k}: {v:.4f}")

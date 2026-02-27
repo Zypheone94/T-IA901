@@ -1,4 +1,4 @@
-﻿import json
+import json
 import re
 import unicodedata
 import pandas as pd
@@ -87,27 +87,22 @@ def build_compute_metrics(tokenizer):
 
         preds = np.asarray(preds)
         labels = np.asarray(labels)
-
         pad_id = tokenizer.pad_token_id if tokenizer.pad_token_id is not None else 0
         if preds.ndim == 3:
             preds = preds.argmax(axis=-1)
         vocab = getattr(tokenizer, "vocab_size", None)
         preds = np.where(preds == -100, pad_id, preds)
-
         if vocab is not None:
             preds = np.where((preds < 0) | (preds >= vocab), pad_id, preds)
         labels_clean = np.where(labels != -100, labels, pad_id)
-
         pred_texts = tokenizer.batch_decode(preds, skip_special_tokens=True)
         gold_texts = tokenizer.batch_decode(labels_clean, skip_special_tokens=True)
         tp = fp = fn = tn = 0
         for p_txt, g_txt in zip(pred_texts, gold_texts):
             p_dep, p_arr = split_pred(p_txt)
             g_dep, g_arr = split_gold(g_txt)
-
             gold_valid = (g_dep != "INVALID")
             pred_valid = (p_dep != "INVALID")
-
             if gold_valid and pred_valid:
                 tp += 1
             elif gold_valid and not pred_valid:
@@ -116,10 +111,8 @@ def build_compute_metrics(tokenizer):
                 fp += 1
             else:
                 tn += 1
-
         def safe_div(a, b):
             return a / b if b else 0.0
-
         prec_valid = safe_div(tp, tp + fp)
         rec_valid = safe_div(tp, tp + fn)
         f1_valid = safe_div(2 * prec_valid * rec_valid, prec_valid + rec_valid)
@@ -127,28 +120,21 @@ def build_compute_metrics(tokenizer):
         prec_inv = safe_div(tp_i, tp_i + fp_i)
         rec_inv = safe_div(tp_i, tp_i + fn_i)
         f1_inv = safe_div(2 * prec_inv * rec_inv, prec_inv + rec_inv)
-
         macro_f1 = (f1_valid + f1_inv) / 2.0
-
         total = len(gold_texts)
-
         invalid_total = 0
         invalid_ok = 0
-
         valid_total = 0
         exact_joint = 0
         dep_ok = 0
         arr_ok = 0
         pred_invalid_when_valid = 0
         pred_valid_when_invalid = 0
-
         for p_txt, g_txt in zip(pred_texts, gold_texts):
             p_dep, p_arr = split_pred(p_txt)
             g_dep, g_arr = split_gold(g_txt)
-
             g_is_invalid = (g_dep == "INVALID")
             p_is_invalid = (p_dep == "INVALID")
-
             if g_is_invalid:
                 invalid_total += 1
                 if p_is_invalid:
@@ -162,7 +148,6 @@ def build_compute_metrics(tokenizer):
                     continue
                 g_dep_n = norm(g_dep)
                 g_arr_n = norm(g_arr)
-
                 if p_dep == g_dep_n:
                     dep_ok += 1
                 if p_arr == g_arr_n:
@@ -173,9 +158,7 @@ def build_compute_metrics(tokenizer):
         dep_acc_valid = dep_ok / max(1, valid_total)
         arr_acc_valid = arr_ok / max(1, valid_total)
         invalid_acc = invalid_ok / max(1, invalid_total)
-
         overall = (exact_joint + invalid_ok) / max(1, total)
-
         return {
             "overall": overall,
             "exact_od_valid": exact_od_valid,
@@ -201,7 +184,6 @@ def build_compute_metrics(tokenizer):
         }
 
     return compute_metrics
-
 train_rows, val_rows, test_rows = load_json_splits(DATA_JSON)
 train_pairs = to_pairs(train_rows, "train")
 val_pairs   = to_pairs(val_rows, "val")
@@ -314,8 +296,6 @@ df = pd.DataFrame({
 
 csv_path = Path(OUT_DIR, "test_predictions.csv")
 df.to_csv(csv_path, index=False, encoding="utf-8")
-print("CSV prédictions:", csv_path.resolve())
-
 plots_dir = Path(OUT_DIR, "plots")
 plots_dir.mkdir(exist_ok=True)
 metrics_keys = ["test_overall", "test_exact_od_valid", "test_dep_acc_valid", "test_arr_acc_valid", "test_invalid_acc"]
@@ -333,7 +313,6 @@ bins = [0, 30, 60, 90, 120, 99999]
 labels = ["0-30", "31-60", "61-90", "91-120", "120+"]
 df["len_bucket"] = pd.cut(df["len"], bins=bins, labels=labels, include_lowest=True)
 acc_by_len = df.groupby("len_bucket")["ok"].mean()
-
 plt.figure()
 plt.bar(acc_by_len.index.astype(str), acc_by_len.values)
 plt.ylim(0, 1)
