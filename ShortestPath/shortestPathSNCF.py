@@ -3,6 +3,9 @@ import math
 import heapq
 import pickle
 import bisect
+import datetime
+import re
+from pathlib import Path
 from dataclasses import dataclass
 from typing import Dict, List, Tuple, Optional, Set
 
@@ -14,13 +17,17 @@ from pyproj import Transformer
 def time_to_sec(t: str) -> int:
     h, m, s = str(t).split(":")
     return int(h) * 3600 + int(m) * 60 + int(s)
+
+
 def sec_to_hhmm(sec: int) -> str:
     h = sec // 3600
     m = (sec % 3600) // 60
     return f"{h:02d}:{m:02d}"
 
+
 def yyyymmdd(date_str: str) -> int:
     return int(str(date_str).replace("-", ""))
+
 
 def normalize_name(s: str) -> str:
     return " ".join(str(s).strip().lower().split())
@@ -32,6 +39,7 @@ def load_communes(shp_path: str) -> gpd.GeoDataFrame:
     gdf["cy"] = cent.y
     gdf["nom_norm"] = gdf["nom"].map(normalize_name)
     return gdf[["insee", "nom", "nom_norm", "cx", "cy", "geometry"]].copy()
+
 
 def pick_commune_by_name(gdf: gpd.GeoDataFrame, name: str) -> Tuple[str, str]:
     key = normalize_name(name)
@@ -50,6 +58,7 @@ def read_gtfs_csv(gtfs_dir: str, name: str, usecols=None) -> pd.DataFrame:
     if not os.path.exists(path):
         raise FileNotFoundError(f"Fichier manquant: {path}")
     return pd.read_csv(path, dtype=str, usecols=usecols, low_memory=False)
+
 
 def active_service_ids(gtfs_dir: str, date_yyyymmdd: int) -> Set[str]:
     active: Set[str] = set()
@@ -97,11 +106,13 @@ def active_service_ids(gtfs_dir: str, date_yyyymmdd: int) -> Set[str]:
                 active.add(sid)
             elif et == 2:
                 active.discard(sid)
+
     if not active:
         trips = read_gtfs_csv(gtfs_dir, "trips.txt", usecols=["service_id"])
         active = set(trips["service_id"].astype(str).unique().tolist())
 
     return active
+
 
 def build_stops_xy_2154(gtfs_dir: str) -> pd.DataFrame:
     stops = read_gtfs_csv(
@@ -127,6 +138,7 @@ def build_stops_xy_2154(gtfs_dir: str) -> pd.DataFrame:
     )
     return out
 
+
 def load_trip_stops(gtfs_dir: str, trip_id: str) -> pd.DataFrame:
     st = read_gtfs_csv(
         gtfs_dir,
@@ -140,6 +152,39 @@ def load_trip_stops(gtfs_dir: str, trip_id: str) -> pd.DataFrame:
     st.sort_values("stop_sequence", inplace=True)
     return st
 
+
+def pretty_trip_calling_pattern_full(
+    gtfs_dir: str,
+    trip_id: str,
+    stop_name: Dict[str, str],
+    limit: Optional[int] = None
+) -> str:
+    st = load_trip_stops(gtfs_dir, trip_id)
+    if st.empty:
+        return "  (impossible de charger les arrêts du trip)"
+    rows = st.to_dict("records")
+
+    if limit is not None and len(rows) > limit:
+        rows = rows[:limit]
+        truncated = True
+    else:
+        truncated = False
+
+    out = []
+    for r in rows:
+        sid = str(r["stop_id"])
+        nm = stop_name.get(sid, sid)
+        arr = str(r.get("arrival_time") or "")
+        dep = str(r.get("departure_time") or "")
+        arr_hm = arr[:5] if ":" in arr else arr
+        dep_hm = dep[:5] if ":" in dep else dep
+        out.append(f"  - {nm} ({arr_hm}/{dep_hm})")
+
+    if truncated:
+        out.append("  ... (tronqué)")
+    return "\n".join(out)
+
+
 def pretty_trip_calling_pattern_segment(
     gtfs_dir: str,
     trip_id: str,
@@ -148,7 +193,6 @@ def pretty_trip_calling_pattern_segment(
     to_stop_id: Optional[str],
     limit: Optional[int] = None
 ) -> str:
-
     st = load_trip_stops(gtfs_dir, trip_id)
     if st.empty:
         return "  (impossible de charger les arrêts du trip)"
@@ -191,36 +235,6 @@ def pretty_trip_calling_pattern_segment(
         out.append("  ... (tronqué)")
     return "\n".join(out)
 
-def pretty_trip_calling_pattern_full(
-    gtfs_dir: str,
-    trip_id: str,
-    stop_name: Dict[str, str],
-    limit: Optional[int] = None
-) -> str:
-    st = load_trip_stops(gtfs_dir, trip_id)
-    if st.empty:
-        return "  (impossible de charger les arrêts du trip)"
-    rows = st.to_dict("records")
-
-    if limit is not None and len(rows) > limit:
-        rows = rows[:limit]
-        truncated = True
-    else:
-        truncated = False
-
-    out = []
-    for r in rows:
-        sid = str(r["stop_id"])
-        nm = stop_name.get(sid, sid)
-        arr = str(r.get("arrival_time") or "")
-        dep = str(r.get("departure_time") or "")
-        arr_hm = arr[:5] if ":" in arr else arr
-        dep_hm = dep[:5] if ":" in dep else dep
-        out.append(f"  - {nm} ({arr_hm}/{dep_hm})")
-
-    if truncated:
-        out.append("  ... (tronqué)")
-    return "\n".join(out)
 
 def commune_access_stops(
     communes_gdf: gpd.GeoDataFrame,
@@ -254,7 +268,6 @@ def commune_access_stops(
         sec = int(dist / access_speed_mps)
         out.append((ids[j], sec))
     return out
-
 @dataclass(frozen=True)
 class Connection:
     dep: int
@@ -263,6 +276,7 @@ class Connection:
     v: str
     trip_id: str
     route_id: str
+
 
 def build_connections_for_date(
     gtfs_dir: str, date_yyyymmdd: int
@@ -357,6 +371,7 @@ def build_connections_for_date(
     conns.sort(key=lambda c: c.dep)
     return conns, stop_name, route_label, trip_label
 
+
 def build_footpaths(
     gtfs_dir: str,
     stops_xy_2154: pd.DataFrame,
@@ -386,6 +401,7 @@ def build_footpaths(
             for j in range(len(ids)):
                 if i != j:
                     foot.setdefault(ids[i], []).append((ids[j], default_parent_transfer_sec))
+
     coords = stops_xy_2154[["x", "y"]].to_numpy(float)
     stop_ids = stops_xy_2154["stop_id"].astype(str).to_numpy()
     tree = cKDTree(coords)
@@ -403,6 +419,7 @@ def build_footpaths(
 
     return foot
 
+
 @dataclass
 class Pred:
     prev_stop: Optional[str]
@@ -411,6 +428,7 @@ class Pred:
     route_id: Optional[str]
     dep: Optional[int]
     arr: Optional[int]
+
 
 def relax_footpaths(
     earliest: Dict[str, int],
@@ -431,6 +449,7 @@ def relax_footpaths(
                 earliest[v] = nt
                 pred[v] = Pred(prev_stop=u, via_kind="walk", trip_id=None, route_id=None, dep=t, arr=nt)
                 heapq.heappush(pq, (nt, v))
+
 
 def csa_earliest_arrival(
     conns: List[Connection],
@@ -455,10 +474,15 @@ def csa_earliest_arrival(
         if tu <= c.dep:
             if c.arr < earliest.get(c.v, INF):
                 earliest[c.v] = c.arr
-                pred[c.v] = Pred(prev_stop=c.u, via_kind="train", trip_id=c.trip_id, route_id=c.route_id, dep=c.dep, arr=c.arr)
+                pred[c.v] = Pred(
+                    prev_stop=c.u, via_kind="train",
+                    trip_id=c.trip_id, route_id=c.route_id,
+                    dep=c.dep, arr=c.arr
+                )
                 relax_footpaths(earliest, pred, foot, c.v)
 
     return earliest, pred
+
 
 def reconstruct(pred: Dict[str, Pred], dest: str) -> List[Tuple[str, Pred]]:
     path: List[Tuple[str, Pred]] = []
@@ -472,6 +496,7 @@ def reconstruct(pred: Dict[str, Pred], dest: str) -> List[Tuple[str, Pred]]:
     path.reverse()
     return path
 
+
 def count_transfers(path: List[Tuple[str, Pred]]) -> int:
     last_trip = None
     transfers = 0
@@ -484,6 +509,8 @@ def count_transfers(path: List[Tuple[str, Pred]]) -> int:
             transfers += 1
             last_trip = p.trip_id
     return transfers
+
+
 def pretty_itinerary(
     gtfs_dir: str,
     path: List[Tuple[str, Pred]],
@@ -538,6 +565,7 @@ def pretty_itinerary(
 
     return "\n".join(lines)
 
+
 def best_of_day(
     conns: List[Connection],
     foot: Dict[str, List[Tuple[str, int]]],
@@ -590,24 +618,112 @@ def best_of_day(
 
     return best, best_path
 
-def main():
-    COMMUNES_SHP = "./data/communes-20220101.shp"
-    GTFS_DIR = "./data/sncf_gtfs"
-    DATE = "2026-02-26"
-    FROM_COMMUNE = "Nevers"
-    TO_COMMUNE = "Rouen"
+def ensure_model_ready(model_dir: str = "./model") -> str:
+    model_path = Path(model_dir)
+    needed = ["config.json", "model.safetensors", "tokenizer.json"]
+    missing = [n for n in needed if not (model_path / n).exists()]
+    if missing:
+        raise FileNotFoundError(
+            f"Modèle incomplet dans {model_dir}. Manque: {missing}. "
+            f"Attendu: {needed}"
+        )
+    return str(model_path)
 
-    PROFILE_START = "06:00:00"
-    PROFILE_END = "20:00:00"
-    PROFILE_STEP_MIN = 30
 
-    ACCESS_K_ORIGIN = 25
-    ACCESS_K_DEST = 35
-    ACCESS_RADIUS_M = 50_000
+def load_ner_pipeline(model_dir: str = "./model"):
+    from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
+    import torch
 
+    tokenizer = AutoTokenizer.from_pretrained(model_dir, use_fast=True)
+    model = AutoModelForTokenClassification.from_pretrained(model_dir)
+
+    device = 0 if torch.cuda.is_available() else -1
+
+    ner = pipeline(
+        "token-classification",
+        model=model,
+        tokenizer=tokenizer,
+        aggregation_strategy="simple",
+        device=device
+    )
+    return ner
+
+
+def _clean_place(s: str) -> str:
+    s = s.strip(" \t\n\r\"'.,;:!?()[]{}")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def extract_depart_arrivee(sentence: str, ner) -> Tuple[str, str]:
+    ents = ner(sentence) or []
+    ents = sorted(ents, key=lambda e: e.get("start", 10**9))
+
+    if len(ents) < 2:
+        raise ValueError("Le modèle n’a pas détecté 2 lieux. Essaye: 'de X à Y'.")
+    dep_cands, arr_cands = [], []
+    for e in ents:
+        lab = str(e.get("entity_group", "")).upper()
+        w = _clean_place(str(e.get("word", "")))
+        if not w:
+            continue
+        if "DEP" in lab or "FROM" in lab:
+            dep_cands.append(w)
+        elif "ARR" in lab or "TO" in lab or "DEST" in lab:
+            arr_cands.append(w)
+
+    if dep_cands and arr_cands:
+        return dep_cands[0], arr_cands[-1]
+    def score_dep(e):
+        start = int(e.get("start", 0))
+        left = sentence[max(0, start - 30):start].lower()
+        s = 0
+        if re.search(r"\b(de|depuis|au départ de)\s*$", left):
+            s += 10
+        if re.search(r"\b(à|a|vers|pour|jusqu[’']?à|jusque)\s*$", left):
+            s -= 2
+        return s
+
+    def score_arr(e):
+        start = int(e.get("start", 0))
+        left = sentence[max(0, start - 30):start].lower()
+        s = 0
+        if re.search(r"\b(à|a|vers|pour|jusqu[’']?à|jusque)\s*$", left):
+            s += 10
+        if re.search(r"\b(de|depuis|au départ de)\s*$", left):
+            s -= 2
+        return s
+
+    best_dep = max(ents, key=score_dep)
+    best_arr = max(ents, key=score_arr)
+
+    dep = _clean_place(str(best_dep.get("word", "")))
+    arr = _clean_place(str(best_arr.get("word", "")))
+    if not dep or not arr or dep.lower() == arr.lower():
+        dep = _clean_place(str(ents[0].get("word", "")))
+        arr = _clean_place(str(ents[-1].get("word", "")))
+
+    if not dep or not arr or dep.lower() == arr.lower():
+        raise ValueError("Extraction départ/arrivée ambiguë. Essaye: 'de X à Y'.")
+
+    return dep, arr
+
+def plan_itinerary(
+    from_commune: str,
+    to_commune: str,
+    date_str: str,
+    COMMUNES_SHP: str = "./data/communes-20220101.shp",
+    GTFS_DIR: str = "./data/sncf_gtfs",
+    PROFILE_START: str = "06:00:00",
+    PROFILE_END: str = "20:00:00",
+    PROFILE_STEP_MIN: int = 30,
+    ACCESS_K_ORIGIN: int = 25,
+    ACCESS_K_DEST: int = 35,
+    ACCESS_RADIUS_M: float = 50_000,
+):
     communes = load_communes(COMMUNES_SHP)
-    src_insee, src_nom = pick_commune_by_name(communes, FROM_COMMUNE)
-    dst_insee, dst_nom = pick_commune_by_name(communes, TO_COMMUNE)
+    src_insee, src_nom = pick_commune_by_name(communes, from_commune)
+    dst_insee, dst_nom = pick_commune_by_name(communes, to_commune)
 
     stops_xy = build_stops_xy_2154(GTFS_DIR)
 
@@ -620,7 +736,7 @@ def main():
         with open(foot_cache, "wb") as f:
             pickle.dump(foot, f)
 
-    date_i = yyyymmdd(DATE)
+    date_i = yyyymmdd(date_str)
     conn_cache = os.path.join(GTFS_DIR, f"connections_{date_i}.pkl")
     meta_cache = os.path.join(GTFS_DIR, f"conn_meta_{date_i}.pkl")
 
@@ -675,7 +791,7 @@ def main():
 
     print(f"Départ : {src_nom} (commune)")
     print(f"Arrivée: {dst_nom} (commune)")
-    print(f"Date   : {DATE}")
+    print(f"Date   : {date_str}")
     print(f"Départ choisi : {sec_to_hhmm(dep_abs)}")
     print(f"Arrivée      : {sec_to_hhmm(arr_abs)}")
     print(f"Durée        : {int(duration // 60)} min")
@@ -683,6 +799,36 @@ def main():
 
     print("Itinéraire RÉEL (trip_id + stop_times):")
     print(pretty_itinerary(GTFS_DIR, path, stop_name, route_label, trip_label))
+
+def main():
+    date_str = datetime.date.today().isoformat()
+
+    ensure_model_ready("./model")
+    ner = load_ner_pipeline("./model")
+
+    print(f"Date par défaut: {date_str}")
+    print("Tape une phrase (ex: 'je veux aller de Nevers à Rouen').")
+    print("Écris 'quit' pour sortir.\n")
+
+    while True:
+        try:
+            sentence = input("> ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print("\nbye")
+            break
+
+        if not sentence:
+            continue
+        if sentence.lower() in {"q", "quit", "exit"}:
+            break
+
+        try:
+            dep, arr = extract_depart_arrivee(sentence, ner)
+            print(f"\n[NER] Départ: {dep} | Arrivée: {arr} | Date: {date_str}\n")
+            plan_itinerary(dep, arr, date_str)
+            print("\n" + "-" * 80 + "\n")
+        except Exception as e:
+            print(f"[ERR] {e}\n")
 
 
 if __name__ == "__main__":
