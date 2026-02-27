@@ -1,10 +1,9 @@
-﻿import json
+import json
 import re
 import unicodedata
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
-import json
 import numpy as np
 from datasets import Dataset
 from transformers import (
@@ -28,8 +27,6 @@ EPOCHS = 2
 BATCH_SIZE = 8
 LR = 3e-4
 SEED = 42
-
-
 def strip_accents(s: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
 
@@ -56,7 +53,6 @@ def split_pred(text: str):
 
 def split_gold(text: str):
     return split_pred(text)
-
 
 def load_json_splits(path: Path):
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -258,7 +254,6 @@ tokenizer.save_pretrained(OUT_DIR)
 
 
 print("\n Évaluation finale sur TEST:")
-
 test_metrics = trainer.evaluate(eval_dataset=test_tok, metric_key_prefix="test")
 for k, v in test_metrics.items():
     print(f"{k}: {v}")
@@ -268,12 +263,11 @@ Path(OUT_DIR, "test_metrics.json").write_text(
     json.dumps(test_metrics, indent=2, ensure_ascii=False),
     encoding="utf-8"
 )
-print("\n Génération des prédictions sur TEST (trainer.predict)...")
+
 pred_out = trainer.predict(test_dataset=test_tok, max_length=MAX_TARGET_LEN, num_beams=4)
 
 pred_ids = pred_out.predictions
 label_ids = pred_out.label_ids
-
 if isinstance(pred_ids, tuple):
     pred_ids = pred_ids[0]
 
@@ -283,7 +277,6 @@ label_ids_clean = np.where(label_ids != -100, label_ids, pad_id)
 pred_texts = tokenizer.batch_decode(pred_ids, skip_special_tokens=True)
 gold_texts = tokenizer.batch_decode(label_ids_clean, skip_special_tokens=True)
 sentences = [p["source"].replace(PREFIX, "", 1) for p in test_pairs]
-
 def is_ok(pred_txt: str, gold_txt: str) -> int:
     p_dep, p_arr = split_pred(pred_txt)
     g_dep, g_arr = split_gold(gold_txt)
@@ -327,6 +320,4 @@ plt.title("Accuracy by sentence length bucket (test)")
 plt.tight_layout()
 plt.savefig(plots_dir / "acc_by_length.png", dpi=160)
 plt.close()
-errors_path = Path(OUT_DIR, "test_errors_top50.csv")
-df[df["ok"] == 0].head(50).to_csv(errors_path, index=False, encoding="utf-8")
 
