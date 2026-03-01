@@ -1,0 +1,94 @@
+{
+  "model": "CamemBERT TokenClassification",
+  "test_metrics_od": {
+    "overall": 0.911,
+    "exact_od_valid": 0.8982930298719772,
+    "dep_acc_valid": 0.9452347083926032,
+    "arr_acc_valid": 0.9153627311522048,
+    "invalid_acc": 0.9410774410774411,
+    "valid_total": 1406,
+    "invalid_total": 594,
+    "pred_invalid_when_valid": 4,
+    "pred_valid_when_invalid": 35
+  },
+  "computed_from_test_predictions_csv": {
+    "n_examples": 2000,
+    "overall_ok_mean": 0.911,
+    "valid_acc": 0.8982930298719772,
+    "invalid_acc": 0.9410774410774411,
+    "validity_confusion_2x2": {
+      "tn": 559,
+      "fp": 35,
+      "fn": 4,
+      "tp": 1402
+    },
+    "acc_by_length_bucket": {
+      "0-30": {
+        "acc": 0.9747634069400631,
+        "n": 634
+      },
+      "31-60": {
+        "acc": 0.9241245136186771,
+        "n": 1028
+      },
+      "61-90": {
+        "acc": 0.8089171974522293,
+        "n": 314
+      },
+      "91-120": {
+        "acc": 0.0,
+        "n": 24
+      }
+    },
+    "extraction_quality_valid_counts": {
+      "DEP_OK & ARR_OK": 1263,
+      "DEP_OK & ARR_KO": 66,
+      "DEP_KO & ARR_KO": 53,
+      "DEP_KO & ARR_OK": 24
+    },
+    "confusion_5x5_labels": [
+      "INVALID",
+      "EXACT",
+      "DEP_ONLY",
+      "ARR_ONLY",
+      "NONE"
+    ],
+    "confusion_5x5": {
+      "INVALID": {
+        "INVALID": 559,
+        "EXACT": 4,
+        "DEP_ONLY": 0,
+        "ARR_ONLY": 0,
+        "NONE": 0
+      },
+      "EXACT": {
+        "INVALID": 0,
+        "EXACT": 1263,
+        "DEP_ONLY": 0,
+        "ARR_ONLY": 0,
+        "NONE": 0
+      },
+      "DEP_ONLY": {
+        "INVALID": 0,
+        "EXACT": 66,
+        "DEP_ONLY": 0,
+        "ARR_ONLY": 0,
+        "NONE": 0
+      },
+      "ARR_ONLY": {
+        "INVALID": 0,
+        "EXACT": 24,
+        "DEP_ONLY": 0,
+        "ARR_ONLY": 0,
+        "NONE": 0
+      },
+      "NONE": {
+        "INVALID": 35,
+        "EXACT": 49,
+        "DEP_ONLY": 0,
+        "ARR_ONLY": 0,
+        "NONE": 0
+      }
+    }
+  }
+}

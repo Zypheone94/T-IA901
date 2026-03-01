@@ -1,0 +1,11 @@
+{
+  "overall": 0.911,
+  "exact_od_valid": 0.8982930298719772,
+  "dep_acc_valid": 0.9452347083926032,
+  "arr_acc_valid": 0.9153627311522048,
+  "invalid_acc": 0.9410774410774411,
+  "valid_total": 1406,
+  "invalid_total": 594,
+  "pred_invalid_when_valid": 4,
+  "pred_valid_when_invalid": 35
+}
