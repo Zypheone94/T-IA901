@@ -6,10 +6,9 @@ import unicodedata
 import pandas as pd
 import matplotlib.pyplot as plt
 
-MODEL_NAME = "ROBERTA-V2"
 MODEL_DIR = Path("./ROBERTA-V2")
-METRICS_JSON = MODEL_DIR / "test_metrics_ROBERTA.json"
-PRED_CSV = MODEL_DIR / "test_predictions_ROBERTA.csv"
+METRICS_JSON = MODEL_DIR / "test_metrics_od.json"
+PRED_CSV = MODEL_DIR / "test_predictions.csv"
 OUT_DIR = MODEL_DIR / "plots_ROBERTA"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

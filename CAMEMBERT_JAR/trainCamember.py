@@ -22,7 +22,7 @@ from transformers import (
 N_TRIALS = 20
 OPTUNA_EPOCHS_MAX = 4
 DATA_JSON = Path("dataset_ner_cities_split_v2.json")
-MODEL_NAME = "ROBERTA-V2"
+MODEL_NAME = "camembert-base"
 OUT_DIR = Path("./ROBERTA-V2")
 
 MAX_LEN = 160

@@ -1,0 +1,2001 @@
+sentence,gold_dep,gold_arr,pred_dep,pred_arr,ok,len
+je veux aller de semondans vers villaroux,semondans,villaroux,semondans,villaroux,1,41
+Faut qu'jaille à Gros-Morne,INVALID,Gros-Morne,INVALID,,1,27
+Je vais à Saint-Martin-d'Oney,INVALID,Saint-Martin-d'Oney,INVALID,,1,29
+"Faut que j'aille à Saint-Denis-le-Ferment, je suis actuellement à Courgis",Courgis,Saint-Denis-le-Ferment,Courgis,Saint-Denis-le-Ferment,1,73
+Liaison Tullins-Change,Tullins,Change,Tullins,Change,1,22
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Prochain depart de Azy-le-Vif pour Offemont,Azy-le-Vif,Offemont,Azy-le-Vif,Offemont,1,43
+"Je vais à Sillé-le-Guillaume, je pars de Condé-en-Normandie",Condé-en-Normandie,Sillé-le-Guillaume,Condé-en-Normandie,Sillé-le-Guillaume,1,59
+Trajet Éply Saint-Yrieix-sur-Charente,Éply,Saint-Yrieix-sur-Charente,Éply,Saint-Yrieix-sur-Charente,1,37
+je passe par lyon pour aller de rivèrenert à frouzins,rivèrenert,frouzins,rivèrenert,frouzins,1,53
+Prochain train pour Bellegarde,INVALID,Bellegarde,INVALID,,1,30
+chui a Lavelanet jveu alé a Yronde-et-Buron,Lavelanet,Yronde-et-Buron,Lavelanet,Yronde-et-Buron,1,43
+je pars pour Saint-Denis-lès-Rebais de Champagny-sous-Uxelles,Champagny-sous-Uxelles,Saint-Denis-lès-Rebais,Champagny-sous-Uxelles,Saint-Denis-lès-Rebais,1,61
+Je cherche un itinéraire de Linay vers Sembadel,Linay,Sembadel,Linay,Sembadel,1,47
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Cherche un billet pour Saint-Andre-de-l'Epine au depart de Saint-Helen,Saint-Helen,Saint-Andre-de-l'Epine,Saint-Helen,Saint-Andre-de-l'Epine,1,70
+Quel est le trajet entre Thaumiers et Annoix ?,Thaumiers,Annoix,Thaumiers,Annoix,1,46
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+"Faut que j'aille a Desges, je suis actuellement a Lasfaillades",Lasfaillades,Desges,Lasfaillades,Desges,1,62
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+"Mon pote Leopoldine m'attend à Chasnais, je pars de Festes-et-Saint-André",Festes-et-Saint-André,Chasnais,Festes-et-Saint-André,Chasnais,1,73
+je pars pour Bouconvillers de Louppy-sur-Loison,Louppy-sur-Loison,Bouconvillers,Louppy-sur-Loison,Bouconvillers,1,47
+Je vais à Saint-Amans-Valtoret,INVALID,Saint-Amans-Valtoret,INVALID,,1,30
+Jsuis Mortagne-du-Nord. Bon jvais à Morre,Mortagne-du-Nord,Morre,Mortagne-du-Nord.,Morre,1,41
+"Je vais à Aix-Noulette, je pars de Saint-Médard",Saint-Médard,Aix-Noulette,Saint-Médard,Aix-Noulette,1,47
+je passe par lyon pour aller de beccas à grane,beccas,grane,beccas,grane,1,46
+chui a Saint-Hilaire-de-la-Côte jveu alé a Les Monts du Roumois,Saint-Hilaire-de-la-Côte,Les Monts du Roumois,Saint-Hilaire-de-la-Côte,Les Monts du Roumois,1,63
+Je souhaite aller de Saint-Marcel-de-Careiret à Lissieu,Saint-Marcel-de-Careiret,Lissieu,Saint-Marcel-de-Careiret,Lissieu,1,55
+trajet pour le havre depuis péronne-en-mélantois,péronne-en-mélantois,le havre,péronne-en-mélantois,le havre,1,48
+Nancy m'a dit d'aller à Soual,INVALID,Soual,INVALID,,1,29
+Je veux me rendre à Héninel de Ranville,Héninel,Ranville,Héninel,Ranville,1,39
+Comment aller de Marseilles-lès-Aubigny à Savères ?,Marseilles-lès-Aubigny,Savères,Marseilles-lès-Aubigny,Savères,1,51
+Comment aller de Barbuise à Lamath ?,Barbuise,Lamath,Barbuise,Lamath,1,36
+Est-ce qu'on peut rejoindre Le Détroit en venant de Prugny ?,Prugny,Le Détroit,Prugny,Le Détroit,1,60
+Prochain départ de Ozerailles pour Beaumes-de-Venise,Ozerailles,Beaumes-de-Venise,Ozerailles,Beaumes-de-Venise,1,52
+chui a Champfleury jveu ale a Somme-Tourbe,Champfleury,Somme-Tourbe,Champfleury,Somme-Tourbe,1,42
+Direction Freycenet-la-Cuche,INVALID,Freycenet-la-Cuche,INVALID,,1,28
+itinéraire cheffes vers pouzy-mésangy,cheffes,pouzy-mésangy,cheffes,pouzy-mésangy,1,37
+nancy m'a dit d'aller à frotey-lès-lure,INVALID,frotey-lès-lure,INVALID,,1,39
+Jsuis Domalain. Bon jvais à Kutzenhausen,Domalain,Kutzenhausen,INVALID,,0,40
+Je suis à Clansayes et je dois me rendre à Montbrun-les-Bains,Clansayes,Montbrun-les-Bains,Clansayes,Montbrun-les-Bains,1,61
+Cherche un billet pour Gergueil au départ de Diou,Diou,Gergueil,Diou,Gergueil,1,49
+je pars pour Roquessels de Longueville-sur-Scie,Longueville-sur-Scie,Roquessels,Longueville-sur-Scie,Roquessels,1,47
+"Vol Le Marin-Hierges, c'est pour quand ?",Le Marin,Hierges,Le,Marin-Hierges,0,40
+Est-ce qu'on peut rejoindre Mareilles en venant de Fonsorbes ?,Fonsorbes,Mareilles,Fonsorbes,Mareilles,1,62
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Je veux aller de Trets vers Givraines,Trets,Givraines,Trets,Givraines,1,37
+Direction Mazion,INVALID,Mazion,INVALID,,1,16
+Quel est le trajet entre Souternon et Saint-Symphorien-de-Thénières ?,Souternon,Saint-Symphorien-de-Thénières,Souternon,Saint-Symphorien-de-Thénières,1,69
+Je veux aller de Harcanville vers Chartèves,Harcanville,Chartèves,Harcanville,Chartèves,1,43
+Je veux me rendre à Warloy-Baillon de Monts-de-Randon,Warloy-Baillon,Monts-de-Randon,Warloy-Baillon,Monts-de-Randon,1,53
+Quel est le trajet entre Décines-Charpieu et Hœnheim ?,Décines-Charpieu,Hœnheim,Décines-Charpieu,Hœnheim,1,54
+Trajet Cercoux Yzeux,Cercoux,Yzeux,Cercoux,Yzeux,1,20
+Comment aller de Bonboillon à Chatenet ?,Bonboillon,Chatenet,Bonboillon,Chatenet,1,40
+Aller de Morancez a Ornes,Morancez,Ornes,Morancez,Ornes,1,25
+Prochain depart de Saint-Didier-en-Velay pour Montauban-de-Luchon,Saint-Didier-en-Velay,Montauban-de-Luchon,Saint-Didier-en-Velay,Montauban-de-Luchon,1,65
+Je passe par Lyon pour aller de L'Aiguillon à Saint-Palais-sur-Mer,L'Aiguillon,Saint-Palais-sur-Mer,L'Aiguillon,Saint-Palais-sur-Mer,1,66
+le temps est à l'averse,INVALID,,INVALID,,1,23
+Je veux aller de Pierric vers Bosmont-sur-Serre,Pierric,Bosmont-sur-Serre,Pierric,Bosmont-sur-Serre,1,47
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+"Vol Outines-Villers-la-Ville, c'est pour quand ?",Outines,Villers-la-Ville,Outines,-Villers-la-Ville,1,48
+Liniez jusqu'a Rollot,Liniez,Rollot,Liniez,Rollot,1,21
+gare de ambès,INVALID,ambès,INVALID,,1,13
+Je vais à Lintot,INVALID,Lintot,INVALID,,1,16
+je cherche un itinéraire de lescar vers trémery,lescar,trémery,lescar,trémery,1,47
+Jvais a Fredille dpuis Maizey,Maizey,Fredille,Maizey,Fredille,1,29
+Je décolle de Maffliers direction Chambrey,Maffliers,Chambrey,Maffliers,Chambrey,1,42
+aller de noordpeene à dissay,noordpeene,dissay,noordpeene,dissay,1,28
+je cherche un itinéraire de nabirat vers thoiré-sous-contensor,nabirat,thoiré-sous-contensor,nabirat,thoiré-sous-contensor,1,62
+Itinéraire Étréjust vers Dénestanville,Étréjust,Dénestanville,Étréjust,Dénestanville,1,38
+Itineraire Fouquieres-les-Bethune vers Vieux-Manoir,Fouquieres-les-Bethune,Vieux-Manoir,Fouquieres-les-Bethune,Vieux-Manoir,1,51
+Nancy m'a dit d'aller à Échannay,INVALID,Échannay,INVALID,,1,32
+J'aime voyager,INVALID,,INVALID,,1,14
+Je passe par Lyon pour aller de Ambronay à Pantin,Ambronay,Pantin,Ambronay,Pantin,1,49
+Nancy m'a dit d'aller à Ermenouville,INVALID,Ermenouville,INVALID,,1,36
+gare de saint-vaast-en-cambrésis,INVALID,saint-vaast-en-cambrésis,INVALID,,1,32
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+je veux me rendre à mooslargue de val-maravel,mooslargue,val-maravel,mooslargue,val-maravel,1,45
+Je passe par Lyon pour aller de Sauviat à Saint-Brice-Courcelles,Sauviat,Saint-Brice-Courcelles,Sauviat,Saint-Brice-Courcelles,1,64
+Je souhaite aller de Toujouse à Chay,Toujouse,Chay,Toujouse,Chay,1,36
+Quel est le trajet entre Sancy-les-Cheminots et Dannemarie ?,Sancy-les-Cheminots,Dannemarie,Sancy-les-Cheminots,Dannemarie,1,60
+Faut qu'jaille à Baye,INVALID,Baye,INVALID,,1,21
+gare de lamonzie-montastruc,INVALID,lamonzie-montastruc,INVALID,,1,27
+Je veux me rendre à Le Crès de Autechaux,Le Crès,Autechaux,Le Crès,Autechaux,1,40
+Direction Belpech,INVALID,Belpech,INVALID,,1,17
+Jsuis Jayat. Bon jvais a Saint-Hilaire-les-Places,Jayat,Saint-Hilaire-les-Places,INVALID,,0,49
+itinéraire villac vers selles-sur-cher,villac,selles-sur-cher,villac,selles-sur-cher,1,38
+gare de bioussac,INVALID,bioussac,INVALID,,1,16
+je vais à izenave,INVALID,izenave,INVALID,,1,17
+Je décolle de Tournon-Saint-Pierre direction Évry,Tournon-Saint-Pierre,Évry,Tournon-Saint-Pierre,Évry,1,49
+Itinéraire Moislains vers Payssous,Moislains,Payssous,Moislains,Payssous,1,34
+Comment aller de Beaudéan à Saint-Vallier-de-Thiey ?,Beaudéan,Saint-Vallier-de-Thiey,Beaudéan,Saint-Vallier-de-Thiey,1,52
+"faut que j'aille à mareil-en-france, je suis actuellement à limersheim",limersheim,mareil-en-france,limersheim,mareil-en-france,1,70
+itinéraire la tuilière vers blangy-sur-bresle,la tuilière,blangy-sur-bresle,la tuilière,blangy-sur-bresle,1,45
+Faut qu'jaille à Bricqueville-sur-Mer,INVALID,Bricqueville-sur-Mer,INVALID,,1,37
+Je vais a Veron,INVALID,Veron,INVALID,,1,15
+"mon pote alex m'attend a mortagne-du-nord, je pars de laprade",laprade,mortagne-du-nord,laprade,mortagne-du-nord,1,61
+Je decolle de Machiel direction Morvilliers,Machiel,Morvilliers,Machiel,Morvilliers,1,43
+Nancy m'a dit d'aller à Vallauris,INVALID,Vallauris,INVALID,,1,33
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Je souhaite aller de Lugny-Champagne à La Tourette-Cabardès,Lugny-Champagne,La Tourette-Cabardès,Lugny-Champagne,La Tourette-Cabardès,1,59
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+"Mon pote Jean-Marie m'attend à Jugy, je pars de Saint-Cyr-le-Chatoux",Saint-Cyr-le-Chatoux,Jugy,Saint-Cyr-le-Chatoux,Jugy,1,68
+"Faut que j'aille à Arthon, je suis actuellement à Combray",Combray,Arthon,Combray,Arthon,1,57
+Quel est le trajet entre Sarton et Thélus ?,Sarton,Thélus,Sarton,Thélus,1,43
+Comment je me rends à Monthelon depuis Saint-Rustice pour aller voir ma copine Karl,Saint-Rustice,Monthelon,Saint-Rustice,Monthelon,1,83
+y'a quoi comme transport entre val-des-vignes et blagny ?,val-des-vignes,blagny,val-des-vignes,blagny,1,57
+Je passe par Lyon pour aller de Saint-Étienne-de-Tinée à Villetoureix,Saint-Étienne-de-Tinée,Villetoureix,Saint-Étienne-de-Tinée,Villetoureix,1,69
+nancy m'a dit d'aller à saivres,INVALID,saivres,INVALID,,1,31
+Est-ce qu'on peut rejoindre Le Lindois en venant de Marck ?,Marck,Le Lindois,Marck,Le Lindois,1,59
+je pars pour toulis-et-attencourt de neuville-sur-brenne,neuville-sur-brenne,toulis-et-attencourt,neuville-sur-brenne,toulis-et-attencourt,1,56
+Jsuis Arreux. Bon jvais a Sermaize-les-Bains,Arreux,Sermaize-les-Bains,Arreux,Sermaize-les-Bains,1,44
+Direction Royon,INVALID,Royon,INVALID,,1,15
+je cherche un itinéraire de pissos vers angles,pissos,angles,pissos,angles,1,46
+Je passe par Lyon pour aller de Peslieres a Le Tartre,Peslieres,Le Tartre,Peslieres,Le Tartre,1,53
+Itineraire Badevel vers Chateau-Thebaud,Badevel,Chateau-Thebaud,Badevel,Chateau-Thebaud,1,39
+Je suis à Romelfing et je dois me rendre à Fontguenand,Romelfing,Fontguenand,Romelfing,Fontguenand,1,54
+Y'a quoi comme transport entre La Capelle et Boiscommun ?,La Capelle,Boiscommun,La Capelle,Boiscommun,1,57
+je vais à pissy-pôville,INVALID,pissy-pôville,INVALID,,1,23
+Itinéraire Youx vers Saint-Paul-d'Espis,Youx,Saint-Paul-d'Espis,Youx,Saint-Paul-d'Espis,1,39
+Trajet pour Mesnil-Bruntel depuis Emlingen,Emlingen,Mesnil-Bruntel,Emlingen,Mesnil-Bruntel,1,42
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Aller de Givry-les-Loisy a Villars-en-Azois,Givry-les-Loisy,Villars-en-Azois,Givry-les-Loisy,Villars-en-Azois,1,43
+Jvais à La Roche-Vanneau dpuis Surfonds,Surfonds,La Roche-Vanneau,Surfonds,La Roche-Vanneau,1,39
+Est-ce qu'on peut rejoindre Sauqueville en venant de Norolles ?,Norolles,Sauqueville,Norolles,Sauqueville,1,63
+je veux me rendre à soustelle de saint-priest-de-gimel,soustelle,saint-priest-de-gimel,soustelle,saint-priest-de-gimel,1,54
+Jvais à Saint-Germain-sous-Cailly dpuis Yvecrique,Yvecrique,Saint-Germain-sous-Cailly,Yvecrique,Saint-Germain-sous-Cailly,1,49
+Y'a quoi comme transport entre Hurtigheim et Crouy-sur-Ourcq ?,Hurtigheim,Crouy-sur-Ourcq,Hurtigheim,Crouy-sur-Ourcq,1,62
+Nancy m'a dit d'aller a L'Hermitage,INVALID,L'Hermitage,INVALID,,1,35
+Quel est le trajet entre Aspach-le-Bas et Ménéac ?,Aspach-le-Bas,Ménéac,Aspach-le-Bas,Ménéac,1,50
+je vais au restaurant avec mon ami maxime,INVALID,,INVALID,,1,41
+"Mon pote Florence m'attend à Ormoy-le-Davien, je pars de Les Villettes",Les Villettes,Ormoy-le-Davien,Les Villettes,Ormoy-le-Davien,1,70
+je suis à le mas et je dois me rendre à saint-étienne-cantalès,le mas,saint-étienne-cantalès,le mas,saint-étienne-cantalès,1,62
+chui a Saint-Marcellin-en-Forez jveu alé a Pouillé-les-Côteaux,Saint-Marcellin-en-Forez,Pouillé-les-Côteaux,Saint-Marcellin-en-Forez,Pouillé-les-Côteaux,1,62
+Trajet pour Loubès-Bernac depuis Quédillac,Quédillac,Loubès-Bernac,Quédillac,Loubès-Bernac,1,42
+prochain départ de montsoult pour peymeinade,montsoult,peymeinade,montsoult,peymeinade,1,44
+Trajet Sainte-Gemmes-sur-Loire Saint-Gauzens,Sainte-Gemmes-sur-Loire,Saint-Gauzens,Sainte-Gemmes-sur-Loire,Saint-Gauzens,1,44
+Quel est le trajet entre Naucelle et Castetbon ?,Naucelle,Castetbon,Naucelle,Castetbon,1,48
+Aller de Manlay à Curel,Manlay,Curel,Manlay,Curel,1,23
+Jsuis Le Perrey. Bon jvais à Saint-Germain-de-Joux,Le Perrey,Saint-Germain-de-Joux,Le Perrey,Saint-Germain-de-Joux,1,50
+Larivière-Arnoncourt jusqu'à Cubières,Larivière-Arnoncourt,Cubières,Larivière-Arnoncourt,Cubières,1,37
+Y'a quoi comme transport entre Chancey et Tréduder ?,Chancey,Tréduder,Chancey,Tréduder,1,52
+jvais à saint-vidal dpuis lagardelle-sur-lèze,lagardelle-sur-lèze,saint-vidal,lagardelle-sur-lèze,saint-vidal,1,45
+Jsuis Neuville-sur-Vanne. Bon jvais à Ville-sur-Illon,Neuville-sur-Vanne,Ville-sur-Illon,Neuville-sur-Vanne.,Ville-sur-Illon,1,53
+liaison juvigny-val-d'andaine-sainte-hélène-sur-isère,juvigny-val-d'andaine,sainte-hélène-sur-isère,juvigny-val-d'andaine,sainte-hélène-sur-isère,1,53
+Je suis à Saint-Maximin-la-Sainte-Baume et je dois me rendre à Verton,Saint-Maximin-la-Sainte-Baume,Verton,Saint-Maximin-la-Sainte-Baume,Verton,1,69
+Prochain départ de Ambialet pour Damvix,Ambialet,Damvix,Ambialet,Damvix,1,39
+"je vais à chiré-en-montreuil, je pars de campagnan",campagnan,chiré-en-montreuil,campagnan,chiré-en-montreuil,1,50
+Jvais à Artiguemy dpuis Cornillon,Cornillon,Artiguemy,Cornillon,Artiguemy,1,33
+"Demain, je vais voir mon amie Jo qui habite à Ampuis, je pars de Saint-Avit-les-Guespières",Saint-Avit-les-Guespières,Ampuis,Saint-Avit-les-Guespières,Ampuis,1,90
+Direction Boinville-en-Mantois,INVALID,Boinville-en-Mantois,INVALID,,1,30
+je vais à sauvigny-le-bois,INVALID,sauvigny-le-bois,INVALID,,1,26
+Je veux aller de Fixem vers Racines,Fixem,Racines,Fixem,Racines,1,35
+Comment je me rends a Les Baux-Sainte-Croix depuis Ranzevelle pour aller voir ma copine George,Ranzevelle,Les Baux-Sainte-Croix,Ranzevelle,Les Baux-Sainte-Croix,1,94
+Y'a quoi comme transport entre Chaon et Saint-Vincent-de-Durfort ?,Chaon,Saint-Vincent-de-Durfort,Chaon,Saint-Vincent-de-Durfort,1,66
+Faut qu'jaille à Pinay,INVALID,Pinay,INVALID,,1,22
+Nancy m'a dit d'aller à Grougis,INVALID,Grougis,INVALID,,1,31
+nancy m'a dit d'aller à franleu,INVALID,franleu,INVALID,,1,31
+Nancy m'a dit d'aller a Zonza,INVALID,Zonza,INVALID,,1,29
+Comment je me rends à Pichanges depuis Pailloles pour aller voir ma copine Jean-Pierre,Pailloles,Pichanges,Pailloles,Pichanges,1,86
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Je passe par Lyon pour aller de Castanet-le-Haut à Leudeville,Castanet-le-Haut,Leudeville,Castanet-le-Haut,Leudeville,1,61
+faut qu'jaille à beaumont-en-diois,INVALID,beaumont-en-diois,INVALID,,1,34
+Y'a quoi comme transport entre Schirmeck et Cholonge ?,Schirmeck,Cholonge,Schirmeck,Cholonge,1,54
+je pars pour Saint-Sorlin-en-Valloire de Menotey,Menotey,Saint-Sorlin-en-Valloire,Menotey,Saint-Sorlin-en-Valloire,1,48
+Jvais à Bazincourt-sur-Epte dpuis Castillon-de-Saint-Martory,Castillon-de-Saint-Martory,Bazincourt-sur-Epte,Castillon-de-Saint-Martory,Bazincourt-sur-Epte,1,60
+je suis à cussey-sur-lison et je dois me rendre à le gault-saint-denis,cussey-sur-lison,le gault-saint-denis,cussey-sur-lison,le gault-saint-denis,1,70
+Faut qu'jaille à Sorcy-Bauthémont,INVALID,Sorcy-Bauthémont,INVALID,,1,33
+"Je vais à Saint-Romain-le-Noble, je pars de Saulx-le-Duc",Saulx-le-Duc,Saint-Romain-le-Noble,Saulx-le-Duc,Saint-Romain-le-Noble,1,56
+Faut qu'jaille à Marnans,INVALID,Marnans,INVALID,,1,24
+Faut qu'jaille à Vigneul-sous-Montmédy,INVALID,Vigneul-sous-Montmédy,INVALID,,1,38
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Est-ce qu'on peut rejoindre Vinon en venant de Gruffy ?,Gruffy,Vinon,Gruffy,Vinon,1,55
+Je vais à Sèvres-Anxaumont,INVALID,Sèvres-Anxaumont,INVALID,,1,26
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Trajet Amoncourt Moutiers,Amoncourt,Moutiers,Amoncourt,Moutiers,1,25
+Comment aller de Haulchin à Lamothe-Cumont ?,Haulchin,Lamothe-Cumont,Haulchin,Lamothe-Cumont,1,44
+direction manot,INVALID,manot,INVALID,,1,15
+gare de villard-sur-doron,INVALID,villard-sur-doron,INVALID,,1,25
+Ibarrolle jusqu'a Bremenil,Ibarrolle,Bremenil,Ibarrolle,Bremenil,1,26
+Itinéraire Taxenne vers Arzal,Taxenne,Arzal,Taxenne,Arzal,1,29
+Est-ce qu'on peut rejoindre Hautvillers-Ouville en venant de Bessais-le-Fromental ?,Bessais-le-Fromental,Hautvillers-Ouville,Bessais-le-Fromental,Hautvillers-Ouville,1,83
+comment je me rends à chatou depuis la seyne-sur-mer pour aller voir ma copine mario,la seyne-sur-mer,chatou,la seyne-sur-mer,chatou,1,84
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Quel est le trajet entre Abitain et Chatel-Moron ?,Abitain,Chatel-Moron,Abitain,Chatel-Moron,1,50
+je suis à l'abergement-de-cuisery et je dois me rendre à notre-dame-de-monts,l'abergement-de-cuisery,notre-dame-de-monts,l'abergement-de-cuisery,notre-dame-de-monts,1,76
+gare de chaumeil,INVALID,chaumeil,INVALID,,1,16
+Jvais à Le Marin dpuis Saint-Julien-sur-Cher,Saint-Julien-sur-Cher,Le Marin,Saint-Julien-sur-Cher,Le Marin,1,44
+"Demain, je vais voir mon amie Solange qui habite à Villiers-le-Bois, je pars de Saint-Sauveur-de-Montagut",Saint-Sauveur-de-Montagut,Villiers-le-Bois,Saint-Sauveur-de-Montagut,Villiers-le-Bois,1,105
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Je cherche un itinéraire de Vrocourt vers Satolas-et-Bonce,Vrocourt,Satolas-et-Bonce,Vrocourt,Satolas-et-Bonce,1,58
+Nancy m'a dit d'aller à Magneville,INVALID,Magneville,INVALID,,1,34
+"Mon pote Kevin m'attend à Bourgnac, je pars de Aubigné",Aubigné,Bourgnac,Aubigné,Bourgnac,1,54
+Jsuis Cambiac. Bon jvais a Saint-Etienne-des-Guerets,Cambiac,Saint-Etienne-des-Guerets,ambiac,Saint-Etienne-des-Guerets,0,52
+Je veux me rendre à Saint-Lanne de Ville-en-Tardenois,Saint-Lanne,Ville-en-Tardenois,Saint-Lanne,Ville-en-Tardenois,1,53
+Je passe par Lyon pour aller de Charsonville à Targon,Charsonville,Targon,Charsonville,Targon,1,53
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Je vais à Belloy,INVALID,Belloy,INVALID,,1,16
+je pars pour Tieste-Uragnoux de Poulaines,Poulaines,Tieste-Uragnoux,Poulaines,Tieste-Uragnoux,1,41
+est-ce qu'on peut rejoindre villaines-la-carelle en venant de les moutiers-en-retz ?,les moutiers-en-retz,villaines-la-carelle,les moutiers-en-retz,villaines-la-carelle,1,84
+Je vais à Gouaix,INVALID,Gouaix,INVALID,,1,16
+"Mon pote Pierre-Edouard m'attend à Fresnoy-en-Gohelle, je pars de Laroin",Laroin,Fresnoy-en-Gohelle,Laroin,Fresnoy-en-Gohelle,1,72
+Quel est le trajet entre Kuttolsheim et Virazeil ?,Kuttolsheim,Virazeil,Kuttolsheim,Virazeil,1,50
+Jsuis Saint-Germain-des-Grois. Bon jvais a Dio-et-Valquieres,Saint-Germain-des-Grois,Dio-et-Valquieres,Saint-Germain-des-Grois.,Dio-et-Valquieres,1,60
+Faut qu'jaille a Chalvraines,INVALID,Chalvraines,INVALID,,1,28
+Liaison Mourvilles-Basses-Faye-sur-Ardin,Mourvilles-Basses,Faye-sur-Ardin,Mourvilles-,Basses-Faye-sur-Ardin,0,40
+Y'a quoi comme transport entre Grandfresnoy et Orbigny-au-Mont ?,Grandfresnoy,Orbigny-au-Mont,Grandfresnoy,Orbigny-au-Mont,1,64
+Je vais à Roqueredonde,INVALID,Roqueredonde,INVALID,,1,22
+Je souhaite aller de Marck à La Valette,Marck,La Valette,Marck,La Valette,1,39
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Je suis a Arzembouy et je dois me rendre a Saint-Loup-des-Bois,Arzembouy,Saint-Loup-des-Bois,Arzembouy,Saint-Loup-des-Bois,1,62
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+J'aime voyager,INVALID,,INVALID,,1,14
+Je vais à Le Val,INVALID,Le Val,INVALID,,1,16
+le temps est a l'averse,INVALID,,INVALID,,1,23
+Nancy m'a dit d'aller a Chervey,INVALID,Chervey,INVALID,,1,31
+chui a Concots jveu alé a Ponches-Estruval,Concots,Ponches-Estruval,Concots,Ponches-Estruval,1,42
+Y'a quoi comme transport entre Marson et Gevresin ?,Marson,Gevresin,Marson,Gevresin,1,51
+Trajet Saint-Avold Le Gault-Saint-Denis,Saint-Avold,Le Gault-Saint-Denis,Saint-Avold,Le Gault-Saint-Denis,1,39
+Itinéraire Vatteville vers Calignac,Vatteville,Calignac,Vatteville,Calignac,1,35
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Je passe par Lyon pour aller de Vouzy a Taillepied,Vouzy,Taillepied,Vouzy,Taillepied,1,50
+comment je me rends à domèvre-en-haye depuis trégarvan pour aller voir ma copine roxane,trégarvan,domèvre-en-haye,trégarvan,domèvre-en-haye,1,87
+je pars pour Saint-Aubin-de-Blaye de Oizé,Oizé,Saint-Aubin-de-Blaye,Oizé,Saint-Aubin-de-Blaye,1,41
+je passe par lyon pour aller de omessa a vichy,omessa,vichy,omessa,vichy,1,46
+Je suis à Châtellerault et je dois me rendre à Villers-aux-Bois,Châtellerault,Villers-aux-Bois,Châtellerault,Villers-aux-Bois,1,63
+faut qu'jaille à fraize,INVALID,fraize,INVALID,,1,23
+J'aime voyager,INVALID,,INVALID,,1,14
+Je vais à Saint-Denis-du-Maine,INVALID,Saint-Denis-du-Maine,INVALID,,1,30
+Nancy m'a dit d'aller à Guny,INVALID,Guny,INVALID,,1,28
+Jvais à Saint-Pierre-de-Bailleul dpuis Les Trois Lacs,Les Trois Lacs,Saint-Pierre-de-Bailleul,Les Trois Lacs,Saint-Pierre-de-Bailleul,1,53
+Quel est le trajet entre Astaffort et Montaigut ?,Astaffort,Montaigut,Astaffort,Montaigut,1,49
+Cherche un billet pour Charantonnay au depart de Saint-Vincent-Rive-d'Olt,Saint-Vincent-Rive-d'Olt,Charantonnay,Saint-Vincent-Rive-d'Olt,Charantonnay,1,73
+direction roville-devant-bayon,INVALID,roville-devant-bayon,INVALID,,1,30
+J'aime voyager,INVALID,,INVALID,,1,14
+"Je passe par Le Mans, Angers et Nantes pour rejoindre Soulom depuis Lostroff",Lostroff,Soulom,"Le Mans, Angers et Nantes pour rejoindre Soulom depuis Lostroff",Nantes pour rejoindre Soulom,0,76
+Prochain train pour Rochecorbon,INVALID,Rochecorbon,INVALID,,1,31
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Je passe par Lyon pour aller de Arras-en-Lavedan à Villard-sur-Doron,Arras-en-Lavedan,Villard-sur-Doron,Arras-en-Lavedan,Villard-sur-Doron,1,68
+Aller de Saint-Cast-le-Guildo à Domprel,Saint-Cast-le-Guildo,Domprel,Saint-Cast-le-Guildo,Domprel,1,39
+Prochain départ de Aumeville-Lestre pour Wanquetin,Aumeville-Lestre,Wanquetin,Aumeville-Lestre,Wanquetin,1,50
+Prochain départ de Mahéru pour Saint-Donat,Mahéru,Saint-Donat,Mahéru,Saint-Donat,1,42
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Quel est le trajet entre Plouër-sur-Rance et Saint-Cast-le-Guildo ?,Plouër-sur-Rance,Saint-Cast-le-Guildo,Plouër-sur-Rance,Saint-Cast-le-Guildo,1,67
+Je passe par Lyon pour aller de Blessonville à Allan,Blessonville,Allan,Blessonville,Allan,1,52
+Jvais à Hainvillers dpuis Fresnoy-en-Gohelle,Fresnoy-en-Gohelle,Hainvillers,Fresnoy-en-Gohelle,Hainvillers,1,44
+comment aller de vailly-sur-sauldre à saint-romain-sous-gourdon ?,vailly-sur-sauldre,saint-romain-sous-gourdon,vailly-sur-sauldre,saint-romain-sous-gourdon,1,65
+Comment aller de Leugny à Dénestanville ?,Leugny,Dénestanville,Leugny,Dénestanville,1,41
+je vais à clohars-fouesnant,INVALID,clohars-fouesnant,INVALID,,1,27
+Je veux me rendre à Démouville de Blingel,Démouville,Blingel,Démouville,Blingel,1,41
+je vais au restaurant avec mon ami maxime,INVALID,,INVALID,,1,41
+Je vais à Sarcelles,INVALID,Sarcelles,INVALID,,1,19
+Trajet pour Saint-Ferréol-des-Côtes depuis Prunay-Belleville,Prunay-Belleville,Saint-Ferréol-des-Côtes,Prunay-Belleville,Saint-Ferréol-des-Côtes,1,60
+Gare de Marcillac-Saint-Quentin,INVALID,Marcillac-Saint-Quentin,INVALID,,1,31
+Je veux me rendre à Louan-Villegruis-Fontaine de Touille,Louan-Villegruis-Fontaine,Touille,Louan-Villegruis-Fontaine,Touille,1,56
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Trajet Omblèze Bréançon,Omblèze,Bréançon,Omblèze,Bréançon,1,23
+Cherche un billet pour Fougax-et-Barrineuf au départ de Lisse-en-Champagne,Lisse-en-Champagne,Fougax-et-Barrineuf,Lisse-en-Champagne,Fougax-et-Barrineuf,1,74
+je passe par lyon pour aller de gençay à molitg-les-bains,gençay,molitg-les-bains,gençay,molitg-les-bains,1,57
+prochain départ de rueil-malmaison pour fontainebleau,rueil-malmaison,fontainebleau,rueil-malmaison,fontainebleau,1,53
+Comment aller a Raville-sur-Sanon en partant de Aisey-sur-Seine ?,Aisey-sur-Seine,Raville-sur-Sanon,Aisey-sur-Seine,Raville-sur-Sanon,1,65
+je souhaite aller de nanterre à raucourt-et-flaba,nanterre,raucourt-et-flaba,nanterre,raucourt-et-flaba,1,49
+Quel est le trajet entre Saint-Yrieix-la-Montagne et Ville-sur-Cousances ?,Saint-Yrieix-la-Montagne,Ville-sur-Cousances,Saint-Yrieix-la-Montagne,Ville-sur-Cousances,1,74
+Gare de Sainte-Eulalie-d'Ans,INVALID,Sainte-Eulalie-d'Ans,INVALID,,1,28
+gare de bezonvaux,INVALID,bezonvaux,INVALID,,1,17
+Y'a quoi comme transport entre Nouzerines et Gouvix ?,Nouzerines,Gouvix,Nouzerines,Gouvix,1,53
+Prochain départ de Thonac pour Saint-Germain-le-Rocheux,Thonac,Saint-Germain-le-Rocheux,Thonac,Saint-Germain-le-Rocheux,1,55
+Trajet Verlincthun Clermont-le-Fort,Verlincthun,Clermont-le-Fort,Verlincthun,Clermont-le-Fort,1,35
+"Demain, je vais voir mon amie Pierre-Edouard qui habite a Vulaines-sur-Seine, je pars de Cussangy",Cussangy,Vulaines-sur-Seine,Cussangy,Vulaines-sur-Seine,1,97
+Liaison Maucor-Septème,Maucor,Septème,Maucor,Septème,1,22
+Je suis à Saint-Anthot et je dois me rendre à Corps-Nuds,Saint-Anthot,Corps-Nuds,Saint-Anthot,Corps-Nuds,1,56
+Cormatin jusqu'à Granès,Cormatin,Granès,Cormatin,Granès,1,23
+"Faut que j'aille a Sainte-Anne-Saint-Priest, je suis actuellement a Nonzeville",Nonzeville,Sainte-Anne-Saint-Priest,Nonzeville,Sainte-Anne-Saint-Priest,1,78
+Joue-du-Plain jusqu'a Inchy,Joue-du-Plain,Inchy,Joue-du-Plain,Inchy,1,27
+"vol lussac-les-églises-freychenet, c'est pour quand ?",lussac-les-églises,freychenet,INVALID,,0,53
+Trajet pour Vouxey depuis Fitz-James,Fitz-James,Vouxey,Fitz-James,Vouxey,1,36
+jvais à quiévelon dpuis serley,serley,quiévelon,serley,quiévelon,1,30
+Je cherche un itinéraire de Cardesse vers Chivres-Val,Cardesse,Chivres-Val,Cardesse,Chivres-Val,1,53
+J'aime voyager,INVALID,,INVALID,,1,14
+Trajet Lunas Aiguèze,Lunas,Aiguèze,Lunas,Aiguèze,1,20
+Gare de Eguenigue,INVALID,Eguenigue,INVALID,,1,17
+"Demain, je vais voir mon amie Alain qui habite à Ballore, je pars de Dombasle-devant-Darney",Dombasle-devant-Darney,Ballore,Dombasle-devant-Darney,Ballore,1,91
+Lyas jusqu'à Pleumartin,Lyas,Pleumartin,Lyas,Pleumartin,1,23
+Comment aller à Eppeville en partant de Nancuise ?,Nancuise,Eppeville,Nancuise,Eppeville,1,50
+Est-ce qu'on peut rejoindre Saint-Ciergues en venant de Andert-et-Condon ?,Andert-et-Condon,Saint-Ciergues,Andert-et-Condon,Saint-Ciergues,1,74
+je vais à autrey-lès-cerre,INVALID,autrey-lès-cerre,INVALID,,1,26
+"mon pote ezekiel m'attend à villefranche-de-rouergue, je pars de meuilley",meuilley,villefranche-de-rouergue,meuilley,villefranche-de-rouergue,1,73
+liaison puygros-orvilliers-saint-julien,puygros,orvilliers-saint-julien,puygros-orvilliers,-saint-julien,0,39
+"Je passe par Le Mans, Angers et Nantes pour rejoindre Saint-Franchy depuis Berneville",Berneville,Saint-Franchy,"Le Mans, Angers et Nantes pour rejoindre Saint-Franchy depuis Berneville",Nantes pour rejoindre Saint-Franchy,0,85
+"Je vais a Le Thou, je pars de La Boulaye",La Boulaye,Le Thou,La Boulaye,Le Thou,1,40
+le temps est à l'averse,INVALID,,INVALID,,1,23
+Je cherche un itinéraire de Pierre-Morains vers Montsoult,Pierre-Morains,Montsoult,Pierre-Morains,Montsoult,1,57
+Quel est le trajet entre Marmeaux et Saint-Hilaire-d'Estissac ?,Marmeaux,Saint-Hilaire-d'Estissac,Marmeaux,Saint-Hilaire-d'Estissac,1,63
+Je passe par Lyon pour aller de Billio à Saint-Germain-sous-Cailly,Billio,Saint-Germain-sous-Cailly,Billio,Saint-Germain-sous-Cailly,1,66
+Je passe par Lyon pour aller de Castellar à Mollkirch,Castellar,Mollkirch,Castellar,Mollkirch,1,53
+jsuis delme. bon jvais à lourdoueix-saint-michel,delme,lourdoueix-saint-michel,INVALID,,0,48
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Gare de Kerbach,INVALID,Kerbach,INVALID,,1,15
+direction bazillac,INVALID,bazillac,INVALID,,1,18
+Direction Vendenesse-sur-Arroux,INVALID,Vendenesse-sur-Arroux,INVALID,,1,31
+Trajet pour Bretigney-Notre-Dame depuis Eyjeaux,Eyjeaux,Bretigney-Notre-Dame,Eyjeaux,Bretigney-Notre-Dame,1,47
+Je vais à La Chapelle-sur-Oreuse,INVALID,La Chapelle-sur-Oreuse,INVALID,,1,32
+Prochain train pour Muzy,INVALID,Muzy,INVALID,,1,24
+Je veux me rendre a Vic-Fezensac de La Chapelle-Montbrandeix,Vic-Fezensac,La Chapelle-Montbrandeix,Vic-Fezensac,La Chapelle-Montbrandeix,1,60
+Je veux aller de Naucelle vers Bresse Vallons,Naucelle,Bresse Vallons,Naucelle,Bresse Vallons,1,45
+itinéraire magland vers courcelles-sur-blaise,magland,courcelles-sur-blaise,magland,courcelles-sur-blaise,1,45
+je vais à bussy-saint-martin,INVALID,bussy-saint-martin,INVALID,,1,28
+Faut qu'jaille à Fontaines-en-Sologne,INVALID,Fontaines-en-Sologne,INVALID,,1,37
+Je veux me rendre à Vellefrey-et-Vellefrange de Le Tallud,Vellefrey-et-Vellefrange,Le Tallud,Vellefrey-et-Vellefrange,Le Tallud,1,57
+Itineraire Quiers-sur-Bezonde vers Egleny,Quiers-sur-Bezonde,Egleny,Quiers-sur-Bezonde,Egleny,1,41
+chui a Corre jveu alé a Pressins,Corre,Pressins,Corre,Pressins,1,32
+comment aller à fronville en partant de monthenault ?,monthenault,fronville,monthenault,fronville,1,53
+"mon pote george m'attend à chancey, je pars de bolbec",bolbec,chancey,bolbec,chancey,1,53
+"Je vais à Sainte-Croix-sur-Mer, je pars de Aubeterre-sur-Dronne",Aubeterre-sur-Dronne,Sainte-Croix-sur-Mer,Aubeterre-sur-Dronne,Sainte-Croix-sur-Mer,1,63
+Quel est le trajet entre Lisors et Saint-Germain-lès-Corbeil ?,Lisors,Saint-Germain-lès-Corbeil,Lisors,Saint-Germain-lès-Corbeil,1,62
+Le temps est a l'averse,INVALID,,INVALID,,1,23
+Je veux aller de Saint-Loup-des-Bois vers Lucé,Saint-Loup-des-Bois,Lucé,Saint-Loup-des-Bois,Lucé,1,46
+Itinéraire Fort-Mahon-Plage vers Landerrouat,Fort-Mahon-Plage,Landerrouat,Fort-Mahon-Plage,Landerrouat,1,44
+gare de toury,INVALID,toury,INVALID,,1,13
+je suis à chalautre-la-grande et je dois me rendre à gevresin,chalautre-la-grande,gevresin,chalautre-la-grande,gevresin,1,61
+Itinéraire Roupy vers Briot,Roupy,Briot,Roupy,Briot,1,27
+Est-ce qu'on peut rejoindre Pomport en venant de Croix-Moligneaux ?,Croix-Moligneaux,Pomport,Croix-Moligneaux,Pomport,1,67
+cherche un billet pour brouchaud au depart de la meurdraquiere,la meurdraquiere,brouchaud,la meurdraquiere,brouchaud,1,62
+"faut que j'aille à la ricamarie, je suis actuellement à piazzali",piazzali,la ricamarie,piazzali,la ricamarie,1,64
+Je décolle de Précy direction Louye,Précy,Louye,Précy,Louye,1,35
+"Faut que j'aille à Cayres, je suis actuellement à Bourg-de-Visa",Bourg-de-Visa,Cayres,Bourg-de-Visa,Cayres,1,63
+Je veux aller de Saint-Martin-Boulogne vers Sainte-Hélène-Bondeville,Saint-Martin-Boulogne,Sainte-Hélène-Bondeville,Saint-Martin-Boulogne,Sainte-Hélène-Bondeville,1,68
+Cherche un billet pour La Jarrie au depart de Le Thoult-Trosnay,Le Thoult-Trosnay,La Jarrie,Le Thoult-Trosnay,La Jarrie,1,63
+Je veux aller de Hautvillers-Ouville vers Balignicourt,Hautvillers-Ouville,Balignicourt,Hautvillers-Ouville,Balignicourt,1,54
+Comment aller à Le Mesnil-Ozenne en partant de Montesquieu-Guittaut ?,Montesquieu-Guittaut,Le Mesnil-Ozenne,Montesquieu-Guittaut,Le Mesnil-Ozenne,1,69
+Est-ce qu'on peut rejoindre Châtel-Guyon en venant de Orsinval ?,Orsinval,Châtel-Guyon,Orsinval,Châtel-Guyon,1,64
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je veux me rendre a Nieul de Reugney,Nieul,Reugney,Nieul,Reugney,1,36
+Je veux me rendre à Venas de Seninghem,Venas,Seninghem,Venas,Seninghem,1,38
+Comment je me rends à Audrieu depuis Bessay-sur-Allier pour aller voir ma copine Clemence,Bessay-sur-Allier,Audrieu,Bessay-sur-Allier,Audrieu,1,89
+Aller de Saint-Étienne-de-Serre à Sallèles-Cabardès,Saint-Étienne-de-Serre,Sallèles-Cabardès,Saint-Étienne-de-Serre,Sallèles-Cabardès,1,51
+itineraire poisson vers mersuay,poisson,mersuay,poisson,mersuay,1,31
+"Je passe par Le Mans, Angers et Nantes pour rejoindre Taissy depuis Roëllecourt",Roëllecourt,Taissy,"Le Mans, Angers et Nantes pour rejoindre Taissy depuis Roëllecourt",Nantes pour rejoindre Taissy,0,79
+"Mon pote Clara m'attend a Aurensan, je pars de Janville-sur-Juine",Janville-sur-Juine,Aurensan,Janville-sur-Juine,Aurensan,1,65
+Aller de Franken à Villeberny,Franken,Villeberny,Franken,Villeberny,1,29
+Je veux aller de Villeneuve-lès-Lavaur vers Divion,Villeneuve-lès-Lavaur,Divion,Villeneuve-lès-Lavaur,Divion,1,50
+trajet pour asnières-sur-blour depuis condé-lès-autry,condé-lès-autry,asnières-sur-blour,condé-lès-autry,asnières-sur-blour,1,53
+"Faut que j'aille à Authon-Ébéon, je suis actuellement à Is-sur-Tille",Is-sur-Tille,Authon-Ébéon,Is-sur-Tille,Authon-Ébéon,1,68
+gare de la rivière-de-corps,INVALID,la rivière-de-corps,INVALID,,1,27
+Liaison Le Mémont-Néron,Le Mémont,Néron,Le Mémont,Néron,1,23
+Trajet Consenvoye Ville-en-Blaisois,Consenvoye,Ville-en-Blaisois,Consenvoy,Ville-en-Blaisois,0,35
+Comment aller à Le Plessis-Bouchard en partant de Moulins-la-Marche ?,Moulins-la-Marche,Le Plessis-Bouchard,Moulins-la-Marche,Le Plessis-Bouchard,1,69
+Direction Grisy-Suisnes,INVALID,Grisy-Suisnes,INVALID,,1,23
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je décolle de La Balme-de-Sillingy direction Conflans-sur-Seine,La Balme-de-Sillingy,Conflans-sur-Seine,La Balme-de-Sillingy,Conflans-sur-Seine,1,63
+Je veux aller de Bélarga vers Sèvremont,Bélarga,Sèvremont,Bélarga,Sèvremont,1,39
+Je veux me rendre à Luz-Saint-Sauveur de Neuvicq,Luz-Saint-Sauveur,Neuvicq,Luz-Saint-Sauveur,Neuvicq,1,48
+Retour de Saint-Mexant vers Épinay-sur-Orge,Épinay-sur-Orge,Saint-Mexant,Saint-Mexant,Épinay-sur-Orge,0,43
+je pars pour Les Bréviaires de Garges-lès-Gonesse,Garges-lès-Gonesse,Les Bréviaires,Garges-lès-Gonesse,Les Bréviaires,1,49
+Direction Domjean,INVALID,Domjean,INVALID,,1,17
+Je decolle de Fenay direction Sarliac-sur-l'Isle,Fenay,Sarliac-sur-l'Isle,Fenay,Sarliac-sur-l'Isle,1,48
+Je veux aller de Ervy-le-Châtel vers Vatilieu,Ervy-le-Châtel,Vatilieu,Ervy-le-Châtel,Vatilieu,1,45
+"Faut que j'aille à Beaubery, je suis actuellement à Boiry-Sainte-Rictrude",Boiry-Sainte-Rictrude,Beaubery,Boiry-Sainte-Rictrude,Beaubery,1,73
+Saint-Blaise-la-Roche jusqu'à Roquelaure,Saint-Blaise-la-Roche,Roquelaure,Saint-Blaise-la-Roche,Roquelaure,1,40
+Trajet pour Ribemont-sur-Ancre depuis Marolles-en-Beauce,Marolles-en-Beauce,Ribemont-sur-Ancre,Marolles-en-Beauce,Ribemont-sur-Ancre,1,56
+Cherche un billet pour Beaulieu-sur-Sonnette au départ de Boussenois,Boussenois,Beaulieu-sur-Sonnette,Boussenois,Beaulieu-sur-Sonnette,1,68
+Trajet pour Froidestrees depuis Regat,Regat,Froidestrees,Regat,Froidestrees,1,37
+"faut que j'aille à pignan, je suis actuellement à beutin",beutin,pignan,beutin,pignan,1,56
+je vais à léglantiers,INVALID,léglantiers,INVALID,,1,21
+"Mon pote Mario m'attend à Givry, je pars de Wissembourg",Wissembourg,Givry,Wissembourg,Givry,1,55
+Je décolle de Pailharès direction Verneuil-Moustiers,Pailharès,Verneuil-Moustiers,Pailharès,Verneuil-Moustiers,1,52
+"Je vais à Chassagne, je pars de La Haye-d'Ectot",La Haye-d'Ectot,Chassagne,La Haye-d'Ectot,Chassagne,1,47
+"demain, je vais voir mon amie george qui habite à mus, je pars de saint-sulpice-de-guilleragues",saint-sulpice-de-guilleragues,mus,saint-sulpice-de-guilleragues,mus,1,95
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Je suis à Fontenay-Mauvoisin et je dois me rendre à Issoire,Fontenay-Mauvoisin,Issoire,Fontenay-Mauvoisin,Issoire,1,59
+Saint-Silvain-Montaigut jusqu'à Souméras,Saint-Silvain-Montaigut,Souméras,Saint-Silvain-Montaigut,Souméras,1,40
+nancy m'a dit d'aller à saint-bonnet-du-gard,INVALID,saint-bonnet-du-gard,INVALID,,1,44
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+chui a Savigny-sur-Aisne jveu ale a La Roche-Clermault,Savigny-sur-Aisne,La Roche-Clermault,Savigny-sur-Aisne,La Roche-Clermault,1,54
+cherche un billet pour le pellerin au départ de le transloy,le transloy,le pellerin,le transloy,le pellerin,1,59
+Gare de Erching,INVALID,Erching,INVALID,,1,15
+Direction Jonville-en-Woevre,INVALID,Jonville-en-Woevre,INVALID,,1,28
+"Mon pote Alain m'attend à Hostun, je pars de Paule",Paule,Hostun,Paule,Hostun,1,50
+Saints-en-Puisaye jusqu'à Saint-Gengoux-le-National,Saints-en-Puisaye,Saint-Gengoux-le-National,Saints-en-Puisaye,Saint-Gengoux-le-National,1,51
+Je veux me rendre à Béthonsart de Souastre,Béthonsart,Souastre,Béthonsart,Souastre,1,42
+comment je me rends à carpentras depuis la neuville-aux-larris pour aller voir ma copine rob,la neuville-aux-larris,carpentras,la neuville-aux-larris,carpentras,1,92
+"Mon pote Jean-Marie m'attend à Saint-Maixent-de-Beugné, je pars de Mittelbronn",Mittelbronn,Saint-Maixent-de-Beugné,Mittelbronn,Saint-Maixent-de-Beugné,1,78
+je pars pour Pouliacq de Saint-Martin-de-Laye,Saint-Martin-de-Laye,Pouliacq,Saint-Martin-de-Laye,Pouliacq,1,45
+Liaison Fontaine-Bellenger-Montreuil-sur-Therain,Fontaine-Bellenger,Montreuil-sur-Therain,Fontaine-Bellenger,Montreuil-sur-Therain,1,48
+direction cantaous,INVALID,cantaous,INVALID,,1,18
+Gare de Le Ponchel,INVALID,Le Ponchel,INVALID,,1,18
+Trajet Meursac Pagny-sur-Meuse,Meursac,Pagny-sur-Meuse,Meursac,Pagny-sur-Meuse,1,30
+Je vais à Orval,INVALID,Orval,INVALID,,1,15
+Y'a quoi comme transport entre Verneuil-le-Château et Chavigny-Bailleul ?,Verneuil-le-Château,Chavigny-Bailleul,Verneuil-le-Château,Chavigny-Bailleul,1,73
+Y'a quoi comme transport entre Granges-sur-Lot et Belmont ?,Granges-sur-Lot,Belmont,Granges-sur-Lot,Belmont,1,59
+La Monnerie-le-Montel jusqu'à Guincourt,La Monnerie-le-Montel,Guincourt,La Monnerie-le-Montel,Guincourt,1,39
+je passe par lyon pour aller de anhiers à iwuy,anhiers,iwuy,anhiers,iwuy,1,46
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Gare de Doucier,INVALID,Doucier,INVALID,,1,15
+Gare de Uruffe,INVALID,Uruffe,INVALID,,1,14
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Je vais à Villechauve,INVALID,Villechauve,INVALID,,1,21
+Y'a quoi comme transport entre Verpillières-sur-Ource et Levie ?,Verpillières-sur-Ource,Levie,Verpillières-sur-Ource,Levie,1,64
+Liaison Les Loges-sur-Brécey-Molay,Les Loges-sur-Brécey,Molay,Les Loges-sur-Brécey,Molay,1,34
+Je décolle de Saint-Chély-d'Aubrac direction Couvains,Saint-Chély-d'Aubrac,Couvains,Saint-Chély-d'Aubrac,Couvains,1,53
+Direction Roumoules,INVALID,Roumoules,INVALID,,1,19
+comment aller a chenac-saint-seurin-d'uzet en partant de avant-les-ramerupt ?,avant-les-ramerupt,chenac-saint-seurin-d'uzet,avant-les-ramerupt,chenac-saint-seurin-d'uzet,1,77
+direction steinbourg,INVALID,steinbourg,INVALID,,1,20
+"je vais à saint-cirgues-de-jordanne, je pars de port-saint-père",port-saint-père,saint-cirgues-de-jordanne,port-saint-père,saint-cirgues-de-jordanne,1,63
+Saint-Martin-de-Valgalgues jusqu'à Bétignicourt,Saint-Martin-de-Valgalgues,Bétignicourt,Saint-Martin-de-Valgalgues,Bétignicourt,1,47
+est-ce qu'on peut rejoindre espins en venant de vyans-le-val ?,vyans-le-val,espins,vyans-le-val,espins,1,62
+"Je vais à Viane, je pars de Forstfeld",Forstfeld,Viane,Forstfeld,Viane,1,37
+je pars pour goin de grand'combe-châteleu,grand'combe-châteleu,goin,grand'combe-châteleu,goin,1,41
+Trajet Entraunes Orly-sur-Morin,Entraunes,Orly-sur-Morin,Entraunes,Orly-sur-Morin,1,31
+Trajet pour Linac depuis Urt,Urt,Linac,Urt,Linac,1,28
+Direction Orges,INVALID,Orges,INVALID,,1,15
+je pars pour Ladern-sur-Lauquet de Schwenheim,Schwenheim,Ladern-sur-Lauquet,Schwenheim,Ladern-sur-Lauquet,1,45
+Comment je me rends à Saléon depuis Lucgarier pour aller voir ma copine Paris,Lucgarier,Saléon,Lucgarier,Saléon,1,77
+direction fontaine-la-louvet,INVALID,fontaine-la-louvet,INVALID,,1,28
+Je vais a Groises,INVALID,Groises,INVALID,,1,17
+aller de montels à hallering,montels,hallering,montels,hallering,1,28
+Prochain train pour Framecourt,INVALID,Framecourt,INVALID,,1,30
+Jvais a Beaulieu-sur-Loire dpuis Montmarault,Montmarault,Beaulieu-sur-Loire,Montmarault,Beaulieu-sur-Loire,1,44
+je passe par lyon pour aller de randevillers a souvigne-sur-sarthe,randevillers,souvigne-sur-sarthe,randevillers,souvigne-sur-sarthe,1,66
+je pars pour Juville de Fitz-James,Fitz-James,Juville,Fitz-James,Juville,1,34
+Je vais a Chatillon-la-Palud,INVALID,Chatillon-la-Palud,INVALID,,1,28
+Trajet pour Lignières depuis Auroux,Auroux,Lignières,Auroux,Lignières,1,35
+Je vais à Montdoré,INVALID,Montdoré,INVALID,,1,18
+cherche un billet pour carpineto au départ de écorches,écorches,carpineto,écorches,carpineto,1,54
+itinéraire conliège vers eth,conliège,eth,conliège,eth,1,28
+Gare de Avosnes,INVALID,Avosnes,INVALID,,1,15
+Y'a quoi comme transport entre Ustou et Flagey-Rigney ?,Ustou,Flagey-Rigney,Ustou,Flagey-Rigney,1,55
+Comment aller de Vulbens à Escles ?,Vulbens,Escles,Vulbens,Escles,1,35
+prochain départ de lennon pour la roë,lennon,la roë,lennon,la roë,1,37
+"Je vais à Saint-Vincent-de-Paul, je pars de Montfiquet",Montfiquet,Saint-Vincent-de-Paul,Montfiquet,Saint-Vincent-de-Paul,1,54
+Gare de La Chaussade,INVALID,La Chaussade,INVALID,,1,20
+Aller de Noisiel à Pont-de-Salars,Noisiel,Pont-de-Salars,Noisiel,Pont-de-Salars,1,33
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Cherche un billet pour Cistrières au départ de Ogliastro,Ogliastro,Cistrières,Ogliastro,Cistrières,1,56
+Je decolle de Pusignan direction Antibes,Pusignan,Antibes,Pusignan,Antibes,1,40
+Trajet pour Dampierre-sur-Linotte depuis Rocquigny,Rocquigny,Dampierre-sur-Linotte,Rocquigny,Dampierre-sur-Linotte,1,50
+je vais au restaurant avec mon ami maxime,INVALID,,INVALID,,1,41
+direction foissac,INVALID,foissac,INVALID,,1,17
+"Je vais à Saint-Martin-le-Mault, je pars de Gonneville-sur-Mer",Gonneville-sur-Mer,Saint-Martin-le-Mault,Gonneville-sur-Mer,Saint-Martin-le-Mault,1,62
+Lyoffans jusqu'à Illy,Lyoffans,Illy,Lyoffans,Illy,1,21
+Je veux me rendre à Origny de Colonzelle,Origny,Colonzelle,Origny,Colonzelle,1,40
+je pars pour ascain de pouzolles,pouzolles,ascain,pouzolles,ascain,1,32
+je vais à arquian,INVALID,arquian,INVALID,,1,17
+je pars pour Frevin-Capelle de Leuhan,Leuhan,Frevin-Capelle,Leuhan,Frevin-Capelle,1,37
+Nancy m'a dit d'aller à Roggenhouse,INVALID,Roggenhouse,INVALID,,1,35
+Itinéraire Lilly vers Tourmignies,Lilly,Tourmignies,Lilly,Tourmignies,1,33
+Est-ce qu'on peut rejoindre Savonnières-en-Perthois en venant de Corps-Nuds ?,Corps-Nuds,Savonnières-en-Perthois,Corps-Nuds,Savonnières-en-Perthois,1,77
+trajet marainville-sur-madon simiane-la-rotonde,marainville-sur-madon,simiane-la-rotonde,marainville-sur-madon,simiane-la-rotonde,1,47
+Aller de Mignovillard à Thoiras,Mignovillard,Thoiras,Mignovillard,Thoiras,1,31
+Aller de Plédran à Missy-sur-Aisne,Plédran,Missy-sur-Aisne,Plédran,Missy-sur-Aisne,1,34
+Nancy m'a dit d'aller à Athis-Mons,INVALID,Athis-Mons,INVALID,,1,34
+Aller de Champagnac-le-Vieux à Tizac-de-Curton,Champagnac-le-Vieux,Tizac-de-Curton,Champagnac-le-Vieux,Tizac-de-Curton,1,46
+Je passe par Lyon pour aller de Landrichamps à Moulle,Landrichamps,Moulle,Landrichamps,Moulle,1,53
+prochain départ de perreux pour montescot,perreux,montescot,perreux,montescot,1,41
+Je cherche un itinéraire de Domèvre-sur-Avière vers Pleyben,Domèvre-sur-Avière,Pleyben,Domèvre-sur-Avière,Pleyben,1,59
+Je veux aller de Ranguevaux vers Coëtmieux,Ranguevaux,Coëtmieux,Ranguevaux,Coëtmieux,1,42
+chui a bairon et ses environs jveu alé a plélauff,bairon et ses environs,plélauff,bairon et ses environs,plélauff,1,49
+Prochain depart de Buhy pour Salles,Buhy,Salles,Buhy,Salles,1,35
+Oriol-en-Royans jusqu'à Bard-lès-Époisses,Oriol-en-Royans,Bard-lès-Époisses,Oriol-en-Royans,Bard-lès-Époisses,1,41
+Trajet Talence Saint-Brieuc-des-Iffs,Talence,Saint-Brieuc-des-Iffs,Talence,Saint-Brieuc-des-Iffs,1,36
+Aller de Beaune-d'Allier à Bonrepos,Beaune-d'Allier,Bonrepos,Beaune-d'Allier,Bonrepos,1,35
+Comment je me rends à Bazugues depuis Soindres pour aller voir ma copine Kratos,Soindres,Bazugues,Soindres,Bazugues,1,79
+Direction Unchair,INVALID,Unchair,INVALID,,1,17
+Je suis à Serrigny-en-Bresse et je dois me rendre à Villy-Bocage,Serrigny-en-Bresse,Villy-Bocage,Serrigny-en-Bresse,Villy-Bocage,1,64
+faut qu'jaille à mesnil-verclives,INVALID,mesnil-verclives,INVALID,,1,33
+Quel est le trajet entre Minversheim et Nandax ?,Minversheim,Nandax,Minversheim,Nandax,1,48
+J'aime voyager,INVALID,,INVALID,,1,14
+est-ce qu'on peut rejoindre roquepine en venant de charly-sur-marne ?,charly-sur-marne,roquepine,charly-sur-marne,roquepine,1,69
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+comment aller à goudon en partant de la goutelle ?,la goutelle,goudon,la goutelle,goudon,1,50
+Jvais à Villeneuve-sur-Auvers dpuis Biarrotte,Biarrotte,Villeneuve-sur-Auvers,Biarrotte,Villeneuve-sur-Auvers,1,45
+je pars pour Couqueques de Montfort-sur-Risle,Montfort-sur-Risle,Couqueques,Montfort-sur-Risle,Couqueques,1,45
+Itinéraire Lamonzie-Montastruc vers Saint-Bonnet-de-Mure,Lamonzie-Montastruc,Saint-Bonnet-de-Mure,Lamonzie-Montastruc,Saint-Bonnet-de-Mure,1,56
+Trajet Saint-Georges-Nigremont Bernadets-Dessus,Saint-Georges-Nigremont,Bernadets-Dessus,Saint-Georges-Nigremont,Bernadets-Dessus,1,47
+Direction Corzé,INVALID,Corzé,INVALID,,1,15
+Comment aller de Saussy à Affléville ?,Saussy,Affléville,Saussy,Affléville,1,38
+Aller de Val-de-Bonnieure à Bernadets-Dessus,Val-de-Bonnieure,Bernadets-Dessus,Val-de-Bonnieure,Bernadets-Dessus,1,44
+Je veux me rendre à Vouxey de Betton,Vouxey,Betton,Vouxey,Betton,1,36
+Est-ce qu'on peut rejoindre Sassey-sur-Meuse en venant de Chabanais ?,Chabanais,Sassey-sur-Meuse,Chabanais,Sassey-sur-Meuse,1,69
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Liaison Brezolles-Venerque,Brezolles,Venerque,Brezolles,Venerque,1,26
+Je souhaite aller de Villefrancon à Le Poët,Villefrancon,Le Poët,Villefrancon,Le Poët,1,43
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+"Mon pote George m'attend à Pulligny, je pars de Everly",Everly,Pulligny,Everly,Pulligny,1,54
+Prochain départ de Ayguesvives pour Cloué,Ayguesvives,Cloué,Ayguesvives,Cloué,1,41
+Nancy m'a dit d'aller à Saint-Germain-des-Prés,INVALID,Saint-Germain-des-Prés,INVALID,,1,46
+Jvais à Pénestin dpuis Tuchan,Tuchan,Pénestin,Tuchan,Pénestin,1,29
+jsuis ortillon. bon jvais à tannerre-en-puisaye,ortillon,tannerre-en-puisaye,ortillon,tannerre-en-puisaye,1,47
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+"demain, je vais voir mon amie mario qui habite à cessy, je pars de millencourt-en-ponthieu",millencourt-en-ponthieu,cessy,millencourt-en-ponthieu,cessy,1,90
+"Mon pote Maxime m'attend a La Belliere, je pars de Deux-Jumeaux",Deux-Jumeaux,La Belliere,Deux-Jumeaux,La Belliere,1,63
+Comment je me rends à Rimon-et-Savel depuis Mézières-en-Vexin pour aller voir ma copine Jo,Mézières-en-Vexin,Rimon-et-Savel,Mézières-en-Vexin,Rimon-et-Savel,1,90
+"Faut que j'aille à Mont-Bonvillers, je suis actuellement à Bussac-Forêt",Bussac-Forêt,Mont-Bonvillers,Bussac-Forêt,Mont-Bonvillers,1,71
+Trajet pour Hodenc-en-Bray depuis Saint-Nectaire,Saint-Nectaire,Hodenc-en-Bray,Saint-Nectaire,Hodenc-en-Bray,1,48
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+chui a Bouchet jveu alé a Bert,Bouchet,Bert,Bouchet,Bert,1,30
+Je suis à Flammerans et je dois me rendre à Chaillon,Flammerans,Chaillon,Flammerans,Chaillon,1,52
+Nancy m'a dit d'aller a Massieux,INVALID,Massieux,INVALID,,1,32
+Comment aller de Rohrbach-lès-Bitche à Escurès ?,Rohrbach-lès-Bitche,Escurès,Rohrbach-lès-Bitche,Escurès,1,48
+Jsuis Bazugues. Bon jvais à Neuville-sous-Montreuil,Bazugues,Neuville-sous-Montreuil,Bazugues.,Neuville-sous-Montreuil,1,51
+Aller de Mesnil-Bruntel à Saint-Hilaire-sur-Benaize,Mesnil-Bruntel,Saint-Hilaire-sur-Benaize,Mesnil-Bruntel,Saint-Hilaire-sur-Benaize,1,51
+le temps est à l'averse,INVALID,,INVALID,,1,23
+Aller de Parnes à Bazus-Neste,Parnes,Bazus-Neste,Parnes,Bazus-Neste,1,29
+Le temps est a l'averse,INVALID,,INVALID,,1,23
+Itineraire Saint-Martin-Boulogne vers Uhrwiller,Saint-Martin-Boulogne,Uhrwiller,Saint-Martin-Boulogne,Uhrwiller,1,47
+Est-ce qu'on peut rejoindre Tournemire en venant de Anglars ?,Anglars,Tournemire,Anglars,Tournemire,1,61
+"Demain, je vais voir mon amie Naya qui habite à Crèvecœur-sur-l'Escaut, je pars de Fains",Fains,Crèvecœur-sur-l'Escaut,Fains,Crèvecœur-sur-l'Escaut,1,88
+Est-ce qu'on peut rejoindre Regnéville-sur-Meuse en venant de La Magdelaine-sur-Tarn ?,La Magdelaine-sur-Tarn,Regnéville-sur-Meuse,La Magdelaine-sur-Tarn,Regnéville-sur-Meuse,1,86
+je suis à nœux-les-mines et je dois me rendre à ressons-le-long,nœux-les-mines,ressons-le-long,nœux-les-mines,ressons-le-long,1,63
+chui a Plaines-Saint-Lange jveu alé a Lepuix-Neuf,Plaines-Saint-Lange,Lepuix-Neuf,Plaines-Saint-Lange,Lepuix-Neuf,1,49
+Je vais à Le Châtelet-sur-Meuse,INVALID,Le Châtelet-sur-Meuse,INVALID,,1,31
+Je veux me rendre à Wandignies-Hamage de Lassigny,Wandignies-Hamage,Lassigny,Wandignies-Hamage,Lassigny,1,49
+Comment aller de Voissay à Neufchef ?,Voissay,Neufchef,Voissay,Neufchef,1,37
+Y'a quoi comme transport entre Taizé et Lomné ?,Taizé,Lomné,Taizé,Lomné,1,47
+Je suis à Petit-Failly et je dois me rendre à Lugagnan,Petit-Failly,Lugagnan,Petit-Failly,Lugagnan,1,54
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Prochain train pour La Seyne-sur-Mer,INVALID,La Seyne-sur-Mer,INVALID,,1,36
+je pars pour Courchamp de Rombas,Rombas,Courchamp,Rombas,Courchamp,1,32
+Liaison Néry-Bruyères-le-Châtel,Néry,Bruyères-le-Châtel,Néry,Bruyères-le-Châtel,1,31
+"Vol Valence-en-Poitou-La Romieu, c'est pour quand ?",Valence-en-Poitou,La Romieu,Valence-en-Poitou,La Romieu,1,51
+Je veux me rendre à Saint-Benin-des-Bois de Saint-Prix,Saint-Benin-des-Bois,Saint-Prix,Saint-Benin-des-Bois,Saint-Prix,1,54
+"Je passe par Le Mans, Angers et Nantes pour rejoindre Saint-Julien-Vocance depuis Cagnicourt",Cagnicourt,Saint-Julien-Vocance,"Le Mans, Angers et Nantes pour rejoindre Saint-Julien-Vocance depuis Cagnicourt",Nantes pour rejoindre Saint-Julien-Vocance,0,92
+Je décolle de Ecot-la-Combe direction Traves,Ecot-la-Combe,Traves,Ecot-la-Combe,Traves,1,44
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Je décolle de Lagupie direction Ohnenheim,Lagupie,Ohnenheim,Lagupie,Ohnenheim,1,41
+Prochain départ de Glandage pour Jonzier-Épagny,Glandage,Jonzier-Épagny,Glandage,Jonzier-Épagny,1,47
+Aller de Champagné à Avène,Champagné,Avène,Champagné,Avène,1,26
+je veux me rendre à gençay de saint-bonnet-de-mure,gençay,saint-bonnet-de-mure,gençay,saint-bonnet-de-mure,1,50
+Trajet Blay Dannemarie,Blay,Dannemarie,Blay,Dannemarie,1,22
+Prochain départ de Colombe-lès-Vesoul pour Rouvray,Colombe-lès-Vesoul,Rouvray,Colombe-lès-Vesoul,Rouvray,1,50
+Nancy m'a dit d'aller à Villers-Bretonneux,INVALID,Villers-Bretonneux,INVALID,,1,42
+Je décolle de Saint-Cyr-du-Bailleul direction Arpavon,Saint-Cyr-du-Bailleul,Arpavon,Saint-Cyr-du-Bailleul,Arpavon,1,53
+Liaison Vittoncourt-Saint-Bonnet-Briance,Vittoncourt,Saint-Bonnet-Briance,Vittoncourt,Saint-Bonnet-Briance,1,40
+Y'a quoi comme transport entre Ranspach-le-Bas et Conteville-en-Ternois ?,Ranspach-le-Bas,Conteville-en-Ternois,Ranspach-le-Bas,Conteville-en-Ternois,1,73
+Jvais a Freychenet dpuis Mazinghem,Mazinghem,Freychenet,Mazinghem,Freychenet,1,34
+Je veux me rendre a Til-Chatel de Bard-les-Epoisses,Til-Chatel,Bard-les-Epoisses,Til-Chatel,Bard-les-Epoisses,1,51
+Comment aller à Sanilhac-Sagriès en partant de Saint-Martin-Sainte-Catherine ?,Saint-Martin-Sainte-Catherine,Sanilhac-Sagriès,Saint-Martin-Sainte-Catherine,Sanilhac-Sagriès,1,78
+je vais au restaurant avec mon ami maxime,INVALID,,INVALID,,1,41
+Jsuis Esserval-Tartre. Bon jvais à Meursac,Esserval-Tartre,Meursac,Esserval-Tartre.,Meursac,1,42
+Je décolle de Saint-Sylvestre direction Le Ployron,Saint-Sylvestre,Le Ployron,Saint-Sylvestre,Le Ployron,1,50
+Je souhaite aller de Saint-Beauzile à Cangey,Saint-Beauzile,Cangey,Saint-Beauzile,Cangey,1,44
+Je decolle de Vains direction Les Mujouls,Vains,Les Mujouls,Vains,Les Mujouls,1,41
+Direction Gidy,INVALID,Gidy,INVALID,,1,14
+Je passe par Lyon pour aller de Bourg-de-Visa à Cadillac,Bourg-de-Visa,Cadillac,Bourg-de-Visa,Cadillac,1,56
+Je souhaite aller de Saint-André-le-Coq à Plédran,Saint-André-le-Coq,Plédran,Saint-André-le-Coq,Plédran,1,49
+"faut que j'aille à verbiesles, je suis actuellement à tourville-la-rivière",tourville-la-rivière,verbiesles,tourville-la-rivière,verbiesles,1,74
+Je décolle de Ormes-et-Ville direction Thoste,Ormes-et-Ville,Thoste,Ormes-et-Ville,Thoste,1,45
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+"Mon pote Clemence m'attend à Catllar, je pars de Saint-Hilaire-en-Morvan",Saint-Hilaire-en-Morvan,Catllar,Saint-Hilaire-en-Morvan,Catllar,1,72
+Je souhaite aller de Balinghem à Montbozon,Balinghem,Montbozon,Balinghem,Montbozon,1,42
+Liaison Dennebrœucq-Lieurac,Dennebrœucq,Lieurac,Dennebrœucq,Lieurac,1,27
+prochain départ de thilay pour ansauvillers,thilay,ansauvillers,thilay,ansauvillers,1,43
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Comment je me rends à Vieux-Thann depuis Pont-Croix pour aller voir ma copine Maxime,Pont-Croix,Vieux-Thann,Pont-Croix,Vieux-Thann,1,84
+"Demain, je vais voir mon amie Jean-Marie qui habite à Saint-Julien-lès-Russey, je pars de Gaja-et-Villedieu",Gaja-et-Villedieu,Saint-Julien-lès-Russey,Gaja-et-Villedieu,Saint-Julien-lès-Russey,1,107
+Direction Éveux,INVALID,Éveux,INVALID,,1,15
+jvais à châtelneuf dpuis coullemelle,coullemelle,châtelneuf,coullemelle,châtelneuf,1,36
+Je vais à Pierrefiques,INVALID,Pierrefiques,INVALID,,1,22
+"je vais a villar-en-val, je pars de bouges-le-chateau",bouges-le-chateau,villar-en-val,bouges-le-chateau,villar-en-val,1,53
+Je suis à Langeais et je dois me rendre à Montesquieu-Volvestre,Langeais,Montesquieu-Volvestre,Langeais,Montesquieu-Volvestre,1,63
+Trajet Bernac-Dessus Issoire,Bernac-Dessus,Issoire,Bernac-Dessus,Issoire,1,28
+Y'a quoi comme transport entre Lévignac-de-Guyenne et Ubaye-Serre-Ponçon ?,Lévignac-de-Guyenne,Ubaye-Serre-Ponçon,Lévignac-de-Guyenne,Ubaye-Serre-Ponçon,1,74
+Je décolle de Saint-Ouen-sur-Seine direction Mamoudzou,Saint-Ouen-sur-Seine,Mamoudzou,Saint-Ouen-sur-Seine,Mamoudzou,1,54
+je suis a sarnois et je dois me rendre a angles-sur-l'anglin,sarnois,angles-sur-l'anglin,sarnois,angles-sur-l'anglin,1,60
+Je vais à Anquetierville,INVALID,Anquetierville,INVALID,,1,24
+nancy m'a dit d'aller à pelouse,INVALID,pelouse,INVALID,,1,31
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Nancy m'a dit d'aller a Auragne,INVALID,Auragne,INVALID,,1,31
+Comment aller à Entraygues-sur-Truyère en partant de Cizay-la-Madeleine ?,Cizay-la-Madeleine,Entraygues-sur-Truyère,Cizay-la-Madeleine,Entraygues-sur-Truyère,1,73
+Comment je me rends à Estaing depuis Chaumontel pour aller voir ma copine Pierre-Edouard,Chaumontel,Estaing,Chaumontel,Estaing,1,88
+Pipriac jusqu'à Boran-sur-Oise,Pipriac,Boran-sur-Oise,Pipriac,Boran-sur-Oise,1,30
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Gare de La Giettaz,INVALID,La Giettaz,INVALID,,1,18
+"Faut que j'aille à Colombier-Fontaine, je suis actuellement à Raveau",Raveau,Colombier-Fontaine,Raveau,Colombier-Fontaine,1,68
+Y'a quoi comme transport entre Saint-Barthélemy-le-Meil et Fursac ?,Saint-Barthélemy-le-Meil,Fursac,Saint-Barthélemy-le-Meil,Fursac,1,67
+J'aime voyager,INVALID,,INVALID,,1,14
+Comment aller de Saint-Cyr-sur-Loire à Magnac-Laval ?,Saint-Cyr-sur-Loire,Magnac-Laval,Saint-Cyr-sur-Loire,Magnac-Laval,1,53
+Comment aller à Assat en partant de Noirémont ?,Noirémont,Assat,Noirémont,Assat,1,47
+liaison échillais-les mayons,échillais,les mayons,échillais,les mayons,1,28
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+J'aime voyager,INVALID,,INVALID,,1,14
+Jvais a Rosnay-l'Hopital dpuis Pretot-Vicquemare,Pretot-Vicquemare,Rosnay-l'Hopital,Pretot-Vicquemare,Rosnay-l'Hopital,1,48
+J'aime voyager,INVALID,,INVALID,,1,14
+cherche un billet pour prusy au départ de autreville-sur-moselle,autreville-sur-moselle,prusy,autreville-sur-moselle,prusy,1,64
+Je veux me rendre à Moutonne de Val-de-Bonnieure,Moutonne,Val-de-Bonnieure,Moutonne,Val-de-Bonnieure,1,48
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+chui a Chevenoz jveu alé a La Trinité-du-Mont,Chevenoz,La Trinité-du-Mont,Chevenoz,La Trinité-du-Mont,1,45
+Trajet Neuilly-Crimolois Talmont-Saint-Hilaire,Neuilly-Crimolois,Talmont-Saint-Hilaire,Neuilly-Crimolois,Talmont-Saint-Hilaire,1,46
+Faut qu'jaille à Cheissoux,INVALID,Cheissoux,INVALID,,1,26
+Je cherche un itinéraire de Céron vers Autigny-le-Petit,Céron,Autigny-le-Petit,Céron,Autigny-le-Petit,1,55
+Aller de Saint-Griède à Bréchaumont,Saint-Griède,Bréchaumont,Saint-Griède,Bréchaumont,1,35
+Prochain train pour Munster,INVALID,Munster,INVALID,,1,27
+Cherche un billet pour Val-de-Virieu au départ de Valdurenque,Valdurenque,Val-de-Virieu,Valdurenque,Val-de-Virieu,1,61
+Je passe par Lyon pour aller de Mirabel-aux-Baronnies à Linay,Mirabel-aux-Baronnies,Linay,Mirabel-aux-Baronnies,Linay,1,61
+Comment aller de Saint-Didier-de-la-Tour a Etrepy ?,Saint-Didier-de-la-Tour,Etrepy,Saint-Didier-de-la-Tour,Etrepy,1,51
+Jvais à Bermerain dpuis Magnac-Laval,Magnac-Laval,Bermerain,Magnac-Laval,Bermerain,1,36
+Jvais à Guntzviller dpuis Bruay-la-Buissière,Bruay-la-Buissière,Guntzviller,Bruay-la-Buissière,Guntzviller,1,44
+"Faut que j'aille à Hure, je suis actuellement à La Bouille",La Bouille,Hure,La Bouille,Hure,1,58
+Je cherche un itineraire de La Chapelle-du-Bois vers Bionville-sur-Nied,La Chapelle-du-Bois,Bionville-sur-Nied,La Chapelle-du-Bois,Bionville-sur-Nied,1,71
+Comment je me rends a Palluau depuis Vinzieux pour aller voir ma copine George,Vinzieux,Palluau,Vinzieux,Palluau,1,78
+Je vais a Le Touvet,INVALID,Le Touvet,INVALID,,1,19
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Y'a quoi comme transport entre Ferques et Rubercy ?,Ferques,Rubercy,Ferques,Rubercy,1,51
+"Mon pote Mario m'attend à Meximieux, je pars de Plieux",Plieux,Meximieux,Plieux,Meximieux,1,54
+"demain, je vais voir mon amie maxime qui habite a martigny-les-bains, je pars de sondersdorf",sondersdorf,martigny-les-bains,sondersdorf,martigny-les-bains,1,92
+liaison pont-à-mousson-villers-la-ville,pont-à-mousson,villers-la-ville,pont-à-mousson,villers-la-ville,1,39
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Itinéraire Saint-Girons-en-Béarn vers Échavanne,Saint-Girons-en-Béarn,Échavanne,Saint-Girons-en-Béarn,Échavanne,1,47
+Je décolle de Saint-Laurent-de-Gosse direction Vitrac-Saint-Vincent,Saint-Laurent-de-Gosse,Vitrac-Saint-Vincent,Saint-Laurent-de-Gosse,Vitrac-Saint-Vincent,1,67
+Argancy jusqu'à Isle-Aubigny,Argancy,Isle-Aubigny,Argancy,Isle-Aubigny,1,28
+"faut que j'aille à marolles-en-beauce, je suis actuellement à bettegney-saint-brice",bettegney-saint-brice,marolles-en-beauce,bettegney-saint-brice,marolles-en-beauce,1,83
+itinéraire galié vers hurtières,galié,hurtières,galié,hurtières,1,31
+Itinéraire Nassiet vers Noyales,Nassiet,Noyales,Nassiet,Noyales,1,31
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Je décolle de Meria direction Loudes,Meria,Loudes,Meria,Loudes,1,36
+comment aller à parcé-sur-sarthe en partant de accons ?,accons,parcé-sur-sarthe,accons,parcé-sur-sarthe,1,55
+itinéraire angerville-bailleul vers baillolet,angerville-bailleul,baillolet,angerville-bailleul,baillolet,1,45
+Je souhaite aller de Sauveterre-de-Béarn à Savonnières-en-Perthois,Sauveterre-de-Béarn,Savonnières-en-Perthois,Sauveterre-de-Béarn,Savonnières-en-Perthois,1,66
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Quel est le trajet entre Saint-Sylvestre-de-Cormeilles et Boulleville ?,Saint-Sylvestre-de-Cormeilles,Boulleville,Saint-Sylvestre-de-Cormeilles,Boulleville,1,71
+trajet pour grosmagny depuis dunet,dunet,grosmagny,dunet,grosmagny,1,34
+Je suis à Houdetot et je dois me rendre à Sains-lès-Marquion,Houdetot,Sains-lès-Marquion,Houdetot,Sains-lès-Marquion,1,60
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Nancy m'a dit d'aller à Rochefort-sur-Nenon,INVALID,Rochefort-sur-Nenon,INVALID,,1,43
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Je souhaite aller de Marange-Zondrange à Rignac,Marange-Zondrange,Rignac,Marange-Zondrange,Rignac,1,47
+"Je vais a Sainte-Paule, je pars de Conie-Molitard",Conie-Molitard,Sainte-Paule,Conie-Molitard,Sainte-Paule,1,49
+Gare de Domalain,INVALID,Domalain,INVALID,,1,16
+Beaurevoir jusqu'à Ville-Dommange,Beaurevoir,Ville-Dommange,Beaurevoir,Ville-Dommange,1,33
+Je veux aller de Paulx vers Ottange,Paulx,Ottange,Paulx,Ottange,1,35
+Comment je me rends à Larroque depuis Achères-la-Forêt pour aller voir ma copine Alex,Achères-la-Forêt,Larroque,Achères-la-Forêt,Larroque,1,85
+Est-ce qu'on peut rejoindre La Bazoche-Gouet en venant de Foucaucourt-Hors-Nesle ?,Foucaucourt-Hors-Nesle,La Bazoche-Gouet,Foucaucourt-Hors-Nesle,La Bazoche-Gouet,1,82
+itinéraire ferfay vers oberdorf-spachbach,ferfay,oberdorf-spachbach,ferfay,oberdorf-spachbach,1,41
+Je cherche un itinéraire de Gilhoc-sur-Ormèze vers Cernoy-en-Berry,Gilhoc-sur-Ormèze,Cernoy-en-Berry,Gilhoc-sur-Ormèze,Cernoy-en-Berry,1,66
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Faut qu'jaille à Saint-Romain-en-Jarez,INVALID,Saint-Romain-en-Jarez,INVALID,,1,38
+"demain, je vais voir mon amie mario qui habite à uruffe, je pars de gottenhouse",gottenhouse,uruffe,gottenhouse,uruffe,1,79
+Prochain départ de Les Neyrolles pour Fontaine-Fourches,Les Neyrolles,Fontaine-Fourches,Les Neyrolles,Fontaine-Fourches,1,55
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Trajet Gerponville Novillard,Gerponville,Novillard,Gerponville,Novillard,1,28
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Comment je me rends à Festubert depuis Rochechouart pour aller voir ma copine Ibanez,Rochechouart,Festubert,Rochechouart,Festubert,1,84
+Quel est le trajet entre Saint-Cyr-de-Favières et Campsegret ?,Saint-Cyr-de-Favières,Campsegret,Saint-Cyr-de-Favières,Campsegret,1,62
+J'aime voyager,INVALID,,INVALID,,1,14
+Je cherche un itinéraire de Saulxures-sur-Moselotte vers Saint-Martin-de-Commune,Saulxures-sur-Moselotte,Saint-Martin-de-Commune,Saulxures-sur-Moselotte,Saint-Martin-de-Commune,1,80
+Comment je me rends à Saint-Germain-Laprade depuis Garat pour aller voir ma copine Alain,Garat,Saint-Germain-Laprade,Garat,Saint-Germain-Laprade,1,88
+itinéraire feldbach vers lahoussoye,feldbach,lahoussoye,feldbach,lahoussoye,1,35
+Liaison Tusson-Baillolet,Tusson,Baillolet,Tusson,Baillolet,1,24
+nancy m'a dit d'aller à henriville,INVALID,henriville,INVALID,,1,34
+chui a Muttersholtz jveu alé a Valserres,Muttersholtz,Valserres,Muttersholtz,Valserres,1,40
+Je vais à Mazeirat,INVALID,Mazeirat,INVALID,,1,18
+Est-ce qu'on peut rejoindre Excideuil en venant de Pezens ?,Pezens,Excideuil,Pezens,Excideuil,1,59
+Faut qu'jaille à Pontenx-les-Forges,INVALID,Pontenx-les-Forges,INVALID,,1,35
+trajet pour fossieux depuis dampierre-saint-nicolas,dampierre-saint-nicolas,fossieux,dampierre-saint-nicolas,fossieux,1,51
+chui a Massy jveu alé a Saint-Jean-lès-Buzy,Massy,Saint-Jean-lès-Buzy,Massy,Saint-Jean-lès-Buzy,1,43
+Cherche un billet pour Plabennec au départ de Achen,Achen,Plabennec,Achen,Plabennec,1,51
+je veux aller de sérézin-du-rhône vers saint-tugdual,sérézin-du-rhône,saint-tugdual,sérézin-du-rhône,saint-tugdual,1,52
+Chevannes-Changy jusqu'à Allibaudières,Chevannes-Changy,Allibaudières,Chevannes-Changy,Allibaudières,1,38
+aller de guillestre à raedersheim,guillestre,raedersheim,guillestre,raedersheim,1,33
+nancy m'a dit d'aller à quiévelon,INVALID,quiévelon,INVALID,,1,33
+Comment je me rends à Joursac depuis Domjean pour aller voir ma copine Solange,Domjean,Joursac,Domjean,Joursac,1,78
+Cherche un billet pour Les Esseintes au départ de Cumières-le-Mort-Homme,Cumières-le-Mort-Homme,Les Esseintes,Cumières-le-Mort-Homme,Les Esseintes,1,72
+je pars pour Lozay de Livry-Gargan,Livry-Gargan,Lozay,Livry-Gargan,Lozay,1,34
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Y'a quoi comme transport entre Saint-Sylvestre-Cappel et Artemps ?,Saint-Sylvestre-Cappel,Artemps,Saint-Sylvestre-Cappel,Artemps,1,66
+"Mon pote Maxime m'attend à Entrains-sur-Nohain, je pars de Bordeaux-Saint-Clair",Bordeaux-Saint-Clair,Entrains-sur-Nohain,Bordeaux-Saint-Clair,Entrains-sur-Nohain,1,79
+jvais à sainte-ramée dpuis saint-malo-de-phily,saint-malo-de-phily,sainte-ramée,saint-malo-de-phily,sainte-ramée,1,46
+Je vais à Asque,INVALID,Asque,INVALID,,1,15
+Cherche un billet pour Neuville au depart de Maylis,Maylis,Neuville,Maylis,Neuville,1,51
+"Mon pote Jean-Pierre m'attend à Abergement-le-Grand, je pars de Piriac-sur-Mer",Piriac-sur-Mer,Abergement-le-Grand,Piriac-sur-Mer,Abergement-le-Grand,1,78
+Retour de Nestier vers Baho,Baho,Nestier,Nestier,Baho,0,27
+Je souhaite aller de Bias à Arces,Bias,Arces,Bias,Arces,1,33
+Je passe par Lyon pour aller de Bény-sur-Mer à Calvisson,Bény-sur-Mer,Calvisson,Bény-sur-Mer,Calvisson,1,56
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+"Mon pote Solange m'attend a Bagard, je pars de Ribeaucourt",Ribeaucourt,Bagard,Ribeaucourt,Bagard,1,58
+nancy m'a dit d'aller à flavy-le-martel,INVALID,flavy-le-martel,INVALID,,1,39
+Jvais à Pleuven dpuis Ploubazlanec,Ploubazlanec,Pleuven,Ploubazlanec,Pleuven,1,34
+Je vais à Viéville-en-Haye,INVALID,Viéville-en-Haye,INVALID,,1,26
+Je souhaite aller de Arphy à Trézilidé,Arphy,Trézilidé,Arphy,Trézilidé,1,38
+Je suis à La Villetelle et je dois me rendre à Nogent-sur-Seine,La Villetelle,Nogent-sur-Seine,La Villetelle,Nogent-sur-Seine,1,63
+Je cherche un itineraire de Saint-Genis-d'Hiersac vers Brando,Saint-Genis-d'Hiersac,Brando,Saint-Genis-d'Hiersac,Brando,1,61
+chui a Auradé jveu alé a Orval,Auradé,Orval,Auradé,Orval,1,30
+Direction Dierrey-Saint-Julien,INVALID,Dierrey-Saint-Julien,INVALID,,1,30
+Jvais à Luppé-Violles dpuis Sonnay,Sonnay,Luppé-Violles,Sonnay,Luppé-Violles,1,34
+Je vais à Seninghem,INVALID,Seninghem,INVALID,,1,19
+Prochain départ de Charette pour Pontcirq,Charette,Pontcirq,Charette,Pontcirq,1,41
+"je vais à quevauvillers, je pars de montalba-le-château",montalba-le-château,quevauvillers,montalba-le-château,quevauvillers,1,55
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Trajet Trésilley Merpins,Trésilley,Merpins,Trésilley,Merpins,1,24
+gare de la berlière,INVALID,la berlière,INVALID,,1,19
+Aller de Dettwiller à Fain-lès-Moutiers,Dettwiller,Fain-lès-Moutiers,Dettwiller,Fain-lès-Moutiers,1,39
+comment je me rends à la bazoque depuis sancy pour aller voir ma copine rob,sancy,la bazoque,sancy,la bazoque,1,75
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Retour de Chavin vers Mersuay,Mersuay,Chavin,Chavin,Mersuay,0,29
+Je vais à Saint-Germain-du-Bois,INVALID,Saint-Germain-du-Bois,INVALID,,1,31
+Est-ce qu'on peut rejoindre Satolas-et-Bonce en venant de Leignes-sur-Fontaine ?,Leignes-sur-Fontaine,Satolas-et-Bonce,Leignes-sur-Fontaine,Satolas-et-Bonce,1,80
+J'aime voyager,INVALID,,INVALID,,1,14
+je veux me rendre a chambrecy de jazeneuil,chambrecy,jazeneuil,chambrecy,jazeneuil,1,42
+faut qu'jaille à buzon,INVALID,buzon,INVALID,,1,22
+"Demain, je vais voir mon amie Clemence qui habite à Talmont-Saint-Hilaire, je pars de Novel",Novel,Talmont-Saint-Hilaire,Novel,Talmont-Saint-Hilaire,1,91
+Jsuis Kerlouan. Bon jvais a Noiremont,Kerlouan,Noiremont,Kerlouan,Noiremont,1,37
+"Je vais à Saint-Léger-près-Troyes, je pars de Ossen",Ossen,Saint-Léger-près-Troyes,Ossen,Saint-Léger-près-Troyes,1,51
+Cherche un billet pour Saint-Genest-d'Ambiere au depart de Fresnes-sur-Marne,Fresnes-sur-Marne,Saint-Genest-d'Ambiere,Fresnes-sur-Marne,Saint-Genest-d'Ambiere,1,76
+Je vais à Payra-sur-l'Hers,INVALID,Payra-sur-l'Hers,INVALID,,1,26
+chui a Saint-Boingt jveu ale a Tarerach,Saint-Boingt,Tarerach,Saint-Boingt,Tarerach,1,39
+"Je passe par Le Mans, Angers et Nantes pour rejoindre Chanteheux depuis Vicq",Vicq,Chanteheux,"Le Mans, Angers et Nantes pour rejoindre Chanteheux depuis Vicq",Nantes pour rejoindre Chanteheux,0,76
+je veux me rendre à chareil-cintrat de douy-la-ramée,chareil-cintrat,douy-la-ramée,chareil-cintrat,douy-la-ramée,1,52
+"faut que j'aille à vinzieux, je suis actuellement à martigny-le-comte",martigny-le-comte,vinzieux,martigny-le-comte,vinzieux,1,69
+Je suis a Weislingen et je dois me rendre a Pointis-de-Riviere,Weislingen,Pointis-de-Riviere,Weislingen,Pointis-de-Riviere,1,62
+Itinéraire Kerien vers Moon-sur-Elle,Kerien,Moon-sur-Elle,Kerien,Moon-sur-Elle,1,36
+jvais à apprieu dpuis duran,duran,apprieu,duran,apprieu,1,27
+Je décolle de Arue direction Dosches,Arue,Dosches,Arue,Dosches,1,36
+Je veux aller de Sochaux vers Saint-Just-en-Bas,Sochaux,Saint-Just-en-Bas,Sochaux,Saint-Just-en-Bas,1,47
+Trajet Bresilley Roquebrune-Cap-Martin,Bresilley,Roquebrune-Cap-Martin,Bresilley,Roquebrune-Cap-Martin,1,38
+Je veux aller de Brillevast vers Escots,Brillevast,Escots,Brillevast,Escots,1,39
+Prochain train pour Doissat,INVALID,Doissat,INVALID,,1,27
+Faut qu'jaille à Vindecy,INVALID,Vindecy,INVALID,,1,24
+le temps est à l'averse,INVALID,,INVALID,,1,23
+faut qu'jaille a blosseville,INVALID,blosseville,INVALID,,1,28
+Je cherche un itinéraire de Lemuy vers Lamothe,Lemuy,Lamothe,Lemuy,Lamothe,1,46
+Direction Tirepied-sur-Sée,INVALID,Tirepied-sur-Sée,INVALID,,1,26
+Je vais à Beugin,INVALID,Beugin,INVALID,,1,16
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Gare de Saint-Vallier-de-Thiey,INVALID,Saint-Vallier-de-Thiey,INVALID,,1,30
+J'aime voyager,INVALID,,INVALID,,1,14
+"Je vais à Langley, je pars de Nogaret",Nogaret,Langley,Nogaret,Langley,1,37
+Direction Mandres-les-Roses,INVALID,Mandres-les-Roses,INVALID,,1,27
+Direction Dargies,INVALID,Dargies,INVALID,,1,17
+Comment aller à Mulhouse en partant de Beauzac ?,Beauzac,Mulhouse,Beauzac,Mulhouse,1,48
+"Je vais à Ecquevilly, je pars de Hérouville-Saint-Clair",Hérouville-Saint-Clair,Ecquevilly,Hérouville-Saint-Clair,Ecquevilly,1,55
+Trajet Fouchères Rompon,Fouchères,Rompon,Fouchères,Rompon,1,23
+Faut qu'jaille a Montpinchon,INVALID,Montpinchon,INVALID,,1,28
+Liaison Lerzy-Monts-de-Randon,Lerzy,Monts-de-Randon,Lerzy,Monts-de-Randon,1,29
+prochain départ de feillens pour milhaud,feillens,milhaud,feillens,milhaud,1,40
+Cherche un billet pour Courtemanche au départ de Saint-Pois,Saint-Pois,Courtemanche,Saint-Pois,Courtemanche,1,59
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Je vais à Saint-Pierre-le-Moûtier,INVALID,Saint-Pierre-le-Moûtier,INVALID,,1,33
+Je vais à Audrieu,INVALID,Audrieu,INVALID,,1,17
+Aller de Malroy à Baupte,Malroy,Baupte,Malroy,Baupte,1,24
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+"je vais à gogney, je pars de saint-élix-séglan",saint-élix-séglan,gogney,saint-élix-séglan,gogney,1,46
+cherche un billet pour mellac au depart de senneville-sur-fecamp,senneville-sur-fecamp,mellac,senneville-sur-fecamp,mellac,1,64
+direction mazuby,INVALID,mazuby,INVALID,,1,16
+le temps est à l'averse,INVALID,,INVALID,,1,23
+est-ce qu'on peut rejoindre arabaux en venant de bouvesse-quirieu ?,bouvesse-quirieu,arabaux,bouvesse-quirieu,arabaux,1,67
+Faut qu'jaille a La Frasnee,INVALID,La Frasnee,INVALID,,1,27
+Retour de Lignières vers Andelot-Blancheville,Andelot-Blancheville,Lignières,Lignières,Andelot-Blancheville,0,45
+Comment aller de Montpezat à Villepot ?,Montpezat,Villepot,Montpezat,Villepot,1,39
+"Mon pote George m'attend à Prahecq, je pars de Romans",Romans,Prahecq,Romans,Prahecq,1,53
+"Je vais à Laguépie, je pars de Argilliers",Argilliers,Laguépie,Argilliers,Laguépie,1,41
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Faut qu'jaille à Châtillon-sur-Loire,INVALID,Châtillon-sur-Loire,INVALID,,1,36
+Je veux me rendre à Brillon de Issigeac,Brillon,Issigeac,Brillon,Issigeac,1,39
+Je passe par Lyon pour aller de Bussière-Saint-Georges à La Canourgue,Bussière-Saint-Georges,La Canourgue,Bussière-Saint-Georges,La Canourgue,1,69
+Nancy m'a dit d'aller a Epron,INVALID,Epron,INVALID,,1,29
+J'aime voyager,INVALID,,INVALID,,1,14
+Je passe par Lyon pour aller de Maine-de-Boixe à Serbannes,Maine-de-Boixe,Serbannes,Maine-de-Boixe,Serbannes,1,58
+gare de champdor-corcelles,INVALID,champdor-corcelles,INVALID,,1,26
+trajet pour charvonnex depuis beaurecueil,beaurecueil,charvonnex,beaurecueil,charvonnex,1,41
+Jvais à Jonquières-Saint-Vincent dpuis Saint-Ail,Saint-Ail,Jonquières-Saint-Vincent,Saint-Ail,Jonquières-Saint-Vincent,1,48
+Prochain départ de Ussy-sur-Marne pour Écurcey,Ussy-sur-Marne,Écurcey,Ussy-sur-Marne,Écurcey,1,46
+Jvais à Nuzéjouls dpuis Saint-Vincent-des-Bois,Saint-Vincent-des-Bois,Nuzéjouls,Saint-Vincent-des-Bois,Nuzéjouls,1,46
+Gare de Vireux-Wallerand,INVALID,Vireux-Wallerand,INVALID,,1,24
+"Faut que j'aille à Braisnes-sur-Aronde, je suis actuellement à Moëlan-sur-Mer",Moëlan-sur-Mer,Braisnes-sur-Aronde,Moëlan-sur-Mer,Braisnes-sur-Aronde,1,77
+Cherche un billet pour Craonnelle au depart de Saint-Generoux,Saint-Generoux,Craonnelle,Saint-Generoux,Craonnelle,1,61
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Comment aller de Noailhac à Félines-Minervois ?,Noailhac,Félines-Minervois,Noailhac,Félines-Minervois,1,47
+Gare de Crouy-sur-Cosson,INVALID,Crouy-sur-Cosson,INVALID,,1,24
+Comment aller à Touffréville en partant de Caumont ?,Caumont,Touffréville,Caumont,Touffréville,1,52
+direction épense,INVALID,épense,INVALID,,1,16
+Est-ce qu'on peut rejoindre Saillac en venant de Chalautre-la-Grande ?,Chalautre-la-Grande,Saillac,Chalautre-la-Grande,Saillac,1,70
+"Vol Saint-Just-en-Chevalet-Bretten, c'est pour quand ?",Saint-Just-en-Chevalet,Bretten,Saint-Just-en-Ch,evalet-Bretten,0,54
+"Je vais à Viocourt, je pars de Montguyon",Montguyon,Viocourt,Montguyon,Viocourt,1,40
+Y'a quoi comme transport entre Pagny-la-Blanche-Côte et Génat ?,Pagny-la-Blanche-Côte,Génat,Pagny-la-Blanche-Côte,Génat,1,63
+chui a Hancourt jveu alé a Saint-Denis-de-Gastines,Hancourt,Saint-Denis-de-Gastines,Hancourt,Saint-Denis-de-Gastines,1,50
+j'aime voyager,INVALID,,INVALID,,1,14
+Prochain depart de Barquet pour Tinteniac,Barquet,Tinteniac,Barquet,Tinteniac,1,41
+"Mon pote Jessica m'attend à Sougy, je pars de Monbalen",Monbalen,Sougy,Monbalen,Sougy,1,54
+chui a Havange jveu alé a Vaux-sur-Seulles,Havange,Vaux-sur-Seulles,Havange,Vaux-sur-Seulles,1,42
+Direction Folschviller,INVALID,Folschviller,INVALID,,1,22
+je pars pour meaux-la-montagne de saint-forget,saint-forget,meaux-la-montagne,saint-forget,meaux-la-montagne,1,46
+Faut qu'jaille a Loussous-Debat,INVALID,Loussous-Debat,INVALID,,1,31
+Comment aller a Mezens en partant de La Malmaison ?,La Malmaison,Mezens,La Malmaison,Mezens,1,51
+Direction Breuil-le-Vert,INVALID,Breuil-le-Vert,INVALID,,1,24
+Quel est le trajet entre Royer et Ilonse ?,Royer,Ilonse,Royer,Ilonse,1,42
+"Je vais a Uxelles, je pars de Bellenod-sur-Seine",Bellenod-sur-Seine,Uxelles,Bellenod-sur-Seine,Uxelles,1,48
+je vais à liac,INVALID,liac,INVALID,,1,14
+"Faut que j'aille à Chaniat, je suis actuellement à Jézeau",Jézeau,Chaniat,Jézeau,Chaniat,1,57
+Je suis à Crestot et je dois me rendre à Bussière-Dunoise,Crestot,Bussière-Dunoise,Crestot,Bussière-Dunoise,1,57
+Comment aller à Jumel en partant de Villecien ?,Villecien,Jumel,Villecien,Jumel,1,47
+je vais à saint-marc-du-cor,INVALID,saint-marc-du-cor,INVALID,,1,27
+Direction Préfailles,INVALID,Préfailles,INVALID,,1,20
+"Vol Routes-Aix-Noulette, c'est pour quand ?",Routes,Aix-Noulette,Route,s-Aix-Noulette,0,43
+Gare de Jugazan,INVALID,Jugazan,INVALID,,1,15
+Je suis a Sotzeling et je dois me rendre a Val-d'Issoire,Sotzeling,Val-d'Issoire,Sotzeling,Val-d'Issoire,1,56
+Quel est le trajet entre Lapenty et Luynes ?,Lapenty,Luynes,Lapenty,Luynes,1,44
+liaison villetoureix-échenay,villetoureix,échenay,villetoureix,-échenay,1,28
+Je cherche un itinéraire de Domessargues vers Sainte-Mère-Église,Domessargues,Sainte-Mère-Église,Domessargues,Sainte-Mère-Église,1,64
+Comment je me rends à Saint-Pierre-des-Tripiers depuis Prez-sous-Lafauche pour aller voir ma copine Kevin,Prez-sous-Lafauche,Saint-Pierre-des-Tripiers,Prez-sous-Lafauche,Saint-Pierre-des-Tripiers,1,105
+Direction Saint-Quentin-le-Petit,INVALID,Saint-Quentin-le-Petit,INVALID,,1,32
+"mon pote alain m'attend à feldbach, je pars de buchelay",buchelay,feldbach,buchelay,feldbach,1,55
+Gare de Vironchaux,INVALID,Vironchaux,INVALID,,1,18
+Je suis à Guagno et je dois me rendre à Châtillon-en-Vendelais,Guagno,Châtillon-en-Vendelais,Guagno,Châtillon-en-Vendelais,1,62
+Liaison Xambes-Chalonnes-sur-Loire,Xambes,Chalonnes-sur-Loire,Xambes,Chalonnes-sur-Loire,1,34
+Comment aller à Montreuil-sur-Maine en partant de Olonzac ?,Olonzac,Montreuil-sur-Maine,Olonzac,Montreuil-sur-Maine,1,59
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Quel est le trajet entre Py et Saint-Martin-des-Olmes ?,Py,Saint-Martin-des-Olmes,Py,Saint-Martin-des-Olmes,1,55
+Itinéraire Torchefelon vers Ternand,Torchefelon,Ternand,Torchefelon,Ternand,1,35
+Retour de La Tourette vers Montferrand-la-Fare,Montferrand-la-Fare,La Tourette,La Tourette,Montferrand-la-Fare,0,46
+Prochain depart de Chaucenne pour Le Vieux-Cerier,Chaucenne,Le Vieux-Cerier,Chaucenne,Le Vieux-Cerier,1,49
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Direction Tassé,INVALID,Tassé,INVALID,,1,15
+Je souhaite aller de Oberhausbergen à Mazan,Oberhausbergen,Mazan,Oberhausbergen,Mazan,1,43
+J'aime voyager,INVALID,,INVALID,,1,14
+"Vol Ban-de-Laveline-Roquemaure, c'est pour quand ?",Ban-de-Laveline,Roquemaure,Ban-de-Laveline-,Roquemaure,1,50
+Liaison Jouars-Pontchartrain-La Neuville-Vault,Jouars-Pontchartrain,La Neuville-Vault,Jouars-Pontchartrain,Pontchartrain-La Neuville-Vault,0,46
+je veux me rendre à baerenthal de arthel,baerenthal,arthel,baerenthal,arthel,1,40
+Retour de Fontenay-aux-Roses vers Vielprat,Vielprat,Fontenay-aux-Roses,Fontenay-aux-Roses,Vielprat,0,42
+Est-ce qu'on peut rejoindre Bois-Normand-près-Lyre en venant de Saint-Pierre-du-Bosguérard ?,Saint-Pierre-du-Bosguérard,Bois-Normand-près-Lyre,Saint-Pierre-du-Bosguérard,Bois-Normand-près-Lyre,1,92
+liaison renneville-lons,renneville,lons,renneville,lons,1,23
+je veux aller de martigny vers lachalade,martigny,lachalade,martigny,lachalade,1,40
+Comment aller de Audembert à Darmannes ?,Audembert,Darmannes,Audembert,Darmannes,1,40
+Je souhaite aller de Riencourt-lès-Cagnicourt à Conqueyrac,Riencourt-lès-Cagnicourt,Conqueyrac,Riencourt-lès-Cagnicourt,Conqueyrac,1,58
+direction couiza,INVALID,couiza,INVALID,,1,16
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Y'a quoi comme transport entre Romestaing et Montreuil ?,Romestaing,Montreuil,Romestaing,Montreuil,1,56
+Je veux aller de Vendegies-sur-Écaillon vers Dampjoux,Vendegies-sur-Écaillon,Dampjoux,Vendegies-sur-Écaillon,Dampjoux,1,53
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Trajet pour Bayons depuis Chardeny,Chardeny,Bayons,Chardeny,Bayons,1,34
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Cherche un billet pour Viviers-le-Gras au départ de Beaucoudray,Beaucoudray,Viviers-le-Gras,Beaucoudray,Viviers-le-Gras,1,63
+Trajet pour Neuve-Maison depuis Pont-lès-Bonfays,Pont-lès-Bonfays,Neuve-Maison,Pont-lès-Bonfays,Neuve-Maison,1,48
+je suis à franvillers et je dois me rendre à salvagnac-cajarc,franvillers,salvagnac-cajarc,franvillers,salvagnac-cajarc,1,61
+Direction Sottevast,INVALID,Sottevast,INVALID,,1,19
+je pars pour Fay-lès-Marcilly de Montliard,Montliard,Fay-lès-Marcilly,Montliard,Fay-lès-Marcilly,1,42
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Je veux me rendre à Rouvres-en-Xaintois de Saint-Eugène,Rouvres-en-Xaintois,Saint-Eugène,Rouvres-en-Xaintois,Saint-Eugène,1,55
+prochain train pour salles-courbatiès,INVALID,salles-courbatiès,INVALID,,1,37
+Je veux me rendre à Fontaine-de-Vaucluse de Algajola,Fontaine-de-Vaucluse,Algajola,Fontaine-de-Vaucluse,Algajola,1,52
+je pars pour Saint-Martin-des-Bois de Cuguen,Cuguen,Saint-Martin-des-Bois,Cuguen,Saint-Martin-des-Bois,1,44
+Aller de Maisonnay à Jeuxey,Maisonnay,Jeuxey,Maisonnay,Jeuxey,1,27
+Je vais à Courcoury,INVALID,Courcoury,INVALID,,1,19
+"Je vais a Bayons, je pars de La Chaussee",La Chaussee,Bayons,La Chaussee,Bayons,1,40
+Faut qu'jaille a Marigny-Le-Lozon,INVALID,Marigny-Le-Lozon,INVALID,,1,33
+Trajet pour La Seyne-sur-Mer depuis Sainte-Marie-la-Robert,Sainte-Marie-la-Robert,La Seyne-sur-Mer,Sainte-Marie-la-Robert,La Seyne-sur-Mer,1,58
+Je veux me rendre à Montferrier-sur-Lez de Saint-Jean-Saint-Nicolas,Montferrier-sur-Lez,Saint-Jean-Saint-Nicolas,Montferrier-sur-Lez,Saint-Jean-Saint-Nicolas,1,67
+Est-ce qu'on peut rejoindre Le Croisic en venant de Buffard ?,Buffard,Le Croisic,Buffard,Le Croisic,1,61
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Prochain départ de Briançon pour Tissey,Briançon,Tissey,Briançon,Tissey,1,39
+je passe par lyon pour aller de monnes à longuesse,monnes,longuesse,monnes,longuesse,1,50
+aller de ballots à gorges du tarn causses,ballots,gorges du tarn causses,ballots,gorges du tarn causses,1,41
+Prochain train pour Velle-sur-Moselle,INVALID,Velle-sur-Moselle,INVALID,,1,37
+Itinéraire Ameuvelle vers Ourdis-Cotdoussan,Ameuvelle,Ourdis-Cotdoussan,Ameuvelle,Ourdis-Cotdoussan,1,43
+liaison sainte-brigitte-le lude,sainte-brigitte,le lude,sainte-brigitte,le lude,1,31
+Je cherche un itinéraire de Saint-Côme vers Thury-Harcourt-le-Hom,Saint-Côme,Thury-Harcourt-le-Hom,Saint-Côme,Thury-Harcourt-le-Hom,1,65
+Faut qu'jaille à Talange,INVALID,Talange,INVALID,,1,24
+"Je vais à Monbardon, je pars de Lachaussée",Lachaussée,Monbardon,Lachaussée,Monbardon,1,42
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+quel est le trajet entre feuguerolles et saint-euphrône ?,feuguerolles,saint-euphrône,feuguerolles,saint-euphrône,1,57
+"Demain, je vais voir mon amie Jessica qui habite à Lachaise, je pars de Moutier-d'Ahun",Moutier-d'Ahun,Lachaise,Moutier-d'Ahun,Lachaise,1,86
+Je vais a Wiry-au-Mont,INVALID,Wiry-au-Mont,INVALID,,1,22
+je vais à lille,INVALID,lille,INVALID,,1,15
+Liaison Landeleau-Étaing,Landeleau,Étaing,Landeleau,Étaing,1,24
+"Demain, je vais voir mon amie Thor qui habite à Lévis-Saint-Nom, je pars de Chaussoy-Epagny",Chaussoy-Epagny,Lévis-Saint-Nom,Chaussoy-Epagny,Lévis-Saint-Nom,1,91
+chui a Bazugues jveu alé a Frédille,Bazugues,Frédille,Bazugues,Frédille,1,35
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+"Je vais à Sougeal, je pars de Valdurenque",Valdurenque,Sougeal,Valdurenque,Sougeal,1,41
+Je passe par Lyon pour aller de Lezay à Montchanin,Lezay,Montchanin,Lezay,Montchanin,1,50
+Gare de Puttelange-lès-Thionville,INVALID,Puttelange-lès-Thionville,INVALID,,1,33
+"Je vais à Rainneville, je pars de Vallant-Saint-Georges",Vallant-Saint-Georges,Rainneville,Vallant-Saint-Georges,Rainneville,1,55
+Je cherche un itinéraire de Wambercourt vers La Chapelotte,Wambercourt,La Chapelotte,Wambercourt,La Chapelotte,1,58
+Y'a quoi comme transport entre Portet-d'Aspet et Girecourt-sur-Durbion ?,Portet-d'Aspet,Girecourt-sur-Durbion,Portet-d'Aspet,Girecourt-sur-Durbion,1,72
+Je veux aller de Pierre-Morains vers La Neuville-Saint-Pierre,Pierre-Morains,La Neuville-Saint-Pierre,Pierre-Morains,La Neuville-Saint-Pierre,1,61
+Je vais à Varaignes,INVALID,Varaignes,INVALID,,1,19
+y'a quoi comme transport entre lempty et castelmoron-d'albret ?,lempty,castelmoron-d'albret,lempty,castelmoron-d'albret,1,63
+direction villers-la-ville,INVALID,villers-la-ville,INVALID,,1,26
+le temps est à l'averse,INVALID,,INVALID,,1,23
+Eslourenties-Daban jusqu'à Champagnac-le-Vieux,Eslourenties-Daban,Champagnac-le-Vieux,Eslourenties-Daban,Champagnac-le-Vieux,1,46
+Trajet pour Montigny-sur-Canne depuis Provenchère,Provenchère,Montigny-sur-Canne,Provenchère,Montigny-sur-Canne,1,49
+J'aime voyager,INVALID,,INVALID,,1,14
+Trajet Biard Tannay,Biard,Tannay,Biard,Tannay,1,19
+Liaison Claveyson-Saint-Étienne-de-Maurs,Claveyson,Saint-Étienne-de-Maurs,Claveyson,Saint-Étienne-de-Maurs,1,40
+Je veux aller de Saint-Hilaire-de-Villefranche vers Frouzins,Saint-Hilaire-de-Villefranche,Frouzins,Saint-Hilaire-de-Villefranche,Frouzins,1,60
+faut qu'jaille à verel-pragondran,INVALID,verel-pragondran,INVALID,,1,33
+quel est le trajet entre saint-marcellin-lès-vaison et hastingues ?,saint-marcellin-lès-vaison,hastingues,saint-marcellin-lès-vaison,hastingues,1,67
+Comment aller de Fontaine-lès-Luxeuil à Bégrolles-en-Mauges ?,Fontaine-lès-Luxeuil,Bégrolles-en-Mauges,Fontaine-lès-Luxeuil,Bégrolles-en-Mauges,1,61
+"Vol Villefranche-de-Rouergue-Saint-Perdon, c'est pour quand ?",Villefranche-de-Rouergue,Saint-Perdon,Villefranche-de-Rouergue-,Saint-Perdon,1,61
+Itinéraire Hecq vers Grande-Synthe,Hecq,Grande-Synthe,Hecq,Grande-Synthe,1,34
+comment aller de velles à vinay ?,velles,vinay,velles,vinay,1,33
+Trajet pour Vezinnes depuis Menil-Annelles,Menil-Annelles,Vezinnes,Menil-Annelles,Vezinnes,1,42
+y'a quoi comme transport entre gros-chastang et ver ?,gros-chastang,ver,gros-chastang,ver,1,53
+chui a Bazenville jveu alé a Pont-Sainte-Marie,Bazenville,Pont-Sainte-Marie,Bazenville,Pont-Sainte-Marie,1,46
+Nancy m'a dit d'aller à Authie,INVALID,Authie,INVALID,,1,30
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+"faut que j'aille à moislains, je suis actuellement à beaudéduit",beaudéduit,moislains,beaudéduit,moislains,1,63
+Je suis à Carpiquet et je dois me rendre à Boisset-lès-Montrond,Carpiquet,Boisset-lès-Montrond,Carpiquet,Boisset-lès-Montrond,1,63
+Jvais à Bléneau dpuis Octeville-l'Avenel,Octeville-l'Avenel,Bléneau,Octeville-l'Avenel,Bléneau,1,40
+je pars pour malintrat de voutenay-sur-cure,voutenay-sur-cure,malintrat,voutenay-sur-cure,malintrat,1,43
+je décolle de saint-martin-de-commune direction rocquigny,saint-martin-de-commune,rocquigny,saint-martin-de-commune,rocquigny,1,57
+Direction L'Hopital-du-Grosbois,INVALID,L'Hopital-du-Grosbois,INVALID,,1,31
+chui a Croutoy jveu alé a Toulouges,Croutoy,Toulouges,Croutoy,Toulouges,1,35
+Direction Joursac,INVALID,Joursac,INVALID,,1,17
+Trajet Herbinghen Barcelonne-du-Gers,Herbinghen,Barcelonne-du-Gers,Herbinghen,Barcelonne-du-Gers,1,36
+Faut qu'jaille a Jaulgonne,INVALID,Jaulgonne,INVALID,,1,26
+Liaison Thenelles-Sancy-les-Cheminots,Thenelles,Sancy-les-Cheminots,Thenelles,Sancy-les-Cheminots,1,37
+Prochain train pour Bourigeole,INVALID,Bourigeole,INVALID,,1,30
+Trajet Lauresses Le Souich,Lauresses,Le Souich,Lauresses,Le Souich,1,26
+Comment je me rends à Champsanglard depuis Candas pour aller voir ma copine Alain,Candas,Champsanglard,Candas,Champsanglard,1,81
+"Faut que j'aille à Bosjean, je suis actuellement à Genouillé",Genouillé,Bosjean,Genouillé,Bosjean,1,60
+Direction Beaulieu-sur-Loire,INVALID,Beaulieu-sur-Loire,INVALID,,1,28
+Gare de Le Ribay,INVALID,Le Ribay,INVALID,,1,16
+Je passe par Lyon pour aller de Bizou à Volx,Bizou,Volx,Bizou,Volx,1,44
+Gare de Ochey,INVALID,Ochey,INVALID,,1,13
+Villemoutiers jusqu'à Lurcy-le-Bourg,Villemoutiers,Lurcy-le-Bourg,Villemoutiers,Lurcy-le-Bourg,1,36
+J'aime voyager,INVALID,,INVALID,,1,14
+Quel est le trajet entre Longuenesse et Bièvres ?,Longuenesse,Bièvres,Longuenesse,Bièvres,1,49
+Prochain départ de Saint-Morel pour Coëx,Saint-Morel,Coëx,Saint-Morel,Coëx,1,40
+Je souhaite aller de Saint-Martin-d'Armagnac à Bayel,Saint-Martin-d'Armagnac,Bayel,Saint-Martin-d'Armagnac,Bayel,1,52
+Jsuis Mimbaste. Bon jvais à Terroles,Mimbaste,Terroles,Mimbaste,Terroles,1,36
+Est-ce qu'on peut rejoindre Planques en venant de Saint-Barthélemy-le-Meil ?,Saint-Barthélemy-le-Meil,Planques,Saint-Barthélemy-le-Meil,Planques,1,76
+"Mon pote Paris m'attend à Amiens, je pars de Vebret",Vebret,Amiens,Vebret,Amiens,1,51
+Je souhaite aller de Thehillac a Saint-Malo-des-Trois-Fontaines,Thehillac,Saint-Malo-des-Trois-Fontaines,Thehillac,Saint-Malo-des-Trois-Fontaines,1,63
+Je décolle de Coëtmieux direction Brabant-sur-Meuse,Coëtmieux,Brabant-sur-Meuse,Coëtmieux,Brabant-sur-Meuse,1,51
+Trajet Maizet Hablainville,Maizet,Hablainville,Maizet,Hablainville,1,26
+Direction Massillargues-Attuech,INVALID,Massillargues-Attuech,INVALID,,1,31
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+"Faut que j'aille à Bougarber, je suis actuellement à Ballaison",Ballaison,Bougarber,Ballaison,Bougarber,1,62
+Direction Vouxey,INVALID,Vouxey,INVALID,,1,16
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Je cherche un itinéraire de Mazzola vers Haubourdin,Mazzola,Haubourdin,Mazzola,Haubourdin,1,51
+Jvais à Saint-Jean-de-Rebervilliers dpuis Rizaucourt-Buchey,Rizaucourt-Buchey,Saint-Jean-de-Rebervilliers,Rizaucourt-Buchey,Saint-Jean-de-Rebervilliers,1,59
+Je veux aller de Bourdonne vers Neuville-Ferrieres,Bourdonne,Neuville-Ferrieres,Bourdonne,Neuville-Ferrieres,1,50
+Je suis à Saint-Denis-de-Mailloc et je dois me rendre à Moussé,Saint-Denis-de-Mailloc,Moussé,Saint-Denis-de-Mailloc,Moussé,1,62
+je veux me rendre à annepont de mesnard-la-barotière,annepont,mesnard-la-barotière,annepont,mesnard-la-barotière,1,52
+Je vais à Phaffans,INVALID,Phaffans,INVALID,,1,18
+"Demain, je vais voir mon amie Maxime qui habite à Bissezeele, je pars de Jaudrais",Jaudrais,Bissezeele,Jaudrais,Bissezeele,1,81
+Le temps est a l'averse,INVALID,,INVALID,,1,23
+liaison valignat-saint-ignan,valignat,saint-ignan,valignat,saint-ignan,1,28
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+liaison montbeton-civrieux,montbeton,civrieux,montbeton,civrieux,1,26
+Y'a quoi comme transport entre Morsbronn-les-Bains et La Chavatte ?,Morsbronn-les-Bains,La Chavatte,Morsbronn-les-Bains,La Chavatte,1,67
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+"Faut que j'aille a Montaudin, je suis actuellement a Saffloz",Saffloz,Montaudin,Saffloz,Montaudin,1,60
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+"je vais à graçay, je pars de brennilis",brennilis,graçay,brennilis,graçay,1,38
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+je passe par lyon pour aller de velle-le-châtel à la bassée,velle-le-châtel,la bassée,velle-le-châtel,la bassée,1,59
+Je vais à Coupelle-Neuve,INVALID,Coupelle-Neuve,INVALID,,1,24
+Faut qu'jaille à Canchy,INVALID,Canchy,INVALID,,1,23
+Quel est le trajet entre Argentonnay et Bragassargues ?,Argentonnay,Bragassargues,Argentonnay,Bragassargues,1,55
+"Mon pote Alex m'attend à Menesble, je pars de Saint-Jean-en-Royans",Saint-Jean-en-Royans,Menesble,Saint-Jean-en-Royans,Menesble,1,66
+je pars pour Sainte-Christie de Curis-au-Mont-d'Or,Curis-au-Mont-d'Or,Sainte-Christie,Curis-au-Mont-d'Or,Sainte-Christie,1,50
+Direction La Chassagne,INVALID,La Chassagne,INVALID,,1,22
+Cherche un billet pour Pulversheim au départ de Bazien,Bazien,Pulversheim,Bazien,Pulversheim,1,54
+Trajet Les Ormes Châtillon-la-Palud,Les Ormes,Châtillon-la-Palud,Les Ormes,Châtillon-la-Palud,1,35
+Trajet Hourc Vaudrey,Hourc,Vaudrey,Hourc,Vaudrey,1,20
+Je décolle de Juigné-des-Moutiers direction Luxémont-et-Villotte,Juigné-des-Moutiers,Luxémont-et-Villotte,Juigné-des-Moutiers,Luxémont-et-Villotte,1,64
+je pars pour étrappe de chabanière,chabanière,étrappe,chabanière,étrappe,1,34
+"vol ardeuil-et-montfauxelles-anctoville-sur-boscq, c'est pour quand ?",ardeuil-et-montfauxelles,anctoville-sur-boscq,ardeuil-et-montfaux,elles-anctoville-sur-boscq,0,69
+"Mon pote Maxime m'attend a Bruley, je pars de Reuil-en-Brie",Reuil-en-Brie,Bruley,Reuil-en-Brie,Bruley,1,59
+Est-ce qu'on peut rejoindre Cléden-Poher en venant de Classun ?,Classun,Cléden-Poher,Classun,Cléden-Poher,1,63
+aller de montigny-sur-l'hallue à melesse,montigny-sur-l'hallue,melesse,montigny-sur-l'hallue,melesse,1,40
+Je cherche un itinéraire de Aougny vers Le Gué-de-Velluire,Aougny,Le Gué-de-Velluire,Aougny,Le Gué-de-Velluire,1,58
+Liaison Meljac-Germagny,Meljac,Germagny,Meljac,Germagny,1,23
+est-ce qu'on peut rejoindre boô-silhen en venant de gentioux-pigerolles ?,gentioux-pigerolles,boô-silhen,gentioux-pigerolles,boô-silhen,1,73
+Comment aller de Yquelon à Pontcirq ?,Yquelon,Pontcirq,Yquelon,Pontcirq,1,37
+itinéraire meudon vers lafrançaise,meudon,lafrançaise,meudon,lafrançaise,1,34
+Nancy m'a dit d'aller à Affléville,INVALID,Affléville,INVALID,,1,34
+Je veux aller de Marcieu vers Guivry,Marcieu,Guivry,Marcieu,Guivry,1,36
+Je cherche un itinéraire de La Chaussade vers La Croix-sur-Ourcq,La Chaussade,La Croix-sur-Ourcq,La Chaussade,La Croix-sur-Ourcq,1,64
+je pars pour Flammerécourt de Chaveignes,Chaveignes,Flammerécourt,Chaveignes,Flammerécourt,1,40
+comment je me rends a inglange depuis woustviller pour aller voir ma copine paris,woustviller,inglange,woustviller,inglange,1,81
+Je veux aller de Vendin-lès-Béthune vers Marigny-Marmande,Vendin-lès-Béthune,Marigny-Marmande,Vendin-lès-Béthune,Marigny-Marmande,1,57
+"Je passe par Le Mans, Angers et Nantes pour rejoindre Leménil-Mitry depuis Condé-en-Normandie",Condé-en-Normandie,Leménil-Mitry,"Le Mans, Angers et Nantes pour rejoindre Leménil-Mitry depuis Condé-en-Normandie",Nantes pour rejoindre Leménil-Mitry,0,93
+Aller de Monterfil à Melles,Monterfil,Melles,Monterfil,Melles,1,27
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+liaison baudres-erloy,baudres,erloy,baudres,erloy,1,21
+"Mon pote Jean-Marie m'attend à Mantenay-Montlin, je pars de Fleury-la-Forêt",Fleury-la-Forêt,Mantenay-Montlin,Fleury-la-Forêt,Mantenay-Montlin,1,75
+Aller de La Chapelle-de-Brain à Luc,La Chapelle-de-Brain,Luc,La Chapelle-de-Brain,Luc,1,35
+Je vais à Jonquières-Saint-Vincent,INVALID,Jonquières-Saint-Vincent,INVALID,,1,34
+Nancy m'a dit d'aller à Monbrun,INVALID,Monbrun,INVALID,,1,31
+Prochain train pour Gergueil,INVALID,Gergueil,INVALID,,1,28
+Nancy m'a dit d'aller à Saint-Germain-sur-Morin,INVALID,Saint-Germain-sur-Morin,INVALID,,1,47
+Comment aller de Camiac-et-Saint-Denis à Neuvy-en-Beauce ?,Camiac-et-Saint-Denis,Neuvy-en-Beauce,Camiac-et-Saint-Denis,Neuvy-en-Beauce,1,58
+Comment je me rends à Hérouville-en-Vexin depuis Boutteville pour aller voir ma copine Clara,Boutteville,Hérouville-en-Vexin,Boutteville,Hérouville-en-Vexin,1,92
+Je veux aller de Amy vers La Chaussée-Tirancourt,Amy,La Chaussée-Tirancourt,Amy,La Chaussée-Tirancourt,1,48
+Cherche un billet pour Grazay au départ de Saint-Parize-le-Châtel,Saint-Parize-le-Châtel,Grazay,Saint-Parize-le-Châtel,Grazay,1,65
+Retour de Loubédat vers Germainville,Germainville,Loubédat,Loubédat,Germainville,0,36
+Je vais à Saint-Amant-de-Nouère,INVALID,Saint-Amant-de-Nouère,INVALID,,1,31
+Je suis à Ozerailles et je dois me rendre à La Muraz,Ozerailles,La Muraz,Ozerailles,La Muraz,1,52
+Nancy m'a dit d'aller à Malaincourt-sur-Meuse,INVALID,Malaincourt-sur-Meuse,INVALID,,1,45
+Quel est le trajet entre Bonnetan et Buanes ?,Bonnetan,Buanes,Bonnetan,Buanes,1,45
+gare de puissalicon,INVALID,puissalicon,INVALID,,1,19
+Est-ce qu'on peut rejoindre Crouay en venant de Saint-Maurice-des-Noues ?,Saint-Maurice-des-Noues,Crouay,Saint-Maurice-des-Noues,Crouay,1,73
+"Vol Mareuil-sur-Lay-Dissais-Longny les Villages, c'est pour quand ?",Mareuil-sur-Lay-Dissais,Longny les Villages,Mareuil-sur-Lay-Dissais,Longny les Villages,1,67
+chui a Magnac-Bourg jveu alé a Terdeghem,Magnac-Bourg,Terdeghem,Magnac-Bourg,Terdeghem,1,40
+Je vais a Saint-Saud-Lacoussiere,INVALID,Saint-Saud-Lacoussiere,INVALID,,1,32
+"Je vais a Tronchoy, je pars de Saint-Priest-la-Plaine",Saint-Priest-la-Plaine,Tronchoy,Saint-Priest-la-Plaine,Tronchoy,1,53
+chui a Centres jveu ale a Saint-Andre-le-Gaz,Centres,Saint-Andre-le-Gaz,Centres,Saint-Andre-le-Gaz,1,44
+Prochain départ de Limeray pour Replonges,Limeray,Replonges,Limeray,Replonges,1,41
+Itinéraire La Croix-sur-Ourcq vers Marquillies,La Croix-sur-Ourcq,Marquillies,La Croix-sur-Ourcq,Marquillies,1,46
+je cherche un itinéraire de cornillon vers bermerain,cornillon,bermerain,cornillon,bermerain,1,52
+Itinéraire Montigny-lès-Arsures vers Brethel,Montigny-lès-Arsures,Brethel,Montigny-lès-Arsures,Brethel,1,44
+Comment aller à Flavigny en partant de Monlezun ?,Monlezun,Flavigny,Monlezun,Flavigny,1,49
+je pars pour vignes-la-côte de sugères,sugères,vignes-la-côte,sugères,vignes-la-côte,1,38
+Je cherche un itinéraire de Ternas vers Ervauville,Ternas,Ervauville,Ternas,Ervauville,1,50
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+nancy m'a dit d'aller à luppy,INVALID,luppy,INVALID,,1,29
+Le temps est a l'averse,INVALID,,INVALID,,1,23
+trajet pour trévillach depuis thairé,thairé,trévillach,thairé,trévillach,1,36
+Est-ce qu'on peut rejoindre Saint-Pantaléon-de-Larche en venant de Avanne-Aveney ?,Avanne-Aveney,Saint-Pantaléon-de-Larche,Avanne-Aveney,Saint-Pantaléon-de-Larche,1,82
+Jvais à Thaumiers dpuis Inaumont,Inaumont,Thaumiers,Inaumont,Thaumiers,1,32
+Jsuis Villeneuve-d'Aval. Bon jvais a Maisnil,Villeneuve-d'Aval,Maisnil,Villeneuve-d'Aval,Maisnil,1,44
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+je souhaite aller de mouriez à blaziert,mouriez,blaziert,mouriez,blaziert,1,39
+"Je passe par Le Mans, Angers et Nantes pour rejoindre Éclimeux depuis La Chaussée-Tirancourt",La Chaussée-Tirancourt,Éclimeux,"Le Mans, Angers et Nantes pour rejoindre Éclimeux depuis La Chaussée-Tirancourt",Nantes pour rejoindre Éclimeux,0,92
+Je veux me rendre à Arfons de Saint-Pierre-de-Colombier,Arfons,Saint-Pierre-de-Colombier,Arfons,Saint-Pierre-de-Colombier,1,55
+Je suis à Bois-de-la-Pierre et je dois me rendre à Villar-Loubière,Bois-de-la-Pierre,Villar-Loubière,Bois-de-la-Pierre,Villar-Loubière,1,66
+Quel est le trajet entre Soindres et Duzey ?,Soindres,Duzey,Soindres,Duzey,1,44
+Gare de Morée,INVALID,Morée,INVALID,,1,13
+flammerans jusqu'à perrogney-les-fontaines,flammerans,perrogney-les-fontaines,flammerans,perrogney-les-fontaines,1,42
+"Mon pote Mario m'attend a Ancone, je pars de Etampes-sur-Marne",Etampes-sur-Marne,Ancone,Etampes-sur-Marne,Ancone,1,62
+je décolle de pont-de-barret direction boubers-lès-hesmond,pont-de-barret,boubers-lès-hesmond,pont-de-barret,boubers-lès-hesmond,1,58
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+"Mon pote Florence m'attend à Saint-Pierre-de-Chartreuse, je pars de Saint-Julien-Mont-Denis",Saint-Julien-Mont-Denis,Saint-Pierre-de-Chartreuse,Saint-Julien-Mont-Denis,Saint-Pierre-de-Chartreuse,1,91
+Je veux aller de Lougé-sur-Maire vers Puycornet,Lougé-sur-Maire,Puycornet,Lougé-sur-Maire,Puycornet,1,47
+Jvais à Le Tronchet dpuis Saint-Dos,Saint-Dos,Le Tronchet,Saint-Dos,Le Tronchet,1,35
+Gare de Monestier-Merlines,INVALID,Monestier-Merlines,INVALID,,1,26
+"Mon pote Kevin m'attend à Cazaux, je pars de Wingen",Wingen,Cazaux,Wingen,Cazaux,1,51
+Trajet Landévant Chissay-en-Touraine,Landévant,Chissay-en-Touraine,Landévant,Chissay-en-Touraine,1,36
+Faut qu'jaille a Santa-Maria-di-Lota,INVALID,Santa-Maria-di-Lota,INVALID,,1,36
+"Faut que j'aille à Saint-Sauveur-Lalande, je suis actuellement à Les Deux-Fays",Les Deux-Fays,Saint-Sauveur-Lalande,Les Deux-Fays,Saint-Sauveur-Lalande,1,78
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Prochain départ de Sulignat pour Les Pineaux,Sulignat,Les Pineaux,Sulignat,Les Pineaux,1,44
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je passe par Lyon pour aller de Bonningues-lès-Ardres à Tilloloy,Bonningues-lès-Ardres,Tilloloy,Bonningues-lès-Ardres,Tilloloy,1,64
+Prochain départ de Saint-Laurent-sur-Gorre pour Tréveray,Saint-Laurent-sur-Gorre,Tréveray,Saint-Laurent-sur-Gorre,Tréveray,1,56
+Cherche un billet pour Chirens au départ de Haute-Amance,Haute-Amance,Chirens,Haute-Amance,Chirens,1,56
+Direction Blomard,INVALID,Blomard,INVALID,,1,17
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+"Mon pote Naya m'attend à Saint Martin de l'If, je pars de Les Artigues-de-Lussac",Les Artigues-de-Lussac,Saint Martin de l'If,Les Artigues-de-Lussac,Saint Martin de l'If,1,80
+Je cherche un itineraire de Bertric-Buree vers Cagnotte,Bertric-Buree,Cagnotte,Bertric-Buree,Cagnotte,1,55
+Nancy m'a dit d'aller à Tramain,INVALID,Tramain,INVALID,,1,31
+Est-ce qu'on peut rejoindre Grandcourt en venant de Milhars ?,Milhars,Grandcourt,Milhars,Grandcourt,1,61
+Je vais à Bretagne-d'Armagnac,INVALID,Bretagne-d'Armagnac,INVALID,,1,29
+Je souhaite aller de Chalo-Saint-Mars à Saint-Julien-Vocance,Chalo-Saint-Mars,Saint-Julien-Vocance,Chalo-Saint-Mars,Saint-Julien-Vocance,1,60
+comment je me rends à beaulieu-sur-oudon depuis sainte-anne-saint-priest pour aller voir ma copine solange,sainte-anne-saint-priest,beaulieu-sur-oudon,sainte-anne-saint-priest,beaulieu-sur-oudon,1,106
+cherche un billet pour anglure-sous-dun au départ de clairoix,clairoix,anglure-sous-dun,clairoix,anglure-sous-dun,1,61
+"Mon pote Jean-Pierre m'attend à Menchhoffen, je pars de Clohars-Fouesnant",Clohars-Fouesnant,Menchhoffen,Clohars-Fouesnant,Menchhoffen,1,73
+Marck jusqu'à Saint-Germain-le-Guillaume,Marck,Saint-Germain-le-Guillaume,Marck,Saint-Germain-le-Guillaume,1,40
+Cherche un billet pour Peyriguère au départ de Marsolan,Marsolan,Peyriguère,Marsolan,Peyriguère,1,55
+"Faut que j'aille a Dun, je suis actuellement a Saint-Hilaire-en-Lignieres",Saint-Hilaire-en-Lignieres,Dun,Saint-Hilaire-en-Lignieres,Dun,1,73
+Je passe par Lyon pour aller de La Chaise-Dieu à Saint-Rémy-de-Provence,La Chaise-Dieu,Saint-Rémy-de-Provence,La Chaise-Dieu,Saint-Rémy-de-Provence,1,71
+nancy m'a dit d'aller à izeron,INVALID,izeron,INVALID,,1,30
+Jvais à Vignot dpuis Vermenton,Vermenton,Vignot,Vermenton,Vignot,1,30
+Prochain départ de Mesnil-Sellières pour La Crèche,Mesnil-Sellières,La Crèche,Mesnil-Sellières,La Crèche,1,50
+Liaison Grancey-sur-Ource-Servigney,Grancey-sur-Ource,Servigney,Grancey-sur-Ource,Servigney,1,35
+Aller de Granges-d'Ans à Kerien,Granges-d'Ans,Kerien,Granges-d'Ans,Kerien,1,31
+Comment je me rends à Ourdis-Cotdoussan depuis Mory pour aller voir ma copine Copernicus,Mory,Ourdis-Cotdoussan,Mory,Ourdis-Cotdoussan,1,88
+"Demain, je vais voir mon amie Alain qui habite à Annezin, je pars de Bléré",Bléré,Annezin,Bléré,Annezin,1,74
+Y'a quoi comme transport entre Our et Neauphlette ?,Our,Neauphlette,Our,Neauphlette,1,51
+je passe par lyon pour aller de replonges à combaillaux,replonges,combaillaux,replonges,combaillaux,1,55
+Comment aller de Dangu a Cellefrouin ?,Dangu,Cellefrouin,Dangu,Cellefrouin,1,38
+J'aime voyager,INVALID,,INVALID,,1,14
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+"je passe par le mans, angers et nantes pour rejoindre gévezé depuis huttenheim",huttenheim,gévezé,"le mans, angers et nantes pour rejoindre gévezé depuis huttenheim",nantes pour rejoindre gévezé,0,78
+comment aller à lescure en partant de melleroy ?,melleroy,lescure,melleroy,lescure,1,48
+"Je vais à Bonnet, je pars de Prunet-et-Belpuig",Prunet-et-Belpuig,Bonnet,Prunet-et-Belpuig,Bonnet,1,46
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+chui a faudoas jveu alé a saint-biez-en-belin,faudoas,saint-biez-en-belin,faudoas,saint-biez-en-belin,1,45
+je pars pour Féricy de Vidaillat,Vidaillat,Féricy,Vidaillat,Féricy,1,32
+Comment aller à Vallières-sur-Fier en partant de Verseilles-le-Bas ?,Verseilles-le-Bas,Vallières-sur-Fier,Verseilles-le-Bas,Vallières-sur-Fier,1,68
+Je cherche un itinéraire de Hundsbach vers Aulnois,Hundsbach,Aulnois,Hundsbach,Aulnois,1,50
+Quel est le trajet entre Plehedel et Lizine ?,Plehedel,Lizine,Plehedel,Lizine,1,45
+Prochain train pour Quelmes,INVALID,Quelmes,INVALID,,1,27
+Comment je me rends à Retonfey depuis Peyrehorade pour aller voir ma copine Rob,Peyrehorade,Retonfey,Peyrehorade,Retonfey,1,79
+retour de villevieux vers lynde,lynde,villevieux,villevieux,lynde,0,31
+Direction Ville-au-Montois,INVALID,Ville-au-Montois,INVALID,,1,26
+comment aller à le tranger en partant de savignac-de-miremont ?,savignac-de-miremont,le tranger,savignac-de-miremont,le tranger,1,63
+Aller de Verin a Mont-Louis,Verin,Mont-Louis,Verin,Mont-Louis,1,27
+Je décolle de Valmascle direction Metz,Valmascle,Metz,Valmascle,Metz,1,38
+Gare de Artres,INVALID,Artres,INVALID,,1,14
+Villers-sur-Authie jusqu'à Fours,Villers-sur-Authie,Fours,Villers-sur-Authie,Fours,1,32
+Nancy m'a dit d'aller à Le Marin,INVALID,Le Marin,INVALID,,1,32
+Je vais à Aboën,INVALID,Aboën,INVALID,,1,15
+Gare de Loulle,INVALID,Loulle,INVALID,,1,14
+Gare de Quemper-Guézennec,INVALID,Quemper-Guézennec,INVALID,,1,25
+Direction Bienvillers-au-Bois,INVALID,Bienvillers-au-Bois,INVALID,,1,29
+Jvais à Villeconin dpuis Merxheim,Merxheim,Villeconin,Merxheim,Villeconin,1,33
+Je suis à Vabre et je dois me rendre à Denain,Vabre,Denain,Vabre,Denain,1,45
+Je veux aller de Bauzemont vers Cognin-les-Gorges,Bauzemont,Cognin-les-Gorges,Bauzemont,Cognin-les-Gorges,1,49
+"Vol Soleymieux-La Chaussée, c'est pour quand ?",Soleymieux,La Chaussée,Soleymieux,-La Chaussée,1,46
+Comment je me rends à Les Bizots depuis Vienne-la-Ville pour aller voir ma copine Solange,Vienne-la-Ville,Les Bizots,Vienne-la-Ville,Les Bizots,1,89
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Itineraire Molosmes vers Valouse,Molosmes,Valouse,Molosmes,Valouse,1,32
+Faut qu'jaille à Erquery,INVALID,Erquery,INVALID,,1,24
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+nancy m'a dit d'aller à simiane-la-rotonde,INVALID,simiane-la-rotonde,INVALID,,1,42
+Cherche un billet pour Chazelles au départ de Haguenau,Haguenau,Chazelles,Haguenau,Chazelles,1,54
+"Vol Rilhac-Rancon-Saint-Paul-lès-Dax, c'est pour quand ?",Rilhac-Rancon,Saint-Paul-lès-Dax,Rilhac-Ranc,Rancon-Saint-Paul-lès-Dax,0,56
+"Je passe par Le Mans, Angers et Nantes pour rejoindre Saint-Jean-sur-Veyle depuis Viéville-en-Haye",Viéville-en-Haye,Saint-Jean-sur-Veyle,"Le Mans, Angers et Nantes pour rejoindre Saint-Jean-sur-Veyle depuis Viéville-en-Haye",Nantes pour rejoindre Saint-Jean-sur-Veyle,0,98
+Liaison Champigneulles-Lemmecourt,Champigneulles,Lemmecourt,Champigneulles,Lemmecourt,1,33
+"Mon pote George m'attend à Thiergeville, je pars de Nonhigny",Nonhigny,Thiergeville,Nonhigny,Thiergeville,1,60
+Jvais à Étaimpuis dpuis Don,Don,Étaimpuis,Don,Étaimpuis,1,27
+"je vais à aspres-lès-corps, je pars de gières",gières,aspres-lès-corps,gières,aspres-lès-corps,1,45
+nancy m'a dit d'aller à sacy,INVALID,sacy,INVALID,,1,28
+"Demain, je vais voir mon amie Alain qui habite à Vendoire, je pars de Touffreville",Touffreville,Vendoire,Touffreville,Vendoire,1,82
+Prochain départ de Gonneville-en-Auge pour Hurtières,Gonneville-en-Auge,Hurtières,Gonneville-en-Auge,Hurtières,1,52
+Gare de Barneville-la-Bertran,INVALID,Barneville-la-Bertran,INVALID,,1,29
+Trajet Mont-devant-Sassey Lanvéoc,Mont-devant-Sassey,Lanvéoc,Mont-devant-Sassey,Lanvéoc,1,33
+Comment aller à Payroux en partant de Aroffe ?,Aroffe,Payroux,Aroffe,Payroux,1,46
+"Faut que j'aille à Revigny, je suis actuellement à Saint-Honoré",Saint-Honoré,Revigny,Saint-Honoré,Revigny,1,63
+Gare de Gometz-le-Châtel,INVALID,Gometz-le-Châtel,INVALID,,1,24
+faut qu'jaille à la petite-pierre,INVALID,la petite-pierre,INVALID,,1,33
+Itinéraire Roquemaure vers Wadelincourt,Roquemaure,Wadelincourt,Roquemaure,Wadelincourt,1,39
+Je vais à Moulotte,INVALID,Moulotte,INVALID,,1,18
+Liaison Mont-Roc-Dun-sur-Grandry,Mont-Roc,Dun-sur-Grandry,Mont-Roc,Dun-sur-Grandry,1,32
+je veux aller de mont-roc vers le bellay-en-vexin,mont-roc,le bellay-en-vexin,mont-roc,le bellay-en-vexin,1,49
+Faut qu'jaille à Saint-Paul-le-Gaultier,INVALID,Saint-Paul-le-Gaultier,INVALID,,1,39
+Liaison Heuringhem-Thouron,Heuringhem,Thouron,Heuringhem,Thouron,1,26
+Jvais à Pont-du-Navoy dpuis Berles-Monchel,Berles-Monchel,Pont-du-Navoy,Berles-Monchel,Pont-du-Navoy,1,42
+Est-ce qu'on peut rejoindre Bubry en venant de Lourde ?,Lourde,Bubry,Lourde,Bubry,1,55
+est-ce qu'on peut rejoindre mesnil-saint-laurent en venant de woippy ?,woippy,mesnil-saint-laurent,woippy,mesnil-saint-laurent,1,70
+J'aime voyager,INVALID,,INVALID,,1,14
+je souhaite aller de saint-oulph a caligny,saint-oulph,caligny,saint-oulph,caligny,1,42
+Nancy m'a dit d'aller à Bagiry,INVALID,Bagiry,INVALID,,1,30
+Je décolle de La Breille-les-Pins direction Les Essarts-le-Vicomte,La Breille-les-Pins,Les Essarts-le-Vicomte,La Breille-les-Pins,Les Essarts-le-Vicomte,1,66
+Gare de Couziers,INVALID,Couziers,INVALID,,1,16
+"je vais à buhl, je pars de gagny",gagny,buhl,gagny,buhl,1,32
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Jvais à Les Églisottes-et-Chalaures dpuis Peyrun,Peyrun,Les Églisottes-et-Chalaures,Peyrun,Les Églisottes-et-Chalaures,1,48
+martainneville jusqu'à pommier-de-beaurepaire,martainneville,pommier-de-beaurepaire,martainneville,pommier-de-beaurepaire,1,45
+"Demain, je vais voir mon amie Camille qui habite à Steenbecque, je pars de Pressignac-Vicq",Pressignac-Vicq,Steenbecque,Pressignac-Vicq,Steenbecque,1,90
+Nancy m'a dit d'aller à Dung,INVALID,Dung,INVALID,,1,28
+chui a Lancié jveu alé a Cuincy,Lancié,Cuincy,Lancié,Cuincy,1,31
+je passe par lyon pour aller de boistrudan à verneiges,boistrudan,verneiges,boistrudan,verneiges,1,54
+Liaison Espiens-Germigny-l'Exempt,Espiens,Germigny-l'Exempt,Espiens,Germigny-l'Exempt,1,33
+je pars pour Chambourcy de Fresville,Fresville,Chambourcy,Fresville,Chambourcy,1,36
+Je vais a Heubecourt-Haricourt,INVALID,Heubecourt-Haricourt,INVALID,,1,30
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+chui a gemeaux jveu alé a franvillers,gemeaux,franvillers,gemeaux,franvillers,1,37
+j'aime voyager,INVALID,,INVALID,,1,14
+Jsuis Quiévelon. Bon jvais à Hilsprich,Quiévelon,Hilsprich,Quiévelon,Hilsprich,1,38
+faut qu'jaille à graçay,INVALID,graçay,INVALID,,1,23
+Comment je me rends a Vailly-sur-Sauldre depuis Kutzenhausen pour aller voir ma copine Kratos,Kutzenhausen,Vailly-sur-Sauldre,Kutzenhausen,Vailly-sur-Sauldre,1,93
+Je cherche un itineraire de Soings-en-Sologne vers Lavaqueresse,Soings-en-Sologne,Lavaqueresse,Soings-en-Sologne,Lavaqueresse,1,63
+Nancy m'a dit d'aller à Poilley,INVALID,Poilley,INVALID,,1,31
+chui a Danjoutin jveu alé a Venoy,Danjoutin,Venoy,Danjoutin,Venoy,1,33
+Je décolle de Ossen direction Cuzance,Ossen,Cuzance,Ossen,Cuzance,1,37
+Gare de La Neuville-au-Pont,INVALID,La Neuville-au-Pont,INVALID,,1,27
+Itinéraire Orus vers Les Éparres,Orus,Les Éparres,Orus,Les Éparres,1,32
+prochain depart de le verger pour espartignac,le verger,espartignac,le verger,espartignac,1,45
+chui a Avy jveu alé a Arcambal,Avy,Arcambal,Avy,Arcambal,1,30
+Prochain départ de Rougemont-le-Château pour La Vieille-Lyre,Rougemont-le-Château,La Vieille-Lyre,Rougemont-le-Château,La Vieille-Lyre,1,60
+je suis à miermaigne et je dois me rendre à hugier,miermaigne,hugier,miermaigne,hugier,1,50
+"Demain, je vais voir mon amie Karl qui habite à Russange, je pars de Erdeven",Erdeven,Russange,Erdeven,Russange,1,76
+Trajet pour Loubens-Lauragais depuis Grandcamp-Maisy,Grandcamp-Maisy,Loubens-Lauragais,Grandcamp-Maisy,Loubens-Lauragais,1,52
+Je souhaite aller de Montouliers à Sevrier,Montouliers,Sevrier,Montouliers,Sevrier,1,42
+Quel est le trajet entre Rubercy et Franqueville-Saint-Pierre ?,Rubercy,Franqueville-Saint-Pierre,Rubercy,Franqueville-Saint-Pierre,1,63
+Est-ce qu'on peut rejoindre Happencourt en venant de Notre-Dame-de-la-Mer ?,Notre-Dame-de-la-Mer,Happencourt,Notre-Dame-de-la-Mer,Happencourt,1,75
+Gare de Sieurac,INVALID,Sieurac,INVALID,,1,15
+Je suis à La Chapelle-Saint-Aubert et je dois me rendre à Castillon-du-Gard,La Chapelle-Saint-Aubert,Castillon-du-Gard,La Chapelle-Saint-Aubert,Castillon-du-Gard,1,75
+Jvais à Cerisiers dpuis Saint-Geniès-de-Malgoirès,Saint-Geniès-de-Malgoirès,Cerisiers,Saint-Geniès-de-Malgoirès,Cerisiers,1,49
+Nancy m'a dit d'aller à Treffiagat,INVALID,Treffiagat,INVALID,,1,34
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+"Faut que j'aille a Saint-Bonnet-la-Riviere, je suis actuellement a Ferriere-Larcon",Ferriere-Larcon,Saint-Bonnet-la-Riviere,Ferriere-Larcon,Saint-Bonnet-la-Riviere,1,82
+Comment aller de Argenteuil-sur-Armançon à La Tranclière ?,Argenteuil-sur-Armançon,La Tranclière,Argenteuil-sur-Armançon,La Tranclière,1,58
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Jvais a Bercenay-en-Othe dpuis Rilhac-Rancon,Rilhac-Rancon,Bercenay-en-Othe,Rilhac-Rancon,Bercenay-en-Othe,1,44
+Quel est le trajet entre Ecquevilly et Besain ?,Ecquevilly,Besain,Ecquevilly,Besain,1,47
+"Mon pote Ibanez m'attend à Romagnieu, je pars de Niderviller",Niderviller,Romagnieu,Niderviller,Romagnieu,1,60
+Je veux aller de Castéra-Lectourois vers Monhoudou,Castéra-Lectourois,Monhoudou,Castéra-Lectourois,Monhoudou,1,50
+je pars pour Caupenne-d'Armagnac de Le Poislay,Le Poislay,Caupenne-d'Armagnac,Le Poislay,Caupenne-d'Armagnac,1,46
+Nancy m'a dit d'aller à Sembadel,INVALID,Sembadel,INVALID,,1,32
+Gare de Salavre,INVALID,Salavre,INVALID,,1,15
+Je passe par Lyon pour aller de Maxilly-sur-Leman a Gambais,Maxilly-sur-Leman,Gambais,Maxilly-sur-Leman,Gambais,1,59
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Je cherche un itineraire de Saint-Jean-du-Thenney vers Villevocance,Saint-Jean-du-Thenney,Villevocance,Saint-Jean-du-Thenney,Villevocance,1,67
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+je vais au restaurant avec mon ami maxime,INVALID,,INVALID,,1,41
+Comment aller de Saint-Jean-de-Marcel à Le Mesnil-sur-Oger ?,Saint-Jean-de-Marcel,Le Mesnil-sur-Oger,Saint-Jean-de-Marcel,Le Mesnil-sur-Oger,1,60
+chui a saint-germain-d'anxure jveu alé a pierrefort,saint-germain-d'anxure,pierrefort,saint-germain-d'anxure,pierrefort,1,51
+Je cherche un itinéraire de Loubières vers Les Gours,Loubières,Les Gours,Loubières,Les Gours,1,52
+Comment aller de Sorde-l'Abbaye à Saint-Appolinard ?,Sorde-l'Abbaye,Saint-Appolinard,Sorde-l'Abbaye,Saint-Appolinard,1,52
+je pars pour Champagnac-de-Belair de Mirabel-aux-Baronnies,Mirabel-aux-Baronnies,Champagnac-de-Belair,Mirabel-aux-Baronnies,Champagnac-de-Belair,1,58
+Cherche un billet pour Castillon-de-Saint-Martory au départ de Montrol-Sénard,Montrol-Sénard,Castillon-de-Saint-Martory,Montrol-Sénard,Castillon-de-Saint-Martory,1,77
+Comment je me rends à Curgy depuis Bordeaux-Saint-Clair pour aller voir ma copine Ibanez,Bordeaux-Saint-Clair,Curgy,Bordeaux-Saint-Clair,Curgy,1,88
+Comment aller de Massac-Séran à Munchhausen ?,Massac-Séran,Munchhausen,Massac-Séran,Munchhausen,1,45
+nancy m'a dit d'aller à thoix,INVALID,thoix,INVALID,,1,29
+Gare de Aast,INVALID,Aast,INVALID,,1,12
+Trajet Herpy-l'Arlésienne Couchey,Herpy-l'Arlésienne,Couchey,Herpy-l'Arlésienne,Couchey,1,33
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Liaison Plévenon-Loriol-sur-Drôme,Plévenon,Loriol-sur-Drôme,Plévenon,Loriol-sur-Drôme,1,33
+Je veux me rendre à Bois-d'Amont de Neuville,Bois-d'Amont,Neuville,Bois-d'Amont,Neuville,1,44
+Je vais à Rouans,INVALID,Rouans,INVALID,,1,16
+comment je me rends à morsbach depuis cornac pour aller voir ma copine alex,cornac,morsbach,cornac,morsbach,1,75
+Je veux me rendre à Rochetaillée de Chauray,Rochetaillée,Chauray,Rochetaillée,Chauray,1,43
+Je suis à Grattepanche et je dois me rendre à Combaillaux,Grattepanche,Combaillaux,Grattepanche,Combaillaux,1,57
+Est-ce qu'on peut rejoindre Saint-Donat-sur-l'Herbasse en venant de Vergons ?,Vergons,Saint-Donat-sur-l'Herbasse,Vergons,Saint-Donat-sur-l'Herbasse,1,77
+Je vais à La Chapelle-Saint-Fray,INVALID,La Chapelle-Saint-Fray,INVALID,,1,32
+Jvais à Mareuil-en-Brie dpuis La Jarrie,La Jarrie,Mareuil-en-Brie,La Jarrie,Mareuil-en-Brie,1,39
+Je veux me rendre a Gavarnie-Gedre de Champagne-Mouton,Gavarnie-Gedre,Champagne-Mouton,Gavarnie-Gedre,Champagne-Mouton,1,54
+"Faut que j'aille à Druillat, je suis actuellement à Urvillers",Urvillers,Druillat,Urvillers,Druillat,1,61
+Je souhaite aller de Castelnau-Montratier-Sainte-Alauzie à Bazus-Aure,Castelnau-Montratier-Sainte-Alauzie,Bazus-Aure,Castelnau-Montratier-Sainte-Alauzie,Bazus-Aure,1,69
+chui a Aigneville jveu alé a Cahuzac-sur-Vère,Aigneville,Cahuzac-sur-Vère,Aigneville,Cahuzac-sur-Vère,1,45
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Prochain train pour Armissan,INVALID,Armissan,INVALID,,1,28
+gare de sainte-reine,INVALID,sainte-reine,INVALID,,1,20
+"Mon pote Alain m'attend à Merry-la-Vallée, je pars de Ribemont-sur-Ancre",Ribemont-sur-Ancre,Merry-la-Vallée,Ribemont-sur-Ancre,Merry-la-Vallée,1,72
+Direction Beauregard-Vendon,INVALID,Beauregard-Vendon,INVALID,,1,27
+chui a Ervauville jveu ale a Affleville,Ervauville,Affleville,Ervauville,Affleville,1,39
+Trajet Maisoncelle-et-Villers Lavoncourt,Maisoncelle-et-Villers,Lavoncourt,Maisoncelle-et-Villers,Lavoncourt,1,40
+je pars pour Épothémont de Arbois,Arbois,Épothémont,Arbois,Épothémont,1,33
+Je souhaite aller de Dieulouard à Combloux,Dieulouard,Combloux,Dieulouard,Combloux,1,42
+Gare de Ault,INVALID,Ault,INVALID,,1,12
+Cherche un billet pour Chessy au départ de Eppeville,Eppeville,Chessy,Eppeville,Chessy,1,52
+"je vais à veulettes-sur-mer, je pars de montredon",montredon,veulettes-sur-mer,montredon,veulettes-sur-mer,1,49
+Je veux me rendre à Chaillevette de Inxent,Chaillevette,Inxent,Chaillevette,Inxent,1,42
+Faut qu'jaille à Villardonnel,INVALID,Villardonnel,INVALID,,1,29
+Je passe par Lyon pour aller de Albiès à Prunay-Belleville,Albiès,Prunay-Belleville,Albiès,Prunay-Belleville,1,58
+cahagnes jusqu'à grand bourgtheroulde,cahagnes,grand bourgtheroulde,cahagnes,grand bourgtheroulde,1,37
+Comment aller à Changis-sur-Marne en partant de Gimont ?,Gimont,Changis-sur-Marne,Gimont,Changis-sur-Marne,1,56
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je suis à Mercus-Garrabet et je dois me rendre à Saint-Ouen-le-Pin,Mercus-Garrabet,Saint-Ouen-le-Pin,Mercus-Garrabet,Saint-Ouen-le-Pin,1,66
+Je souhaite aller de Saint-Jean-d'Elle à Champfleur,Saint-Jean-d'Elle,Champfleur,Saint-Jean-d'Elle,Champfleur,1,51
+"demain, je vais voir mon amie camille qui habite à sénéchas, je pars de soudan",soudan,sénéchas,soudan,sénéchas,1,78
+chui a Coutarnoux jveu alé a Avrieux,Coutarnoux,Avrieux,Coutarnoux,Avrieux,1,36
+Direction Chanu,INVALID,Chanu,INVALID,,1,15
+"Faut que j'aille à Couëtron-au-Perche, je suis actuellement à Mallemort",Mallemort,Couëtron-au-Perche,Mallemort,Couëtron-au-Perche,1,71
+Quel est le trajet entre Le Hanouard et Ars-sur-Moselle ?,Le Hanouard,Ars-sur-Moselle,Le Hanouard,Ars-sur-Moselle,1,57
+"Vol Courcoury-Allègre-les-Fumades, c'est pour quand ?",Courcoury,Allègre-les-Fumades,Courcoury,-Allègre-les-Fumades,1,53
+je passe par lyon pour aller de la bollène-vésubie à villetoureix,la bollène-vésubie,villetoureix,la bollène-vésubie,villetoureix,1,65
+Comment aller à Barcelonne en partant de Peuvillers ?,Peuvillers,Barcelonne,Peuvillers,Barcelonne,1,53
+Je veux aller de Léré vers Les Écorces,Léré,Les Écorces,Léré,Les Écorces,1,38
+"Faut que j'aille à Morsang-sur-Seine, je suis actuellement à Lanrigan",Lanrigan,Morsang-sur-Seine,Lanrigan,Morsang-sur-Seine,1,69
+Je veux aller de Le Val d'Hazey vers Suevres,Le Val d'Hazey,Suevres,Le Val d'Hazey,Suevres,1,44
+"Je vais à Romagne-sous-Montfaucon, je pars de Illtal",Illtal,Romagne-sous-Montfaucon,Illtal,Romagne-sous-Montfaucon,1,52
+Nancy m'a dit d'aller à Bressuire,INVALID,Bressuire,INVALID,,1,33
+Itinéraire Cadillon vers Saint-Quentin-les-Chardonnets,Cadillon,Saint-Quentin-les-Chardonnets,Cadillon,Saint-Quentin-les-Chardonnets,1,54
+Nancy m'a dit d'aller à Lartigue,INVALID,Lartigue,INVALID,,1,32
+Faut qu'jaille a Loison-sur-Crequoise,INVALID,Loison-sur-Crequoise,INVALID,,1,37
+trajet hannappes blendecques,hannappes,blendecques,hannappes,blendecques,1,28
+faut qu'jaille à cormicy,INVALID,cormicy,INVALID,,1,24
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+je vais à brou,INVALID,brou,INVALID,,1,14
+je vais à radonvilliers,INVALID,radonvilliers,INVALID,,1,23
+Gare de Chêne-Sec,INVALID,Chêne-Sec,INVALID,,1,17
+"Faut que j'aille à Curtil-Saint-Seine, je suis actuellement à Artigueloutan",Artigueloutan,Curtil-Saint-Seine,Artigueloutan,Curtil-Saint-Seine,1,75
+je passe par lyon pour aller de saint-andre-d'apchon a vaucourtois,saint-andre-d'apchon,vaucourtois,saint-andre-d'apchon,vaucourtois,1,66
+"Je passe par Le Mans, Angers et Nantes pour rejoindre Saint-Avold depuis Suevres",Suevres,Saint-Avold,"Le Mans, Angers et Nantes pour rejoindre Saint-Avold depuis Suevres",Nantes pour rejoindre Saint-Avold,0,80
+"Je passe par Le Mans, Angers et Nantes pour rejoindre La Houssaye-en-Brie depuis Tennie",Tennie,La Houssaye-en-Brie,"Le Mans, Angers et Nantes pour rejoindre La Houssaye-en-Brie depuis Tennie",Nantes pour rejoindre La Houssaye-en-Brie,0,87
+Je suis à Teurthéville-Hague et je dois me rendre à Landécourt,Teurthéville-Hague,Landécourt,Teurthéville-Hague,Landécourt,1,62
+Prochain depart de Julienas pour Cales,Julienas,Cales,Julienas,Cales,1,38
+Jsuis Meria. Bon jvais à Aubréville,Meria,Aubréville,INVALID,,0,35
+nancy m'a dit d'aller à hirson,INVALID,hirson,INVALID,,1,30
+Prochain départ de Congrier pour Corronsac,Congrier,Corronsac,Congrier,Corronsac,1,42
+"Je vais à Pizieux, je pars de Torigny-les-Villes",Torigny-les-Villes,Pizieux,Torigny-les-Villes,Pizieux,1,48
+Je vais a Epiais,INVALID,Epiais,INVALID,,1,16
+"Faut que j'aille à Saint-Anthot, je suis actuellement à Ébréon",Ébréon,Saint-Anthot,Ébréon,Saint-Anthot,1,62
+je veux aller de gilley vers lantenne-vertière,gilley,lantenne-vertière,gilley,lantenne-vertière,1,46
+Cherche un billet pour Fressancourt au départ de Fontivillié,Fontivillié,Fressancourt,Fontivillié,Fressancourt,1,60
+"je passe par le mans, angers et nantes pour rejoindre villampuy depuis bellegarde-du-razès",bellegarde-du-razès,villampuy,"le mans, angers et nantes pour rejoindre villampuy depuis bellegarde-du-razès",nantes pour rejoindre villampuy,0,90
+"demain, je vais voir mon amie jessica qui habite à orbais-l'abbaye, je pars de loix",loix,orbais-l'abbaye,loix,orbais-l'abbaye,1,83
+Gare de Ancelle,INVALID,Ancelle,INVALID,,1,15
+Comment aller à Cauroy en partant de La Rivière-Drugeon ?,La Rivière-Drugeon,Cauroy,La Rivière-Drugeon,Cauroy,1,57
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Je souhaite aller de Chinon à Saint-Baslemont,Chinon,Saint-Baslemont,Chinon,Saint-Baslemont,1,45
+Gare de Bivès,INVALID,Bivès,INVALID,,1,13
+Jsuis Fontenay-Mauvoisin. Bon jvais à Villiers-Couture,Fontenay-Mauvoisin,Villiers-Couture,Fontenay-Mauvoisin.,Villiers-Couture,1,54
+Je cherche un itineraire de Gatteville-le-Phare vers Beaufort,Gatteville-le-Phare,Beaufort,Gatteville-le-Phare,Beaufort,1,61
+direction saint-étienne-la-varenne,INVALID,saint-étienne-la-varenne,INVALID,,1,34
+"Mon pote Clara m'attend à Maurens, je pars de Glandage",Glandage,Maurens,Glandage,Maurens,1,54
+Comment je me rends à Fréchou depuis Vivès pour aller voir ma copine Jean-Pierre,Vivès,Fréchou,Vivès,Fréchou,1,80
+je décolle de guivry direction haboudange,guivry,haboudange,guivry,haboudange,1,41
+liaison marconne-rouvres-en-xaintois,marconne,rouvres-en-xaintois,marconne,rouvres-en-xaintois,1,36
+"Demain, je vais voir mon amie Camille qui habite à Huillé-Lézigné, je pars de Mont-lès-Seurre",Mont-lès-Seurre,Huillé-Lézigné,Mont-lès-Seurre,Huillé-Lézigné,1,93
+Jvais à Aventignan dpuis L'Étang-Vergy,L'Étang-Vergy,Aventignan,L'Étang-Vergy,Aventignan,1,38
+Comment aller de Rilhac-Rancon a Lussas-et-Nontronneau ?,Rilhac-Rancon,Lussas-et-Nontronneau,Rilhac-Rancon,Lussas-et-Nontronneau,1,56
+Nancy m'a dit d'aller à Saumur,INVALID,Saumur,INVALID,,1,30
+Je passe par Lyon pour aller de Carbuccia à Mée,Carbuccia,Mée,Carbuccia,Mée,1,47
+Y'a quoi comme transport entre Courpiere et Cheissoux ?,Courpiere,Cheissoux,Courpiere,Cheissoux,1,55
+"Faut que j'aille à Boufflers, je suis actuellement à Cussangy",Cussangy,Boufflers,Cussangy,Boufflers,1,61
+Je passe par Lyon pour aller de Villeneuve-sur-Conie à Lihons,Villeneuve-sur-Conie,Lihons,Villeneuve-sur-Conie,Lihons,1,61
+Prochain départ de Vignevieille pour Caëstre,Vignevieille,Caëstre,Vignevieille,Caëstre,1,44
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je suis a Peyriat et je dois me rendre a Vitry-sur-Loire,Peyriat,Vitry-sur-Loire,Peyriat,Vitry-sur-Loire,1,56
+J'aime voyager,INVALID,,INVALID,,1,14
+Itineraire Naives-Rosieres vers Rennepont,Naives-Rosieres,Rennepont,Naives-Rosieres,Rennepont,1,41
+Retour de Bert vers Pihen-lès-Guînes,Pihen-lès-Guînes,Bert,Bert,Pihen-lès-Guînes,0,36
+valette jusqu'a la celle-sous-chantemerle,valette,la celle-sous-chantemerle,valette,la celle-sous-chantemerle,1,41
+Cherche un billet pour Auriac-sur-Dropt au départ de Gourdièges,Gourdièges,Auriac-sur-Dropt,Gourdièges,Auriac-sur-Dropt,1,63
+Je vais à Fontenay-sous-Fouronnes,INVALID,Fontenay-sous-Fouronnes,INVALID,,1,33
+Prochain train pour Saint-Pierre-de-Chignac,INVALID,Saint-Pierre-de-Chignac,INVALID,,1,43
+Faut qu'jaille a Garrey,INVALID,Garrey,INVALID,,1,23
+"Je vais à Oulon, je pars de Le Wast",Le Wast,Oulon,Le Wast,Oulon,1,35
+Aller de Clansayes à Thenelles,Clansayes,Thenelles,Clansayes,Thenelles,1,30
+aller de aillianville à laugnac,aillianville,laugnac,aillianville,laugnac,1,31
+"Mon pote Ibanez m'attend à Yèvres, je pars de Croixrault",Croixrault,Yèvres,Croixrault,Yèvres,1,56
+Pommeret jusqu'à Le Castellet,Pommeret,Le Castellet,Pommeret,Le Castellet,1,29
+Je passe par Lyon pour aller de Rolleboise à Ur,Rolleboise,Ur,Rolleboise,Ur,1,47
+"Faut que j'aille à Boyer, je suis actuellement à Faux-Mazuras",Faux-Mazuras,Boyer,Faux-Mazuras,Boyer,1,61
+nancy m'a dit d'aller à saint-pierre-canivet,INVALID,saint-pierre-canivet,INVALID,,1,44
+Itinéraire Saint-Martin-Lalande vers Saint-Germain-le-Gaillard,Saint-Martin-Lalande,Saint-Germain-le-Gaillard,Saint-Martin-Lalande,Saint-Germain-le-Gaillard,1,62
+Prochain départ de Mana pour Sevrai,Mana,Sevrai,Mana,Sevrai,1,35
+Est-ce qu'on peut rejoindre Boulon en venant de Belloy-sur-Somme ?,Belloy-sur-Somme,Boulon,Belloy-sur-Somme,Boulon,1,66
+"Vol Saint-Martin-sur-Ocre-Hayes, c'est pour quand ?",Saint-Martin-sur-Ocre,Hayes,Saint,-Martin-sur-Ocre-Hayes,0,51
+nancy m'a dit d'aller à blacqueville,INVALID,blacqueville,INVALID,,1,36
+J'aime voyager,INVALID,,INVALID,,1,14
+Je veux me rendre à Jouvençon de Cervières,Jouvençon,Cervières,Jouvençon,Cervières,1,42
+chui a baracé jveu alé a chalandry,baracé,chalandry,baracé,chalandry,1,34
+Est-ce qu'on peut rejoindre Massac-Séran en venant de Monlezun ?,Monlezun,Massac-Séran,Monlezun,Massac-Séran,1,64
+le temps est à l'averse,INVALID,,INVALID,,1,23
+Faut qu'jaille à Meursac,INVALID,Meursac,INVALID,,1,24
+Direction Saint-Martin-d'Audouville,INVALID,Saint-Martin-d'Audouville,INVALID,,1,35
+faut qu'jaille à roquesérière,INVALID,roquesérière,INVALID,,1,29
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+"Mon pote Pierre-Edouard m'attend à Baisieux, je pars de Heugnes",Heugnes,Baisieux,Heugnes,Baisieux,1,63
+Nancy m'a dit d'aller à Siegen,INVALID,Siegen,INVALID,,1,30
+Aller de Sauveterre-de-Béarn à Avord,Sauveterre-de-Béarn,Avord,Sauveterre-de-Béarn,Avord,1,36
+Direction Manot,INVALID,Manot,INVALID,,1,15
+Est-ce qu'on peut rejoindre Dallon en venant de Chemillé-sur-Dême ?,Chemillé-sur-Dême,Dallon,Chemillé-sur-Dême,Dallon,1,67
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+je pars pour chalautre-la-grande de monbardon,monbardon,chalautre-la-grande,monbardon,chalautre-la-grande,1,45
+Comment aller à Saint-Sever-du-Moustier en partant de Riaville ?,Riaville,Saint-Sever-du-Moustier,Riaville,Saint-Sever-du-Moustier,1,64
+Je décolle de Beauregard-l'Évêque direction Werentzhouse,Beauregard-l'Évêque,Werentzhouse,Beauregard-l'Évêque,Werentzhouse,1,56
+je pars pour Bransat de Crastes,Crastes,Bransat,Crastes,Bransat,1,31
+chui a sailly-laurette jveu alé a fressac,sailly-laurette,fressac,sailly-laurette,fressac,1,41
+Comment aller à Huttenheim en partant de Pont-Saint-Martin ?,Pont-Saint-Martin,Huttenheim,Pont-Saint-Martin,Huttenheim,1,60
+je cherche un itineraire de acy-en-multien vers saint-just-en-chevalet,acy-en-multien,saint-just-en-chevalet,acy-en-multien,saint-just-en-chevalet,1,70
+je veux aller de cuzance vers bouligneux,cuzance,bouligneux,cuzance,bouligneux,1,40
+Cherche un billet pour Courtes au départ de Souvigné-sur-Sarthe,Souvigné-sur-Sarthe,Courtes,Souvigné-sur-Sarthe,Courtes,1,63
+prochain départ de esquièze-sère pour notre-dame-de-l'osier,esquièze-sère,notre-dame-de-l'osier,esquièze-sère,notre-dame-de-l'osier,1,59
+Comment aller à Claviers en partant de Wuisse ?,Wuisse,Claviers,Wuisse,Claviers,1,47
+Je décolle de Fonters-du-Razès direction Loigny-la-Bataille,Fonters-du-Razès,Loigny-la-Bataille,Fonters-du-Razès,Loigny-la-Bataille,1,59
+Je vais à Val-du-Maine,INVALID,Val-du-Maine,INVALID,,1,22
+Faut qu'jaille à Samer,INVALID,Samer,INVALID,,1,22
+Je vais a Surgy,INVALID,Surgy,INVALID,,1,15
+Trajet Ascheres-le-Marche La Boulaye,Ascheres-le-Marche,La Boulaye,Ascheres-le-Marche,La Boulaye,1,36
+Quel est le trajet entre Villeneuve-de-Marc et Thonac ?,Villeneuve-de-Marc,Thonac,Villeneuve-de-Marc,Thonac,1,55
+le temps est a l'averse,INVALID,,INVALID,,1,23
+Jvais à Cambiac dpuis Fontenay-sur-Conie,Fontenay-sur-Conie,Cambiac,Fontenay-sur-Conie,Cambiac,1,40
+Je décolle de Chauvincourt-Provemont direction Mauléon-Barousse,Chauvincourt-Provemont,Mauléon-Barousse,Chauvincourt-Provemont,Mauléon-Barousse,1,63
+Aller de Porto-Vecchio à Marsilly,Porto-Vecchio,Marsilly,Porto-Vecchio,Marsilly,1,33
+Comment je me rends a Glatens depuis Nesle-le-Repons pour aller voir ma copine Karl,Nesle-le-Repons,Glatens,Nesle-le-Repons,Glatens,1,83
+aller de la grande-verrière à saint-lamain,la grande-verrière,saint-lamain,la grande-verrière,saint-lamain,1,42
+J'aime voyager,INVALID,,INVALID,,1,14
+faut qu'jaille à chauvigné,INVALID,chauvigné,INVALID,,1,26
+Comment aller à Fressancourt en partant de Hesse ?,Hesse,Fressancourt,Hesse,Fressancourt,1,50
+Je passe par Lyon pour aller de La Grande-Verrière à Nanteuil-sur-Marne,La Grande-Verrière,Nanteuil-sur-Marne,La Grande-Verrière,Nanteuil-sur-Marne,1,71
+"Vol Assas-Marcillac-Vallon, c'est pour quand ?",Assas,Marcillac-Vallon,Assas,-Marcillac-Vallon,1,46
+Itinéraire Chartronges vers Chaux-la-Lotière,Chartronges,Chaux-la-Lotière,Chartronges,Chaux-la-Lotière,1,44
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je veux me rendre à Béon de Éclimeux,Béon,Éclimeux,Béon,Éclimeux,1,36
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+Je veux aller de Wailly vers Laboutarie,Wailly,Laboutarie,Wailly,Laboutarie,1,39
+Gare de Corancy,INVALID,Corancy,INVALID,,1,15
+Quel est le trajet entre Aix-en-Ergny et Minzac ?,Aix-en-Ergny,Minzac,Aix-en-Ergny,Minzac,1,49
+Prochain départ de Saint-Pierre-des-Ormes pour Le Crouzet,Saint-Pierre-des-Ormes,Le Crouzet,Saint-Pierre-des-Ormes,Le Crouzet,1,57
+Comment aller de Le Rozel a Betz ?,Le Rozel,Betz,Le Rozel,Betz,1,34
+comment aller à corbonod en partant de maconcourt ?,maconcourt,corbonod,maconcourt,corbonod,1,51
+J'aime voyager,INVALID,,INVALID,,1,14
+Cherche un billet pour Sorède au départ de Sonac,Sonac,Sorède,Sonac,Sorède,1,48
+Direction Coulon,INVALID,Coulon,INVALID,,1,16
+je pars pour Duffort de Brando,Brando,Duffort,Brando,Duffort,1,30
+comment aller de rosieres-aux-salines a douvrin ?,rosieres-aux-salines,douvrin,rosieres-aux-salines,douvrin,1,49
+Est-ce qu'on peut rejoindre Saint-Manvieu-Norrey en venant de Bourg-Archambault ?,Bourg-Archambault,Saint-Manvieu-Norrey,Bourg-Archambault,Saint-Manvieu-Norrey,1,81
+gare de la fosse-corduan,INVALID,la fosse-corduan,INVALID,,1,24
+Faut qu'jaille à Salagnac,INVALID,Salagnac,INVALID,,1,25
+chui a Beuvardes jveu alé a Gouézec,Beuvardes,Gouézec,Beuvardes,Gouézec,1,35
+Direction Peyrat-le-Château,INVALID,Peyrat-le-Château,INVALID,,1,27
+Liaison Chadenac-Bey,Chadenac,Bey,Chadenac,Bey,1,20
+Je vais a Courchapon,INVALID,Courchapon,INVALID,,1,20
+est-ce qu'on peut rejoindre pierrefitte-sur-loire en venant de retonfey ?,retonfey,pierrefitte-sur-loire,retonfey,pierrefitte-sur-loire,1,73
+jsuis puttelange-lès-thionville. bon jvais à gonesse,puttelange-lès-thionville,gonesse,puttelange-lès-thionville,gonesse,1,52
+Liaison Tronville-en-Barrois-Willerwald,Tronville-en-Barrois,Willerwald,Tronville-en-Barrois,Willerwald,1,39
+"Mon pote Mario m'attend à Lent, je pars de Semillac",Semillac,Lent,Semillac,Lent,1,51
+Direction Causses-et-Veyran,INVALID,Causses-et-Veyran,INVALID,,1,27
+Je vais à Oisy-le-Verger,INVALID,Oisy-le-Verger,INVALID,,1,24
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+nancy m'a dit d'aller à longeau-percey,INVALID,longeau-percey,INVALID,,1,38
+"Je vais à Montpinchon, je pars de Nevoy",Nevoy,Montpinchon,Nevoy,Montpinchon,1,39
+Faut qu'jaille à La Plaine-sur-Mer,INVALID,La Plaine-sur-Mer,INVALID,,1,34
+Je passe par Lyon pour aller de Nénigan à Darazac,Nénigan,Darazac,Nénigan,Darazac,1,49
+Faut qu'jaille a Le Poujol-sur-Orb,INVALID,Le Poujol-sur-Orb,INVALID,,1,34
+Je veux me rendre a Biot de Crottet,Biot,Crottet,Biot,Crottet,1,35
+Prochain train pour Champigneulles,INVALID,Champigneulles,INVALID,,1,34
+Je souhaite aller de Audeloncourt a Terny-Sorny,Audeloncourt,Terny-Sorny,Audeloncourt,Terny-Sorny,1,47
+Comment aller à Buigny-l'Abbé en partant de Maurois ?,Maurois,Buigny-l'Abbé,Maurois,Buigny-l'Abbé,1,53
+Prochain train pour La Tourette,INVALID,La Tourette,INVALID,,1,31
+Comment aller de Rabouillet a Le Morne-Vert ?,Rabouillet,Le Morne-Vert,Rabouillet,Le Morne-Vert,1,45
+Je cherche un itinéraire de La Serre vers Essarois,La Serre,Essarois,La Serre,Essarois,1,50
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Est-ce qu'on peut rejoindre Saint-Martin-de-Sescas en venant de Crépon ?,Crépon,Saint-Martin-de-Sescas,Crépon,Saint-Martin-de-Sescas,1,72
+Trajet pour Montreuil-sur-Maine depuis Meilhac,Meilhac,Montreuil-sur-Maine,Meilhac,Montreuil-sur-Maine,1,46
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Nancy m'a dit d'aller a Chaux-Champagny,INVALID,Chaux-Champagny,INVALID,,1,39
+sormery jusqu'à nouvion-et-catillon,sormery,nouvion-et-catillon,sormery,nouvion-et-catillon,1,35
+nancy m'a dit d'aller à villebret,INVALID,villebret,INVALID,,1,33
+Direction Gahard,INVALID,Gahard,INVALID,,1,16
+Comment aller de Vendin-lès-Béthune à Boutigny ?,Vendin-lès-Béthune,Boutigny,Vendin-lès-Béthune,Boutigny,1,48
+Je veux me rendre à Sougeal de Saint-Sylvestre-de-Cormeilles,Sougeal,Saint-Sylvestre-de-Cormeilles,Sougeal,Saint-Sylvestre-de-Cormeilles,1,60
+je pars pour saint-pardoux-la-rivière de le tiercent,le tiercent,saint-pardoux-la-rivière,le tiercent,saint-pardoux-la-rivière,1,52
+"Demain, je vais voir mon amie Kratos qui habite à Montigny-Montfort, je pars de Courcelles-en-Barrois",Courcelles-en-Barrois,Montigny-Montfort,Courcelles-en-Barrois,Montigny-Montfort,1,101
+Je suis à Bouligney et je dois me rendre à Plussulien,Bouligney,Plussulien,Bouligney,Plussulien,1,53
+Faut qu'jaille a Saint-Denis-de-Mailloc,INVALID,Saint-Denis-de-Mailloc,INVALID,,1,39
+Est-ce qu'on peut rejoindre Croce en venant de Maurs ?,Maurs,Croce,Maurs,Croce,1,54
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Trajet Marbeuf Annoisin-Chatelans,Marbeuf,Annoisin-Chatelans,Marbeuf,Annoisin-Chatelans,1,33
+je vais à rou-marson,INVALID,rou-marson,INVALID,,1,20
+Jsuis Thoigné. Bon jvais à Caouënnec-Lanvézéac,Thoigné,Caouënnec-Lanvézéac,Thoigné,Caouënnec-Lanvézéac,1,46
+Je décolle de Saint-Cast-le-Guildo direction Fontenay-aux-Roses,Saint-Cast-le-Guildo,Fontenay-aux-Roses,Saint-Cast-le-Guildo,Fontenay-aux-Roses,1,63
+Comment aller de Morne-à-l'Eau à Fréménil ?,Morne-à-l'Eau,Fréménil,Morne-à-l'Eau,Fréménil,1,43
+"mon pote camille m'attend à rioms, je pars de le charmel",le charmel,rioms,le charmel,rioms,1,56
+Nerbis jusqu'à Bellinghem,Nerbis,Bellinghem,Nerbis,Bellinghem,1,25
+Nancy m'a dit d'aller à Poussay,INVALID,Poussay,INVALID,,1,31
+je pars pour Vauréal de Bars,Bars,Vauréal,Bars,Vauréal,1,28
+Quel est le trajet entre Mezilles et Hesbecourt ?,Mezilles,Hesbecourt,Mezilles,Hesbecourt,1,49
+faut qu'jaille à jonquières-saint-vincent,INVALID,jonquières-saint-vincent,INVALID,,1,41
+Écaquelon jusqu'à Haut-du-Them-Château-Lambert,Écaquelon,Haut-du-Them-Château-Lambert,Écaquelon,Haut-du-Them-Château-Lambert,1,46
+Liaison Nesle-le-Repons-Saint-Cyr-sur-Loire,Nesle-le-Repons,Saint-Cyr-sur-Loire,Nesle-le-Repons,Saint-Cyr-sur-Loire,1,43
+Je veux aller de Marsoulas vers Lanester,Marsoulas,Lanester,Marsoulas,Lanester,1,40
+Je cherche un itinéraire de Marchais vers Wambercourt,Marchais,Wambercourt,Marchais,Wambercourt,1,53
+Prochain train pour Rognac,INVALID,Rognac,INVALID,,1,26
+je pars pour Val-du-Mignon de Rurey,Rurey,Val-du-Mignon,Rurey,Val-du-Mignon,1,35
+je pars pour Nucourt de Sabalos,Sabalos,Nucourt,Sabalos,Nucourt,1,31
+J'aime voyager,INVALID,,INVALID,,1,14
+"je vais à génelard, je pars de diemeringen",diemeringen,génelard,diemeringen,génelard,1,42
+je pars pour Villefranche-de-Rouergue de Katzenthal,Katzenthal,Villefranche-de-Rouergue,Katzenthal,Villefranche-de-Rouergue,1,51
+Nancy m'a dit d'aller à Vescovato,INVALID,Vescovato,INVALID,,1,33
+je pars pour Saint-Louis de La Chapelle-du-Bois,La Chapelle-du-Bois,Saint-Louis,La Chapelle-du-Bois,Saint-Louis,1,47
+Y'a quoi comme transport entre Achicourt et Fontenay-Trésigny ?,Achicourt,Fontenay-Trésigny,Achicourt,Fontenay-Trésigny,1,63
+je souhaite aller de mollans-sur-ouvèze à saint-hilaire-de-lavit,mollans-sur-ouvèze,saint-hilaire-de-lavit,mollans-sur-ouvèze,saint-hilaire-de-lavit,1,64
+Direction Marigny-Le-Lozon,INVALID,Marigny-Le-Lozon,INVALID,,1,26
+Gare de Dombasle-devant-Darney,INVALID,Dombasle-devant-Darney,INVALID,,1,30
+Je souhaite aller de Saint-Haon-le-Châtel à Marcieu,Saint-Haon-le-Châtel,Marcieu,Saint-Haon-le-Châtel,Marcieu,1,51
+Jsuis Saint-Joseph-de-Rivière. Bon jvais à Lizine,Saint-Joseph-de-Rivière,Lizine,Saint-Joseph-de-Rivière.,Lizine,1,49
+Je cherche un itinéraire de Touvérac vers Les Cresnays,Touvérac,Les Cresnays,Touvérac,Les Cresnays,1,54
+Jsuis Daigny. Bon jvais à Sablet,Daigny,Sablet,Daigny,Sablet,1,32
+Je décolle de Poussignac direction Hennecourt,Poussignac,Hennecourt,Poussignac,Hennecourt,1,45
+"Je vais à Le Mesnil-Ozenne, je pars de Espins",Espins,Le Mesnil-Ozenne,Espins,Le Mesnil-Ozenne,1,45
+"Faut que j'aille à Ovanches, je suis actuellement à Lamothe-Fénelon",Lamothe-Fénelon,Ovanches,Lamothe-Fénelon,Ovanches,1,67
+Trajet pour Loisy-sur-Marne depuis Artix,Artix,Loisy-sur-Marne,Artix,Loisy-sur-Marne,1,40
+direction rilly-sainte-syre,INVALID,rilly-sainte-syre,INVALID,,1,27
+"Faut que j'aille a Gastines, je suis actuellement a Demouville",Demouville,Gastines,Demouville,Gastines,1,62
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+je veux me rendre à marbois de châtillon-le-duc,marbois,châtillon-le-duc,marbois,châtillon-le-duc,1,47
+jvais à compains dpuis cellier-du-luc,cellier-du-luc,compains,cellier-du-luc,compains,1,37
+"Faut que j'aille à Dogneville, je suis actuellement à Saint-Bazile-de-Meyssac",Saint-Bazile-de-Meyssac,Dogneville,Saint-Bazile-de-Meyssac,Dogneville,1,77
+comment aller de larchamp a brabant-sur-meuse ?,larchamp,brabant-sur-meuse,larchamp,brabant-sur-meuse,1,47
+Trajet Pléven Soirans,Pléven,Soirans,Pléven,Soirans,1,21
+Aller de Breny a Chenou,Breny,Chenou,Breny,Chenou,1,23
+Je vais a Ceron,INVALID,Ceron,INVALID,,1,15
+Prochain train pour Hattigny,INVALID,Hattigny,INVALID,,1,28
+je pars pour Saint-Come-d'Olt de Senven-Lehart,Senven-Lehart,Saint-Come-d'Olt,Senven-Lehart,Saint-Come-d'Olt,1,46
+Comment je me rends à Ferrières-en-Bray depuis Sère-Lanso pour aller voir ma copine Kevin,Sère-Lanso,Ferrières-en-Bray,Sère-Lanso,Ferrières-en-Bray,1,89
+Je passe par Lyon pour aller de Hauterive-la-Fresse à Lostroff,Hauterive-la-Fresse,Lostroff,Hauterive-la-Fresse,Lostroff,1,62
+Liaison Chezelles-Sermoise-sur-Loire,Chezelles,Sermoise-sur-Loire,Chezelles,Sermoise-sur-Loire,1,36
+Faut qu'jaille à Montussaint,INVALID,Montussaint,INVALID,,1,28
+Je décolle de Villaroger direction Condé-sur-Aisne,Villaroger,Condé-sur-Aisne,Villaroger,Condé-sur-Aisne,1,50
+Direction Saint-Chamond,INVALID,Saint-Chamond,INVALID,,1,23
+aller de issel à guémappe,issel,guémappe,issel,guémappe,1,25
+Vailly jusqu'à Véry,Vailly,Véry,Vailly,Véry,1,19
+Prochain départ de Peyrolles-en-Provence pour La Londe,Peyrolles-en-Provence,La Londe,Peyrolles-en-Provence,La Londe,1,54
+Gare de Tavera,INVALID,Tavera,INVALID,,1,14
+Je vais à Vineuil-Saint-Firmin,INVALID,Vineuil-Saint-Firmin,INVALID,,1,30
+comment aller de notre-dame-d'épine à harnes ?,notre-dame-d'épine,harnes,notre-dame-d'épine,harnes,1,46
+Nancy m'a dit d'aller à Bezalles,INVALID,Bezalles,INVALID,,1,32
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+je veux me rendre à broye-les-loups-et-verfontaine de saint-paul-cap-de-joux,broye-les-loups-et-verfontaine,saint-paul-cap-de-joux,broye-les-loups-et-verfontaine,saint-paul-cap-de-joux,1,76
+je veux aller de audrieu vers valz-sous-châteauneuf,audrieu,valz-sous-châteauneuf,audrieu,valz-sous-châteauneuf,1,51
+itineraire vertrieu vers villeneuve-saint-vistre-et-villevotte,vertrieu,villeneuve-saint-vistre-et-villevotte,vertrieu,villeneuve-saint-vistre-et-villevotte,1,62
+Cherche un billet pour Lanmeur au départ de Niozelles,Niozelles,Lanmeur,Niozelles,Lanmeur,1,53
+"Faut que j'aille à Fontivillié, je suis actuellement à Saint-Quentin-sur-Charente",Saint-Quentin-sur-Charente,Fontivillié,Saint-Quentin-sur-Charente,Fontivillié,1,81
+Direction Balan,INVALID,Balan,INVALID,,1,15
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Je veux aller de Monthurel vers Neuillé,Monthurel,Neuillé,Monthurel,Neuillé,1,39
+Comment aller à Niederrœdern en partant de Signes ?,Signes,Niederrœdern,Signes,Niederrœdern,1,51
+cherche un billet pour meauzac au départ de aulnay-sur-iton,aulnay-sur-iton,meauzac,aulnay-sur-iton,meauzac,1,59
+"Je vais à Vernot, je pars de Néron",Néron,Vernot,Néron,Vernot,1,34
+Comment aller à Bouilland en partant de Usclas-du-Bosc ?,Usclas-du-Bosc,Bouilland,Usclas-du-Bosc,Bouilland,1,56
+Je vais a Cudot,INVALID,Cudot,INVALID,,1,15
+Gare de Belmont-les-Darney,INVALID,Belmont-les-Darney,INVALID,,1,26
+Je décolle de Chouilly direction Frignicourt,Chouilly,Frignicourt,Chouilly,Frignicourt,1,44
+Est-ce qu'on peut rejoindre Plouzélambre en venant de Tudeils ?,Tudeils,Plouzélambre,Tudeils,Plouzélambre,1,63
+Liaison Mano-Luché-Pringé,Mano,Luché-Pringé,Mano-Luché,Luché-Pringé,0,25
+Comment je me rends à Duzey depuis Séris pour aller voir ma copine Copernicus,Séris,Duzey,Séris,Duzey,1,77
+Y'a quoi comme transport entre La Jonchère et Pozières ?,La Jonchère,Pozières,La Jonchère,Pozières,1,56
+prochain train pour saint-loup-lamairé,INVALID,saint-loup-lamairé,INVALID,,1,38
+"Mon pote Alain m'attend à Voulon, je pars de Servaville-Salmonville",Servaville-Salmonville,Voulon,Servaville-Salmonville,Voulon,1,67
+Gare de La Canourgue,INVALID,La Canourgue,INVALID,,1,20
+Quel est le trajet entre Labastide-du-Haut-Mont et Job ?,Labastide-du-Haut-Mont,Job,Labastide-du-Haut-Mont,Job,1,56
+Gare de Saint-Vigor-d'Ymonville,INVALID,Saint-Vigor-d'Ymonville,INVALID,,1,31
+"Je vais à Hartmannswiller, je pars de Bersée",Bersée,Hartmannswiller,Bersée,Hartmannswiller,1,44
+Jvais à Dolmayrac dpuis Saint-Julien-sur-Veyle,Saint-Julien-sur-Veyle,Dolmayrac,Saint-Julien-sur-Veyle,Dolmayrac,1,46
+Nancy m'a dit d'aller à Braye-en-Laonnois,INVALID,Braye-en-Laonnois,INVALID,,1,41
+"Faut que j'aille à Vauchelles, je suis actuellement à Saint-Germain",Saint-Germain,Vauchelles,Saint-Germain,Vauchelles,1,67
+"Je vais à Courtisols, je pars de Joncherey",Joncherey,Courtisols,Joncherey,Courtisols,1,42
+Retour de Saumos vers Val de Livre,Val de Livre,Saumos,Saumos,Val de Livre,0,34
+je décolle de camburat direction noisiel,camburat,noisiel,camburat,noisiel,1,40
+Direction Theuville,INVALID,Theuville,INVALID,,1,19
+Y'a quoi comme transport entre Leers et Coublucq ?,Leers,Coublucq,Leers,Coublucq,1,50
+direction grandrieux,INVALID,grandrieux,INVALID,,1,20
+Liaison Eslourenties-Daban-Lixy,Eslourenties-Daban,Lixy,Eslourenties-,Daban-Lixy,0,31
+"Mon pote Clemence m'attend a Negreville, je pars de Lavardac",Lavardac,Negreville,Lavardac,Negreville,1,60
+j'aime voyager,INVALID,,INVALID,,1,14
+"vol onay-lesparre-médoc, c'est pour quand ?",onay,lesparre-médoc,onay,-lesparre-médoc,1,43
+Quel est le trajet entre Manoncourt-en-Woëvre et Ranguevaux ?,Manoncourt-en-Woëvre,Ranguevaux,Manoncourt-en-Woëvre,Ranguevaux,1,61
+Je souhaite aller de Le Cros à Locqueltas,Le Cros,Locqueltas,Le Cros,Locqueltas,1,41
+je pars pour Fontguenand de Moussoulens,Moussoulens,Fontguenand,Moussoulens,Fontguenand,1,39
+Je veux aller de Farbus vers Le Verdon-sur-Mer,Farbus,Le Verdon-sur-Mer,Farbus,Le Verdon-sur-Mer,1,46
+"Je vais à Bron, je pars de Saint-Yrieix-la-Montagne",Saint-Yrieix-la-Montagne,Bron,Saint-Yrieix-la-Montagne,Bron,1,51
+Je cherche un itinéraire de Urville vers Cintray,Urville,Cintray,Urville,Cintray,1,48
+Gare de Saint-Paul-lès-Durance,INVALID,Saint-Paul-lès-Durance,INVALID,,1,30
+chui a La Mure jveu alé a Courtonne-la-Meurdrac,La Mure,Courtonne-la-Meurdrac,La Mure,Courtonne-la-Meurdrac,1,47
+Vair-sur-Loire jusqu'à Bezange-la-Grande,Vair-sur-Loire,Bezange-la-Grande,Vair-sur-Loire,Bezange-la-Grande,1,40
+Liaison Counozouls-Éole-en-Beauce,Counozouls,Éole-en-Beauce,Counozouls,Éole-en-Beauce,1,33
+"je vais à maxstadt, je pars de changis-sur-marne",changis-sur-marne,maxstadt,changis-sur-marne,maxstadt,1,48
+je pars pour Guimiliau de Usseau,Usseau,Guimiliau,Usseau,Guimiliau,1,32
+Gare de Estourmel,INVALID,Estourmel,INVALID,,1,17
+J'aime voyager,INVALID,,INVALID,,1,14
+Je vais à Pourcharesses,INVALID,Pourcharesses,INVALID,,1,23
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+"Mon pote Ibanez m'attend a Gimont, je pars de Ossen",Ossen,Gimont,Ossen,Gimont,1,51
+Friesenheim jusqu'a Bollwiller,Friesenheim,Bollwiller,Friesenheim,Bollwiller,1,30
+"demain, je vais voir mon amie rob qui habite a la tourette-cabardes, je pars de lureuil",lureuil,la tourette-cabardes,lureuil,la tourette-cabardes,1,87
+Comment aller a Saint-Julien-les-Gorze en partant de Chemilly-sur-Serein ?,Chemilly-sur-Serein,Saint-Julien-les-Gorze,Chemilly-sur-Serein,Saint-Julien-les-Gorze,1,74
+Retour de Uzemain vers La Neuville-au-Pont,La Neuville-au-Pont,Uzemain,Uzemain,La Neuville-au-Pont,0,42
+Liaison Issou-Ottange,Issou,Ottange,Issou,Ottange,1,21
+Comment aller de Wormhout à Volmerange-les-Mines ?,Wormhout,Volmerange-les-Mines,Wormhout,Volmerange-les-Mines,1,50
+quel est le trajet entre fontenay-sous-bois et aignan ?,fontenay-sous-bois,aignan,fontenay-sous-bois,aignan,1,55
+Comment aller de Bisten-en-Lorraine à Dampierre-sous-Bouhy ?,Bisten-en-Lorraine,Dampierre-sous-Bouhy,Bisten-en-Lorraine,Dampierre-sous-Bouhy,1,60
+y'a quoi comme transport entre alizay et sandillon ?,alizay,sandillon,alizay,sandillon,1,52
+Je cherche un itinéraire de Loubès-Bernac vers Meilhac,Loubès-Bernac,Meilhac,Loubès-Bernac,Meilhac,1,54
+je pars pour venas de le villars,le villars,venas,le villars,venas,1,32
+Retour de Agudelle vers Calmoutier,Calmoutier,Agudelle,Agudelle,Calmoutier,0,34
+Y'a quoi comme transport entre Sacy-le-Grand et Mauquenchy ?,Sacy-le-Grand,Mauquenchy,Sacy-le-Grand,Mauquenchy,1,60
+Direction Œting,INVALID,Œting,INVALID,,1,15
+jsuis bernac-dessus. bon jvais à theuville,bernac-dessus,theuville,bernac-dessus,theuville,1,42
+comment aller à erdeven en partant de la villetelle ?,la villetelle,erdeven,la villetelle,erdeven,1,53
+Jvais à Veulettes-sur-Mer dpuis Aubergenville,Aubergenville,Veulettes-sur-Mer,Aubergenville,Veulettes-sur-Mer,1,45
+Quel est le trajet entre Salice et Jujurieux ?,Salice,Jujurieux,Salice,Jujurieux,1,46
+Je decolle de Saint-Priest-d'Andelot direction Rignosot,Saint-Priest-d'Andelot,Rignosot,Saint-Priest-d'Andelot,Rignosot,1,55
+Je décolle de Le Boupère direction Saint-Jean-Saint-Nicolas,Le Boupère,Saint-Jean-Saint-Nicolas,Le Boupère,Saint-Jean-Saint-Nicolas,1,59
+"Faut que j'aille à Saint-Jean-de-Folleville, je suis actuellement à Ostabat-Asme",Ostabat-Asme,Saint-Jean-de-Folleville,Ostabat-Asme,Saint-Jean-de-Folleville,1,80
+Est-ce qu'on peut rejoindre Silley-Amancey en venant de Bard-les-Epoisses ?,Bard-les-Epoisses,Silley-Amancey,Bard-les-Epoisses,Silley-Amancey,1,75
+Cherche un billet pour Paulx au départ de La Croix-sur-Ourcq,La Croix-sur-Ourcq,Paulx,La Croix-sur-Ourcq,Paulx,1,60
+Liaison Vougeot-Dhuizel,Vougeot,Dhuizel,Vougeot,Dhuizel,1,23
+cherche un billet pour saint-franchy au départ de bulat-pestivien,bulat-pestivien,saint-franchy,bulat-pestivien,saint-franchy,1,65
+Je souhaite aller de Quincy-Landzécourt à Saint-Jean-d'Arvey,Quincy-Landzécourt,Saint-Jean-d'Arvey,Quincy-Landzécourt,Saint-Jean-d'Arvey,1,60
+"Demain, je vais voir mon amie Camille qui habite à Golfech, je pars de Saint-Romain-sous-Gourdon",Saint-Romain-sous-Gourdon,Golfech,Saint-Romain-sous-Gourdon,Golfech,1,96
+Je veux aller de Albiès vers Frontonas,Albiès,Frontonas,Albiès,Frontonas,1,38
+Comment je me rends à Marguerittes depuis La Croix-sur-Ourcq pour aller voir ma copine Leopoldine,La Croix-sur-Ourcq,Marguerittes,La Croix-sur-Ourcq,Marguerittes,1,97
+"Faut que j'aille à Martigny-les-Bains, je suis actuellement à Hambach",Hambach,Martigny-les-Bains,Hambach,Martigny-les-Bains,1,69
+Liaison Thennelières-Saint-Goin,Thennelières,Saint-Goin,Thennelières,Saint-Goin,1,31
+Trajet Saint-Germain-Beaupré Parnes,Saint-Germain-Beaupré,Parnes,Saint-Germain-Beaupré,Parnes,1,35
+Je veux aller de Ambès vers Jeancourt,Ambès,Jeancourt,Ambès,Jeancourt,1,37
+Est-ce qu'on peut rejoindre Épieds-en-Beauce en venant de Peschadoires ?,Peschadoires,Épieds-en-Beauce,Peschadoires,Épieds-en-Beauce,1,72
+"je passe par le mans, angers et nantes pour rejoindre beaucamps-le-vieux depuis melesse",melesse,beaucamps-le-vieux,"le mans, angers et nantes pour rejoindre beaucamps-le-vieux depuis melesse",nantes pour rejoindre beaucamps-le-vieux,0,87
+Prochain train pour Westrehem,INVALID,Westrehem,INVALID,,1,29
+Je cherche un itinéraire de Saint-Griède vers Ouges,Saint-Griède,Ouges,Saint-Griède,Ouges,1,51
+Je souhaite aller de Fontenoy-la-Joûte à Saint-Laurent-d'Agny,Fontenoy-la-Joûte,Saint-Laurent-d'Agny,Fontenoy-la-Joûte,Saint-Laurent-d'Agny,1,61
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Comment je me rends a Asnieres-en-Bessin depuis Amberre pour aller voir ma copine Maxime,Amberre,Asnieres-en-Bessin,Amberre,Asnieres-en-Bessin,1,88
+Je décolle de Saint-Auban direction Coulmier-le-Sec,Saint-Auban,Coulmier-le-Sec,Saint-Auban,Coulmier-le-Sec,1,51
+Je decolle de Mollans-sur-Ouveze direction Veyrieres,Mollans-sur-Ouveze,Veyrieres,Mollans-sur-Ouveze,Veyrieres,1,52
+"Demain, je vais voir mon amie Copernicus qui habite à Villevieux, je pars de La Villetelle",La Villetelle,Villevieux,La Villetelle,Villevieux,1,90
+Nancy m'a dit d'aller à Menskirch,INVALID,Menskirch,INVALID,,1,33
+Comment aller à Dommartin-sous-Amance en partant de Saulzais-le-Potier ?,Saulzais-le-Potier,Dommartin-sous-Amance,Saulzais-le-Potier,Dommartin-sous-Amance,1,72
+comment je me rends à petite-rosselle depuis niderviller pour aller voir ma copine maxime,niderviller,petite-rosselle,niderviller,petite-rosselle,1,89
+Est-ce qu'on peut rejoindre Rives-du-Loir-en-Anjou en venant de Lugos ?,Lugos,Rives-du-Loir-en-Anjou,Lugos,Rives-du-Loir-en-Anjou,1,71
+Quel est le trajet entre Villeconin et Weislingen ?,Villeconin,Weislingen,Villeconin,Weislingen,1,51
+itineraire paray-le-monial vers foucart,paray-le-monial,foucart,paray-le-monial,foucart,1,39
+je décolle de saint-martin-sur-nohain direction lalaye,saint-martin-sur-nohain,lalaye,saint-martin-sur-nohain,lalaye,1,54
+Aller de Berganty à Saint-Saulve,Berganty,Saint-Saulve,Berganty,Saint-Saulve,1,32
+Itineraire Yzeux vers Cambiac,Yzeux,Cambiac,Yzeux,Cambiac,1,29
+Retour de Fresnoy-Folny vers Tusson,Tusson,Fresnoy-Folny,Fresnoy-Folny,Tusson,0,35
+Gare de Monteton,INVALID,Monteton,INVALID,,1,16
+Direction Beaugency,INVALID,Beaugency,INVALID,,1,19
+Est-ce qu'on peut rejoindre Laveline-devant-Bruyères en venant de Hurtigheim ?,Hurtigheim,Laveline-devant-Bruyères,Hurtigheim,Laveline-devant-Bruyères,1,78
+comment aller de valloire-sur-cisse à saint-germain-d'anxure ?,valloire-sur-cisse,saint-germain-d'anxure,valloire-sur-cisse,saint-germain-d'anxure,1,62
+Chastel-Arnaud jusqu'à Saint-Christophe-sur-Guiers,Chastel-Arnaud,Saint-Christophe-sur-Guiers,Chastel-Arnaud,Saint-Christophe-sur-Guiers,1,50
+Je veux aller de Thaims vers Schwenheim,Thaims,Schwenheim,Thaims,Schwenheim,1,39
+je veux aller de grancey-le-chateau-neuvelle vers loison,grancey-le-chateau-neuvelle,loison,grancey-le-chateau-neuvelle,loison,1,56
+Je suis à Hédé-Bazouges et je dois me rendre à Montigny-le-Guesdier,Hédé-Bazouges,Montigny-le-Guesdier,Hédé-Bazouges,Montigny-le-Guesdier,1,67
+cherche un billet pour rainneville au départ de hipsheim,hipsheim,rainneville,hipsheim,rainneville,1,56
+Gare de Courtes,INVALID,Courtes,INVALID,,1,15
+Trajet pour Escrignelles depuis Saint-André-en-Morvan,Saint-André-en-Morvan,Escrignelles,Saint-André-en-Morvan,Escrignelles,1,53
+Je veux aller de Les Mages vers Châteauneuf-en-Thymerais,Les Mages,Châteauneuf-en-Thymerais,Les Mages,Châteauneuf-en-Thymerais,1,56
+"Faut que j'aille à Châteauredon, je suis actuellement à Nampont",Nampont,Châteauredon,Nampont,Châteauredon,1,63
+Prochain depart de Bouy-sur-Orvin pour Chize,Bouy-sur-Orvin,Chize,Bouy-sur-Orvin,Chize,1,44
+Comment aller à Notre-Dame-de-Bliquetuit en partant de Lassicourt ?,Lassicourt,Notre-Dame-de-Bliquetuit,Lassicourt,Notre-Dame-de-Bliquetuit,1,67
+gare de orion,INVALID,orion,INVALID,,1,13
+Aller de Lornay à Tronsanges,Lornay,Tronsanges,Lornay,Tronsanges,1,28
+jvais a piencourt dpuis laperche,laperche,piencourt,laperche,piencourt,1,32
+Nancy m'a dit d'aller à Le Cardonnois,INVALID,Le Cardonnois,INVALID,,1,37
+Direction Florange,INVALID,Florange,INVALID,,1,18
+prochain départ de saint-maurin pour vault-de-lugny,saint-maurin,vault-de-lugny,saint-maurin,vault-de-lugny,1,51
+je passe par lyon pour aller de estensan à le quesne,estensan,le quesne,estensan,le quesne,1,52
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Comment aller de Ségur à Cesseras ?,Ségur,Cesseras,Ségur,Cesseras,1,35
+Je vais à Campo,INVALID,Campo,INVALID,,1,15
+Gare de Rodilhan,INVALID,Rodilhan,INVALID,,1,16
+retour de riencourt vers callas,callas,riencourt,riencourt,callas,0,31
+Je passe par Lyon pour aller de Marles-en-Brie à Lury-sur-Arnon,Marles-en-Brie,Lury-sur-Arnon,Marles-en-Brie,Lury-sur-Arnon,1,63
+"vol saint-martin-de-laye-saint-gondran, c'est pour quand ?",saint-martin-de-laye,saint-gondran,saint-martin-de-laye,-saint-gondran,1,58
+Gare de Conilhac-Corbieres,INVALID,Conilhac-Corbieres,INVALID,,1,26
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+"faut que j'aille à messemé, je suis actuellement à préfontaines",préfontaines,messemé,préfontaines,messemé,1,63
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Quel est le trajet entre Bonnebosq et Marché-Allouarde ?,Bonnebosq,Marché-Allouarde,Bonnebosq,Marché-Allouarde,1,56
+Itinéraire Chacenay vers Saint-Léger-aux-Bois,Chacenay,Saint-Léger-aux-Bois,Chacenay,Saint-Léger-aux-Bois,1,45
+Faut qu'jaille à Beaurevoir,INVALID,Beaurevoir,INVALID,,1,27
+Comment je me rends à Albi depuis Laval pour aller voir ma copine Jean-Pierre,Laval,Albi,Laval,Albi,1,77
+Trajet Dortan Roncey,Dortan,Roncey,Dortan,Roncey,1,20
+"Je vais a Perros-Guirec, je pars de Quincy-Basse",Quincy-Basse,Perros-Guirec,Quincy-Basse,Perros-Guirec,1,48
+trajet jézeau allondrelle-la-malmaison,jézeau,allondrelle-la-malmaison,jézeau,allondrelle-la-malmaison,1,38
+je decolle de calonne-sur-la-lys direction luc,calonne-sur-la-lys,luc,calonne-sur-la-lys,luc,1,46
+Je veux me rendre à Gluiras de Theizé,Gluiras,Theizé,Gluiras,Theizé,1,37
+Comment aller a Son en partant de Aspret-Sarrat ?,Aspret-Sarrat,Son,Aspret-Sarrat,Son,1,49
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+chui a Bourdonnay jveu alé a Orgerus,Bourdonnay,Orgerus,Bourdonnay,Orgerus,1,36
+Jsuis Fieulaine. Bon jvais a Bœurs-en-Othe,Fieulaine,Bœurs-en-Othe,Fieulaine,Bœurs-en-Othe,1,42
+Jvais à Moon-sur-Elle dpuis Fressancourt,Fressancourt,Moon-sur-Elle,Fressancourt,Moon-sur-Elle,1,40
+jvais à chamboret dpuis davrey,davrey,chamboret,davrey,chamboret,1,30
+"Mon pote Leopoldine m'attend à Fougerolles-du-Plessis, je pars de Assevillers",Assevillers,Fougerolles-du-Plessis,Assevillers,Fougerolles-du-Plessis,1,77
+je pars pour Saint-Eugène de Sarlande,Sarlande,Saint-Eugène,Sarlande,Saint-Eugène,1,37
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Itineraire Tangry vers Ronchin,Tangry,Ronchin,Tangry,Ronchin,1,30
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Nancy m'a dit d'aller à Mimizan,INVALID,Mimizan,INVALID,,1,31
+"Je vais à Prades-Salars, je pars de Roanne",Roanne,Prades-Salars,Roanne,Prades-Salars,1,42
+prochain départ de bourlens pour arpavon,bourlens,arpavon,bourlens,arpavon,1,40
+Nancy m'a dit d'aller à Loubès-Bernac,INVALID,Loubès-Bernac,INVALID,,1,37
+Jsuis Velle-le-Châtel. Bon jvais à Saint-Trojan-les-Bains,Velle-le-Châtel,Saint-Trojan-les-Bains,Velle-le-Châtel.,Saint-Trojan-les-Bains,1,57
+je veux aller de collonges-lès-bévy vers saint-pourçain-sur-sioule,collonges-lès-bévy,saint-pourçain-sur-sioule,collonges-lès-bévy,saint-pourçain-sur-sioule,1,66
+Quel est le trajet entre Blaye et Montbronn ?,Blaye,Montbronn,Blaye,Montbronn,1,45
+Direction Onay,INVALID,Onay,INVALID,,1,14
+Nancy m'a dit d'aller à Traversères,INVALID,Traversères,INVALID,,1,35
+Cherche un billet pour Chantemerle au départ de Henneveux,Henneveux,Chantemerle,Henneveux,Chantemerle,1,57
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+quel est le trajet entre la villeneuve et saint-chamant ?,la villeneuve,saint-chamant,la villeneuve,saint-chamant,1,57
+je pars pour Cloué de Beuvardes,Beuvardes,Cloué,Beuvardes,Cloué,1,31
+Je vais à Verthemex,INVALID,Verthemex,INVALID,,1,19
+"faut que j'aille à polminhac, je suis actuellement à marcillac-vallon",marcillac-vallon,polminhac,marcillac-vallon,polminhac,1,69
+jvais à séreilhac dpuis bilia,bilia,séreilhac,bilia,séreilhac,1,29
+Y'a quoi comme transport entre Hettange-Grande et Crépand ?,Hettange-Grande,Crépand,Hettange-Grande,Crépand,1,59
+Itinéraire Blasimon vers Bazus-Neste,Blasimon,Bazus-Neste,Blasimon,Bazus-Neste,1,36
+Je veux aller de Servilly vers Équevillon,Servilly,Équevillon,Servilly,Équevillon,1,41
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Aller de Le Tour-du-Parc à Saint-Germain-du-Corbéis,Le Tour-du-Parc,Saint-Germain-du-Corbéis,Le Tour-du-Parc,Saint-Germain-du-Corbéis,1,51
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+"je vais a challignac, je pars de caupenne-d'armagnac",caupenne-d'armagnac,challignac,caupenne-d'armagnac,challignac,1,52
+nancy m'a dit d'aller à créot,INVALID,créot,INVALID,,1,29
+je passe par lyon pour aller de montferrand-la-fare à marson,montferrand-la-fare,marson,montferrand-la-fare,marson,1,60
+je pars pour menetou-sur-nahon de saint-julien-gaulène,saint-julien-gaulène,menetou-sur-nahon,saint-julien-gaulène,menetou-sur-nahon,1,54
+Comment aller à Soligny-les-Étangs en partant de Vendenesse-sur-Arroux ?,Vendenesse-sur-Arroux,Soligny-les-Étangs,Vendenesse-sur-Arroux,Soligny-les-Étangs,1,72
+chui a saint-paul-d'oueil jveu alé a tallard,saint-paul-d'oueil,tallard,saint-paul-d'oueil,tallard,1,44
+"faut que j'aille à thorey-en-plaine, je suis actuellement à urbise",urbise,thorey-en-plaine,urbise,thorey-en-plaine,1,66
+Comment je me rends à Saint-Rustice depuis Saint-Faust pour aller voir ma copine Kratos,Saint-Faust,Saint-Rustice,Saint-Faust,Saint-Rustice,1,87
+Faut qu'jaille à Brancourt-en-Laonnois,INVALID,Brancourt-en-Laonnois,INVALID,,1,38
+prochain départ de miraval-cabardès pour montaigut,miraval-cabardès,montaigut,miraval-cabardès,montaigut,1,50
+Trajet Ham-sur-Meuse Merxheim,Ham-sur-Meuse,Merxheim,Ham-sur-Meuse,Merxheim,1,29
+chui a Cour-et-Buis jveu alé a Aucelon,Cour-et-Buis,Aucelon,Cour-et-Buis,Aucelon,1,38
+Quel est le trajet entre Hoste et Jolivet ?,Hoste,Jolivet,Hoste,Jolivet,1,43
+je souhaite aller de saint-voir à bédarieux,saint-voir,bédarieux,saint-voir,bédarieux,1,43
+Aller de Saint-Maurice-de-Lestapel à Kutzenhausen,Saint-Maurice-de-Lestapel,Kutzenhausen,Saint-Maurice-de-Lestapel,Kutzenhausen,1,49
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je suis a Gilhoc-sur-Ormeze et je dois me rendre a Cuts,Gilhoc-sur-Ormeze,Cuts,Gilhoc-sur-Ormeze,Cuts,1,55
+Je veux me rendre à Cunelières de Pauligne,Cunelières,Pauligne,Cunelières,Pauligne,1,42
+Je souhaite aller de Saint-Pardoux-de-Drône à Saint-Remy-du-Nord,Saint-Pardoux-de-Drône,Saint-Remy-du-Nord,Saint-Pardoux-de-Drône,Saint-Remy-du-Nord,1,64
+Itinéraire Breuillet vers Le Mont-Saint-Adrien,Breuillet,Le Mont-Saint-Adrien,Breuillet,Le Mont-Saint-Adrien,1,46
+Itinéraire Domprel vers Allègre-les-Fumades,Domprel,Allègre-les-Fumades,Domprel,Allègre-les-Fumades,1,43
+Cornillon-sur-l'Oule jusqu'à Buzy,Cornillon-sur-l'Oule,Buzy,Cornillon-sur-l'Oule,Buzy,1,33
+comment aller à le tour-du-parc en partant de damgan ?,damgan,le tour-du-parc,damgan,le tour-du-parc,1,54
+je cherche un itinéraire de pampelonne vers brémoy,pampelonne,brémoy,pampelonne,brémoy,1,50
+nancy m'a dit d'aller à bassing,INVALID,bassing,INVALID,,1,31
+Aller de Melun à Saint-Boès,Melun,Saint-Boès,Melun,Saint-Boès,1,27
+Nancy m'a dit d'aller à Saint-Jean-de-Fos,INVALID,Saint-Jean-de-Fos,INVALID,,1,41
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+je pars pour Boucq de Lyon,Lyon,Boucq,Lyon,Boucq,1,26
+chui a Ouerre jveu ale a Ile-Molene,Ouerre,Ile-Molene,Ouerre,Ile-Molene,1,35
+Comment je me rends à Soyaux depuis Saint-Aignan pour aller voir ma copine Clemence,Saint-Aignan,Soyaux,Saint-Aignan,Soyaux,1,83
+Cherche un billet pour Mazan au départ de Roubion,Roubion,Mazan,Roubion,Mazan,1,49
+Je souhaite aller de Mont-Bonvillers à Issel,Mont-Bonvillers,Issel,Mont-Bonvillers,Issel,1,44
+Je veux aller de Louversey vers Pagny-le-Château,Louversey,Pagny-le-Château,Louversey,Pagny-le-Château,1,48
+Quel est le trajet entre La Roche-sur-Grane et Fleury-la-Rivière ?,La Roche-sur-Grane,Fleury-la-Rivière,La Roche-sur-Grane,Fleury-la-Rivière,1,66
+Jvais à Salsein dpuis Bormes-les-Mimosas,Bormes-les-Mimosas,Salsein,Bormes-les-Mimosas,Salsein,1,40
+Direction Guincourt,INVALID,Guincourt,INVALID,,1,19
+chui a saint-marcel-lès-sauzet jveu alé a denezières,saint-marcel-lès-sauzet,denezières,saint-marcel-lès-sauzet,denezières,1,52
+"Demain, je vais voir mon amie Karl qui habite a Chateau-Porcien, je pars de Sabres",Sabres,Chateau-Porcien,Sabres,Chateau-Porcien,1,82
+Prochain départ de Mornac pour Le Riols,Mornac,Le Riols,Mornac,Le Riols,1,39
+Y'a quoi comme transport entre Monbardon et Marsolan ?,Monbardon,Marsolan,Monbardon,Marsolan,1,54
+nancy m'a dit d'aller à neuville-sur-ailette,INVALID,neuville-sur-ailette,INVALID,,1,44
+Cherche un billet pour Belloy-sur-Somme au départ de Saint-Marcellin-lès-Vaison,Saint-Marcellin-lès-Vaison,Belloy-sur-Somme,Saint-Marcellin-lès-Vaison,Belloy-sur-Somme,1,79
+Je souhaite aller de Fresse à Walbach,Fresse,Walbach,Fresse,Walbach,1,37
+comment aller à saint-éloy-les-tuileries en partant de cellettes ?,cellettes,saint-éloy-les-tuileries,cellettes,saint-éloy-les-tuileries,1,66
+Direction Hommes,INVALID,Hommes,INVALID,,1,16
+je décolle de berrogain-laruns direction matignon,berrogain-laruns,matignon,berrogain-laruns,matignon,1,49
+Aller de Gunsbach à Chassey-lès-Scey,Gunsbach,Chassey-lès-Scey,Gunsbach,Chassey-lès-Scey,1,36
+Trajet pour Le Hézo depuis Cornillé-les-Caves,Cornillé-les-Caves,Le Hézo,Cornillé-les-Caves,Le Hézo,1,45
+je veux aller de pont-d'ouilly vers saint-andré-le-bouchoux,pont-d'ouilly,saint-andré-le-bouchoux,pont-d'ouilly,saint-andré-le-bouchoux,1,59
+Le temps est a l'averse,INVALID,,INVALID,,1,23
+Y'a quoi comme transport entre Aumetz et Monclar-sur-Losse ?,Aumetz,Monclar-sur-Losse,Aumetz,Monclar-sur-Losse,1,60
+"Mon pote Solange m'attend à Éperlecques, je pars de Pocé-les-Bois",Pocé-les-Bois,Éperlecques,Pocé-les-Bois,Éperlecques,1,65
+Je veux aller de Moulle vers Saint-Martin-de-Fenouillet,Moulle,Saint-Martin-de-Fenouillet,Moulle,Saint-Martin-de-Fenouillet,1,55
+direction santa-maria-siché,INVALID,santa-maria-siché,INVALID,,1,27
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+prochain départ de moussé pour saint-julien-sur-dheune,moussé,saint-julien-sur-dheune,moussé,saint-julien-sur-dheune,1,54
+je pars pour Darnets de Ugny-sur-Meuse,Ugny-sur-Meuse,Darnets,Ugny-sur-Meuse,Darnets,1,38
+Trajet Couin Longcochon,Couin,Longcochon,Couin,Longcochon,1,23
+Je vais a Fresnes-sur-Apance,INVALID,Fresnes-sur-Apance,INVALID,,1,28
+Gare de Danjoutin,INVALID,Danjoutin,INVALID,,1,17
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+quel est le trajet entre thoury-férottes et mont-lès-seurre ?,thoury-férottes,mont-lès-seurre,thoury-férottes,mont-lès-seurre,1,61
+Je souhaite aller de Magnicourt-en-Comte à Autigny-le-Petit,Magnicourt-en-Comte,Autigny-le-Petit,Magnicourt-en-Comte,Autigny-le-Petit,1,59
+y'a quoi comme transport entre saint-genis-du-bois et grignon ?,saint-genis-du-bois,grignon,saint-genis-du-bois,grignon,1,63
+"Faut que j'aille a Haucourt, je suis actuellement a Roussy-le-Village",Roussy-le-Village,Haucourt,Roussy-le-Village,Haucourt,1,69
+Gare de Saint-Babel,INVALID,Saint-Babel,INVALID,,1,19
+Je suis a Ruffey-le-Chateau et je dois me rendre a Saint-Etienne-de-Tinee,Ruffey-le-Chateau,Saint-Etienne-de-Tinee,Ruffey-le-Chateau,Saint-Etienne-de-Tinee,1,73
+je suis à laroche-près-feyt et je dois me rendre à hérisson,laroche-près-feyt,hérisson,laroche-près-feyt,hérisson,1,59
+Aller de Habas à La Saucelle,Habas,La Saucelle,Habas,La Saucelle,1,28
+Aller de Villars-sur-Var à Trégarvan,Villars-sur-Var,Trégarvan,Villars-sur-Var,Trégarvan,1,36
+Cherche un billet pour Beaussais-Vitre au depart de Vescovato,Vescovato,Beaussais-Vitre,Vescovato,Beaussais-Vitre,1,61
+Itinéraire Siorac-de-Ribérac vers Naussac-Fontanes,Siorac-de-Ribérac,Naussac-Fontanes,Siorac-de-Ribérac,Naussac-Fontanes,1,50
+Le temps est à l'averse,INVALID,,INVALID,,1,23
+Nancy m'a dit d'aller à Vellefrie,INVALID,Vellefrie,INVALID,,1,33
+Prochain départ de Exermont pour Saint-Valentin,Exermont,Saint-Valentin,Exermont,Saint-Valentin,1,47
+Trajet Les Villages Voveens Biecourt,Les Villages Voveens,Biecourt,Les Villages Voveens,Biecourt,1,36
+prochain départ de haute-épine pour oze,haute-épine,oze,haute-épine,oze,1,39
+Liaison Ternuay-Melay-et-Saint-Hilaire-Pruzilly,Ternuay-Melay-et-Saint-Hilaire,Pruzilly,Ternuay,Melay-et-Saint-Hilaire-Pruzilly,0,47
+Est-ce qu'on peut rejoindre Campistrous en venant de Souesmes ?,Souesmes,Campistrous,Souesmes,Campistrous,1,63
+Est-ce qu'on peut rejoindre Excideuil en venant de Saint-Laurent-la-Vallée ?,Saint-Laurent-la-Vallée,Excideuil,Saint-Laurent-la-Vallée,Excideuil,1,76
+Direction Les Pavillons-sous-Bois,INVALID,Les Pavillons-sous-Bois,INVALID,,1,33
+jvais à suèvres dpuis bessède-de-sault,bessède-de-sault,suèvres,bessède-de-sault,suèvres,1,38
+"Demain, je vais voir mon amie Karl qui habite à Saint-Ambreuil, je pars de Angers",Angers,Saint-Ambreuil,Angers,Saint-Ambreuil,1,81
+Comment aller à Montenils en partant de Fontaines-en-Sologne ?,Fontaines-en-Sologne,Montenils,Fontaines-en-Sologne,Montenils,1,62
+"Je vais à Loiré, je pars de Clavans-en-Haut-Oisans",Clavans-en-Haut-Oisans,Loiré,Clavans-en-Haut-Oisans,Loiré,1,50
+Je suis a Saint-Jean-en-Royans et je dois me rendre a Ebreon,Saint-Jean-en-Royans,Ebreon,Saint-Jean-en-Royans,Ebreon,1,60
+Prochain train pour Fresnoy-Folny,INVALID,Fresnoy-Folny,INVALID,,1,33
+Prochain train pour Montferrand-la-Fare,INVALID,Montferrand-la-Fare,INVALID,,1,39
+je vais à castelfranc,INVALID,castelfranc,INVALID,,1,21
+je pars pour Saint-Hilaire-la-Croix de Saules,Saules,Saint-Hilaire-la-Croix,Saules,Saint-Hilaire-la-Croix,1,45
+Prochain départ de Appenans pour Thorame-Haute,Appenans,Thorame-Haute,Appenans,Thorame-Haute,1,46
+"mon pote kevin m'attend à colognac, je pars de quincy-landzécourt",quincy-landzécourt,colognac,quincy-landzécourt,colognac,1,65
+Prochain départ de Bogève pour Aillas,Bogève,Aillas,Bogève,Aillas,1,37
+"mon pote paris m'attend à pexonne, je pars de frévent",frévent,pexonne,frévent,pexonne,1,53
+Je decolle de Archon direction Savigny-sur-Clairis,Archon,Savigny-sur-Clairis,Archon,Savigny-sur-Clairis,1,50
+Je veux aller de Douy-la-Ramée vers Villaines-la-Carelle,Douy-la-Ramée,Villaines-la-Carelle,Douy-la-Ramée,Villaines-la-Carelle,1,56
+Trajet Pisseloup Le Fresne-Camilly,Pisseloup,Le Fresne-Camilly,Pisseloup,Le Fresne-Camilly,1,34
+"Je vais à Taissy, je pars de Mathay",Mathay,Taissy,Mathay,Taissy,1,35
+Trajet Laas Pigny,Laas,Pigny,Laas,Pigny,1,17
+Je suis à Bages et je dois me rendre à Saint-Étienne-du-Vauvray,Bages,Saint-Étienne-du-Vauvray,Bages,Saint-Étienne-du-Vauvray,1,63
+J'aime voyager,INVALID,,INVALID,,1,14
+je vais au restaurant avec mon ami maxime,INVALID,,INVALID,,1,41
+comment aller à comps en partant de guntzviller ?,guntzviller,comps,guntzviller,comps,1,49
+Je vais à Orelle,INVALID,Orelle,INVALID,,1,16
+Itinéraire Laviron vers La Regrippière,Laviron,La Regrippière,Laviron,La Regrippière,1,38
+Trajet Calce Chatonrupt-Sommermont,Calce,Chatonrupt-Sommermont,Calce,Chatonrupt-Sommermont,1,34
+comment aller à quiberville en partant de melgven ?,melgven,quiberville,melgven,quiberville,1,51
+Faut qu'jaille à Monsireigne,INVALID,Monsireigne,INVALID,,1,28
+Comment aller à Audenge en partant de Gourbera ?,Gourbera,Audenge,Gourbera,Audenge,1,48
+Je vais a Maillot,INVALID,Maillot,INVALID,,1,17
+"Mon pote Leopoldine m'attend à Vitry-la-Ville, je pars de Lorcières",Lorcières,Vitry-la-Ville,Lorcières,Vitry-la-Ville,1,67
+"Faut que j'aille à Préfailles, je suis actuellement à Molitg-les-Bains",Molitg-les-Bains,Préfailles,Molitg-les-Bains,Préfailles,1,70
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Aller de Villiers-au-Bouin à Villandry,Villiers-au-Bouin,Villandry,Villiers-au-Bouin,Villandry,1,38
+chui a Saint-Jans-Cappel jveu alé a Arvière-en-Valromey,Saint-Jans-Cappel,Arvière-en-Valromey,Saint-Jans-Cappel,Arvière-en-Valromey,1,55
+Je vais à Garat,INVALID,Garat,INVALID,,1,15
+retour de néron vers sept-saulx,sept-saulx,néron,néron,sept-saulx,0,31
+Je veux me rendre à Nozay de Condal,Nozay,Condal,Nozay,Condal,1,35
+Direction Bourdettes,INVALID,Bourdettes,INVALID,,1,20
+Comment aller à Chaumont en partant de Hainvillers ?,Hainvillers,Chaumont,Hainvillers,Chaumont,1,52
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+quelle heure est-il ?,INVALID,,INVALID,,1,21
+trajet pour gastines depuis longuenesse,longuenesse,gastines,longuenesse,gastines,1,39
+Est-ce qu'on peut rejoindre Champagnac en venant de Bonlieu-sur-Roubion ?,Bonlieu-sur-Roubion,Champagnac,Bonlieu-sur-Roubion,Champagnac,1,73
+Je veux me rendre à Chargey-lès-Gray de Mouxy,Chargey-lès-Gray,Mouxy,Chargey-lès-Gray,Mouxy,1,45
+Comment je me rends à Pernois depuis Saint-Girons pour aller voir ma copine Camille,Saint-Girons,Pernois,Saint-Girons,Pernois,1,83
+Gare de Rou-Marson,INVALID,Rou-Marson,INVALID,,1,18
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Itinéraire Ostricourt vers Vauvert,Ostricourt,Vauvert,Ostricourt,Vauvert,1,34
+"je vais à herrlisheim, je pars de saint-pierre-de-varennes",saint-pierre-de-varennes,herrlisheim,saint-pierre-de-varennes,herrlisheim,1,58
+direction ferques,INVALID,ferques,INVALID,,1,17
+je pars pour Betignicourt de Montigny-en-Ostrevent,Montigny-en-Ostrevent,Betignicourt,Montigny-en-Ostrevent,Betignicourt,1,50
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Jvais a Curcay-sur-Dive dpuis La Chapelle-Saint-Ouen,La Chapelle-Saint-Ouen,Curcay-sur-Dive,La Chapelle-Saint-Ouen,Curcay-sur-Dive,1,52
+Je vais à Bassillac et Auberoche,INVALID,Bassillac et Auberoche,INVALID,,1,32
+Retour de Mazan-l'Abbaye vers Cloué,Cloué,Mazan-l'Abbaye,Mazan-l'Abbaye,Cloué,0,35
+Je veux me rendre a Port-Jerome-sur-Seine de Echay,Port-Jerome-sur-Seine,Echay,Port-Jerome-sur-Seine,Echay,1,50
+Liaison La Saucelle-Yzengremer,La Saucelle,Yzengremer,La Saucelle,Yzengremer,1,30
+je cherche un itinéraire de le nouvion-en-thiérache vers compreignac,le nouvion-en-thiérache,compreignac,le nouvion-en-thiérache,compreignac,1,68
+Je vais à Viey,INVALID,Viey,INVALID,,1,14
+Y'a quoi comme transport entre Ligueil et Saint-Morel ?,Ligueil,Saint-Morel,Ligueil,Saint-Morel,1,55
+je vais au restaurant avec mon ami maxime,INVALID,,INVALID,,1,41
+Je veux me rendre a Langesse de Rouvres-les-Vignes,Langesse,Rouvres-les-Vignes,Langesse,Rouvres-les-Vignes,1,50
+Je veux aller de Epron vers Neret,Epron,Neret,Epron,Neret,1,33
+Je cherche un itinéraire de Commana vers Sauchay,Commana,Sauchay,Commana,Sauchay,1,48
+Trajet Ry La Jonchère-Saint-Maurice,Ry,La Jonchère-Saint-Maurice,Ry,La Jonchère-Saint-Maurice,1,35
+Comment aller de La Bazoche-Gouet a Beaulieu ?,La Bazoche-Gouet,Beaulieu,La Bazoche-Gouet,Beaulieu,1,46
+Gare de Capestang,INVALID,Capestang,INVALID,,1,17
+Comment aller à Cintré en partant de Rognac ?,Rognac,Cintré,Rognac,Cintré,1,45
+prochain départ de espagnac pour villeneuve-en-montagne,espagnac,villeneuve-en-montagne,espagnac,villeneuve-en-montagne,1,55
+comment je me rends à hardinvast depuis estivareilles pour aller voir ma copine kevin,estivareilles,hardinvast,estivareilles,hardinvast,1,85
+nancy m'a dit d'aller à vou,INVALID,vou,INVALID,,1,27
+"Demain, je vais voir mon amie Alex qui habite à Susmiou, je pars de Flaignes-Havys",Flaignes-Havys,Susmiou,Flaignes-Havys,Susmiou,1,82
+Gare de Lignorelles,INVALID,Lignorelles,INVALID,,1,19
+Trajet pour Élise-Daucourt depuis Vallouise-Pelvoux,Vallouise-Pelvoux,Élise-Daucourt,Vallouise-Pelvoux,Élise-Daucourt,1,51
+je décolle de les églisottes-et-chalaures direction cuinzier,les églisottes-et-chalaures,cuinzier,les églisottes-et-chalaures,cuinzier,1,60
+jsuis blesle. bon jvais à belmont-sainte-foi,blesle,belmont-sainte-foi,blesle,belmont-sainte-foi,1,44
+Louches jusqu'a Collorgues,Louches,Collorgues,Louches,Collorgues,1,26
+Aller de Lannes à Cormeilles-en-Vexin,Lannes,Cormeilles-en-Vexin,Lannes,Cormeilles-en-Vexin,1,37
+Liaison Saint-Paul-Cap-de-Joux-Obermorschwiller,Saint-Paul-Cap-de-Joux,Obermorschwiller,Saint-Paul-Cap-de-Joux,Obermorschwiller,1,47
+"Faut que j'aille à Courrières, je suis actuellement à La Bollène-Vésubie",La Bollène-Vésubie,Courrières,La Bollène-Vésubie,Courrières,1,72
+Trajet Saint-Martin-de-Blagny Lanuéjouls,Saint-Martin-de-Blagny,Lanuéjouls,Saint-Martin-de-Blagny,Lanuéjouls,1,40
+Prochain train pour Saint-Pierre-Aigle,INVALID,Saint-Pierre-Aigle,INVALID,,1,38
+je décolle de gaujac direction saint-urbain,gaujac,saint-urbain,gaujac,saint-urbain,1,43
+Maucomble jusqu'à Maast-et-Violaine,Maucomble,Maast-et-Violaine,Maucomble,Maast-et-Violaine,1,35
+Je veux aller de Xaronval vers Lacapelle-Livron,Xaronval,Lacapelle-Livron,Xaronval,Lacapelle-Livron,1,47
+Prochain départ de Forest-sur-Marque pour Cloyes-sur-Marne,Forest-sur-Marque,Cloyes-sur-Marne,Forest-sur-Marque,Cloyes-sur-Marne,1,58
+Faut qu'jaille à Lédergues,INVALID,Lédergues,INVALID,,1,26
+Faut qu'jaille à Obermorschwiller,INVALID,Obermorschwiller,INVALID,,1,33
+Prochain départ de Bettoncourt pour Monviel,Bettoncourt,Monviel,Bettoncourt,Monviel,1,43
+Faut qu'jaille à Clasville,INVALID,Clasville,INVALID,,1,26
+Trajet pour Retonfey depuis Condom,Condom,Retonfey,Condom,Retonfey,1,34
+"Mon pote Maxime m'attend à Smermesnil, je pars de Valherbasse",Valherbasse,Smermesnil,Valherbasse,Smermesnil,1,61
+"je vais à terminiers, je pars de beauval-en-caux",beauval-en-caux,terminiers,beauval-en-caux,terminiers,1,48
+retour de bouligneux vers pezens,pezens,bouligneux,bouligneux,pezens,0,32
+Je souhaite aller de Dompierre-les-Églises à Villette-sur-Ain,Dompierre-les-Églises,Villette-sur-Ain,Dompierre-les-Églises,Villette-sur-Ain,1,61
+Je vais a Saint-Laurent-de-Cuves,INVALID,Saint-Laurent-de-Cuves,INVALID,,1,32
+je veux aller de sainte-sabine vers cernay,sainte-sabine,cernay,sainte-sabine,cernay,1,42
+Aller de Saint-Désirat à Le Boupère,Saint-Désirat,Le Boupère,Saint-Désirat,Le Boupère,1,35
+Trajet pour Montdoumerc depuis Maast-et-Violaine,Maast-et-Violaine,Montdoumerc,Maast-et-Violaine,Montdoumerc,1,48
+je pars pour La Villetelle de Néoules,Néoules,La Villetelle,Néoules,La Villetelle,1,37
+"Mon pote Alex m'attend à Saint-Connan, je pars de Chaumes-en-Brie",Chaumes-en-Brie,Saint-Connan,Chaumes-en-Brie,Saint-Connan,1,65
+Je cherche un itinéraire de Saint-Étienne-de-Fougères vers Vernois-lès-Belvoir,Saint-Étienne-de-Fougères,Vernois-lès-Belvoir,Saint-Étienne-de-Fougères,Vernois-lès-Belvoir,1,78
+Quel est le trajet entre Beaucamps-le-Vieux et Longfosse ?,Beaucamps-le-Vieux,Longfosse,Beaucamps-le-Vieux,Longfosse,1,58
+"Vol Besain-Autreville-sur-la-Renne, c'est pour quand ?",Besain,Autreville-sur-la-Renne,Besain,Autreville-sur-la-Renne,1,54
+chui a Sainte-Cécile jveu alé a Villiers-sous-Praslin,Sainte-Cécile,Villiers-sous-Praslin,Sainte-Cécile,Villiers-sous-Praslin,1,53
+Trajet Cheval-Blanc Quœux-Haut-Maînil,Cheval-Blanc,Quœux-Haut-Maînil,Cheval-Blanc,Quœux-Haut-Maînil,1,37
+Quel est le trajet entre Connac et Ceyroux ?,Connac,Ceyroux,Connac,Ceyroux,1,44
+Quel est le trajet entre Chancelade et Beaumont-les-Autels ?,Chancelade,Beaumont-les-Autels,Chancelade,Beaumont-les-Autels,1,60
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Direction Esvres,INVALID,Esvres,INVALID,,1,16
+Liaison Montagne-Bernécourt,Montagne,Bernécourt,Montagne,Bernécourt,1,27
+Cherche un billet pour Fontaines-Saint-Martin au depart de Leoville,Leoville,Fontaines-Saint-Martin,Leoville,Fontaines-Saint-Martin,1,67
+Je veux me rendre à Puycornet de Sisteron,Puycornet,Sisteron,Puycornet,Sisteron,1,41
+gare de escassefort,INVALID,escassefort,INVALID,,1,19
+Je souhaite aller de Emlingen à Montayral,Emlingen,Montayral,Emlingen,Montayral,1,41
+Je suis à Maubec et je dois me rendre à Romain-sur-Meuse,Maubec,Romain-sur-Meuse,Maubec,Romain-sur-Meuse,1,56
+Je cherche un itinéraire de Nailly vers Saint-Michel-de-Castelnau,Nailly,Saint-Michel-de-Castelnau,Nailly,Saint-Michel-de-Castelnau,1,65
+Je vais à Chamoux-sur-Gelon,INVALID,Chamoux-sur-Gelon,INVALID,,1,27
+"Demain, je vais voir mon amie Kevin qui habite à Trith-Saint-Léger, je pars de Chazey-Bons",Chazey-Bons,Trith-Saint-Léger,Chazey-Bons,Trith-Saint-Léger,1,90
+Direction Saint-Paul-lès-Dax,INVALID,Saint-Paul-lès-Dax,INVALID,,1,28
+Je suis à Rampillon et je dois me rendre à Saramon,Rampillon,Saramon,Rampillon,Saramon,1,50
+Je cherche un itinéraire de Arnage vers Saint-Loup-Terrier,Arnage,Saint-Loup-Terrier,Arnage,Saint-Loup-Terrier,1,58
+je pars pour Rougé de Bandol,Bandol,Rougé,Bandol,Rougé,1,28
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+nancy m'a dit d'aller à kurtzenhouse,INVALID,kurtzenhouse,INVALID,,1,36
+Aller de Livet-et-Gavet à Beaufou,Livet-et-Gavet,Beaufou,Livet-et-Gavet,Beaufou,1,33
+Trajet pour Paudy depuis Gentelles,Gentelles,Paudy,Gentelles,Paudy,1,34
+quel est le trajet entre nousseviller-saint-nabor et fontenay ?,nousseviller-saint-nabor,fontenay,nousseviller-saint-nabor,fontenay,1,63
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je vais à Petosse,INVALID,Petosse,INVALID,,1,17
+Est-ce qu'on peut rejoindre Aussonce en venant de Marnaz ?,Marnaz,Aussonce,Marnaz,Aussonce,1,58
+Retour de Saint-Léger-près-Troyes vers La Table,La Table,Saint-Léger-près-Troyes,Saint-Léger-près-Troyes,La Table,0,47
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+chui a Le Girouard jveu alé a Carlencas-et-Levas,Le Girouard,Carlencas-et-Levas,Le Girouard,Carlencas-et-Levas,1,48
+Je vais à Varen,INVALID,Varen,INVALID,,1,15
+Liaison Saint-Lamain-Moudeyres,Saint-Lamain,Moudeyres,Saint-Lamain,Moudeyres,1,30
+"Faut que j'aille à Villars-en-Azois, je suis actuellement à Condé-en-Normandie",Condé-en-Normandie,Villars-en-Azois,Condé-en-Normandie,Villars-en-Azois,1,78
+je vais a bainville-aux-saules,INVALID,bainville-aux-saules,INVALID,,1,30
+"Faut que j'aille à Villers-Marmery, je suis actuellement à Souancé-au-Perche",Souancé-au-Perche,Villers-Marmery,Souancé-au-Perche,Villers-Marmery,1,76
+je décolle de saint-vaast-la-hougue direction bois-normand-près-lyre,saint-vaast-la-hougue,bois-normand-près-lyre,saint-vaast-la-hougue,bois-normand-près-lyre,1,68
+Je décolle de Cernay-en-Dormois direction Gramazie,Cernay-en-Dormois,Gramazie,Cernay-en-Dormois,Gramazie,1,50
+"Je vais à Cour-et-Buis, je pars de Llupia",Llupia,Cour-et-Buis,Llupia,Cour-et-Buis,1,41
+Jsuis Reppe. Bon jvais à Arnage,Reppe,Arnage,Reppe,Arnage,1,31
+Je decolle de Acy-en-Multien direction Monts-de-Randon,Acy-en-Multien,Monts-de-Randon,Acy-en-Multien,Monts-de-Randon,1,54
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+Jsuis La Bassee. Bon jvais a Marconne,La Bassee,Marconne,La Bassee,Marconne,1,37
+Je vais au restaurant avec mon ami Maxime,INVALID,,INVALID,,1,41
+"Faut que j'aille a Faches-Thumesnil, je suis actuellement a Hillion",Hillion,Faches-Thumesnil,Hillion,Faches-Thumesnil,1,67
+Je suis à L'Isle-d'Abeau et je dois me rendre à Rittershoffen,L'Isle-d'Abeau,Rittershoffen,L'Isle-d'Abeau,Rittershoffen,1,61
+nancy m'a dit d'aller à montamel,INVALID,montamel,INVALID,,1,32
+Jvais à Barchain dpuis Bout-du-Pont-de-Larn,Bout-du-Pont-de-Larn,Barchain,Bout-du-Pont-de-Larn,Barchain,1,43
+je vais a chateau,INVALID,chateau,INVALID,,1,17
+je pars pour Chierry de Loiré,Loiré,Chierry,Loiré,Chierry,1,29
+Prochain départ de Jauzé pour Le Bastit,Jauzé,Le Bastit,Jauzé,Le Bastit,1,39
+chui a Notre-Dame-d'Épine jveu alé a Blausasc,Notre-Dame-d'Épine,Blausasc,Notre-Dame-d'Épine,Blausasc,1,45
+Direction Fresnoy-en-Gohelle,INVALID,Fresnoy-en-Gohelle,INVALID,,1,28
+Je veux me rendre a Saint-Saury de Remenoville,Saint-Saury,Remenoville,Saint-Saury,Remenoville,1,46
+Comment aller de Lamonzie-Montastruc a Villers-le-Chateau ?,Lamonzie-Montastruc,Villers-le-Chateau,Lamonzie-Montastruc,Villers-le-Chateau,1,59
+Faut qu'jaille à Melin,INVALID,Melin,INVALID,,1,22
+"Je vais à Causses-et-Veyran, je pars de Cossaye",Cossaye,Causses-et-Veyran,Cossaye,Causses-et-Veyran,1,47
+Comment je me rends à Plounévez-Quintin depuis Laujuzan pour aller voir ma copine Solange,Laujuzan,Plounévez-Quintin,Laujuzan,Plounévez-Quintin,1,89
+Nancy m'a dit d'aller a Bellegarde-du-Razes,INVALID,Bellegarde-du-Razes,INVALID,,1,43
+chui a Ille-sur-Têt jveu alé a Loisy-sur-Marne,Ille-sur-Têt,Loisy-sur-Marne,Ille-sur-Têt,Loisy-sur-Marne,1,46
+je pars pour Sainte-Juliette-sur-Viaur de La Vineuse sur Fregande,La Vineuse sur Fregande,Sainte-Juliette-sur-Viaur,La Vineuse sur Fregande,Sainte-Juliette-sur-Viaur,1,65
+je pars pour Vincy-Reuil-et-Magny de Montigny-sur-Chiers,Montigny-sur-Chiers,Vincy-Reuil-et-Magny,Montigny-sur-Chiers,Vincy-Reuil-et-Magny,1,56
+Prochain train pour Bissezeele,INVALID,Bissezeele,INVALID,,1,30
+Itinéraire Vigny vers Lect,Vigny,Lect,Vigny,Lect,1,26
+prochain départ de pont-de-salars pour chargey-lès-port,pont-de-salars,chargey-lès-port,pont-de-salars,chargey-lès-port,1,55
+Retour de Saint-Germain-de-Coulamer vers Quincy-Landzecourt,Quincy-Landzecourt,Saint-Germain-de-Coulamer,Saint-Germain-de-Coulamer,Quincy-Landzecourt,0,59
+Je veux aller de Béhuard vers Maizicourt,Béhuard,Maizicourt,Béhuard,Maizicourt,1,40
+"Mon pote Florence m'attend à Agnières, je pars de Résenlieu",Résenlieu,Agnières,Résenlieu,Agnières,1,59
+Je décolle de Gambais direction Loubès-Bernac,Gambais,Loubès-Bernac,Gambais,Loubès-Bernac,1,45
+est-ce qu'on peut rejoindre rougon en venant de reuil-sur-brêche ?,reuil-sur-brêche,rougon,reuil-sur-brêche,rougon,1,66
+jsuis saint-juvat. bon jvais à orgerus,saint-juvat,orgerus,saint-juvat,orgerus,1,38
+Je passe par Lyon pour aller de Quend à Massignieu-de-Rives,Quend,Massignieu-de-Rives,Quend,Massignieu-de-Rives,1,59
+Trajet pour Mesnil-Verclives depuis Ingenheim,Ingenheim,Mesnil-Verclives,Ingenheim,Mesnil-Verclives,1,45
+je cherche un itinéraire de landerrouat vers montagna-le-reconduit,landerrouat,montagna-le-reconduit,landerrouat,montagna-le-reconduit,1,66
+Gare de Vence,INVALID,Vence,INVALID,,1,13
+"Je vais à Savarthès, je pars de Bercenay-en-Othe",Bercenay-en-Othe,Savarthès,Bercenay-en-Othe,Savarthès,1,48
+Jsuis Chailland. Bon jvais à Sous-Parsat,Chailland,Sous-Parsat,Chailland,Sous-Parsat,1,40
+je cherche un itinéraire de ponsonnas vers la clotte,ponsonnas,la clotte,ponsonnas,la clotte,1,52
+Aller de Autingues à Vitrey,Autingues,Vitrey,Autingues,Vitrey,1,27
+Je suis à Saint-Gervais et je dois me rendre à Castelbiague,Saint-Gervais,Castelbiague,Saint-Gervais,Castelbiague,1,59
+Je cherche un itinéraire de Lieurac vers La Noue,Lieurac,La Noue,Lieurac,La Noue,1,48
+Je vais à Pouligny-Saint-Martin,INVALID,Pouligny-Saint-Martin,INVALID,,1,31
+Comment aller à Saint-Palais en partant de Martizay ?,Martizay,Saint-Palais,Martizay,Saint-Palais,1,53
+"Mon pote Clara m'attend à Caramany, je pars de Saint-Médard-la-Rochette",Saint-Médard-la-Rochette,Caramany,Saint-Médard-la-Rochette,Caramany,1,71
+"Mon pote Camille m'attend à Saint-Germain-de-Livet, je pars de Les Écorces",Les Écorces,Saint-Germain-de-Livet,Les Écorces,Saint-Germain-de-Livet,1,74
+Est-ce qu'on peut rejoindre Availles-Limouzine en venant de Tournon ?,Tournon,Availles-Limouzine,Tournon,Availles-Limouzine,1,69
+Comment je me rends à Saint-Amand-sur-Fion depuis Naussac-Fontanes pour aller voir ma copine Maxime,Naussac-Fontanes,Saint-Amand-sur-Fion,Naussac-Fontanes,Saint-Amand-sur-Fion,1,99
+Direction La Vernelle,INVALID,La Vernelle,INVALID,,1,21
+comment je me rends à bièvres depuis boulieu-lès-annonay pour aller voir ma copine camille,boulieu-lès-annonay,bièvres,boulieu-lès-annonay,bièvres,1,90
+Direction Bueil,INVALID,Bueil,INVALID,,1,15
+Faut qu'jaille à Bois-d'Amont,INVALID,Bois-d'Amont,INVALID,,1,29
+"Vol Essert-Meilhac, c'est pour quand ?",Essert,Meilhac,Ess,ert-Meilhac,0,38
+Je cherche un itinéraire de La Londe vers La Bazoge-Montpinçon,La Londe,La Bazoge-Montpinçon,La Londe,La Bazoge-Montpinçon,1,62
+Y'a quoi comme transport entre Floringhem et Cheminon ?,Floringhem,Cheminon,Floringhem,Cheminon,1,55
+Je décolle de Saint-Bonnet-près-Riom direction Neauphle-le-Vieux,Saint-Bonnet-près-Riom,Neauphle-le-Vieux,Saint-Bonnet-près-Riom,Neauphle-le-Vieux,1,64
+Quel est le trajet entre Bost et Audinghen ?,Bost,Audinghen,Bost,Audinghen,1,44
+Comment aller de Aspères à Meslay-du-Maine ?,Aspères,Meslay-du-Maine,Aspères,Meslay-du-Maine,1,44
+"Faut que j'aille à Les Touches-de-Périgny, je suis actuellement à Sanilhac",Sanilhac,Les Touches-de-Périgny,Sanilhac,Les Touches-de-Périgny,1,74
+J'aime voyager,INVALID,,INVALID,,1,14
+nancy m'a dit d'aller à cantoin,INVALID,cantoin,INVALID,,1,31
+Jsuis Le Tour-du-Parc. Bon jvais à Haguenau,Le Tour-du-Parc,Haguenau,Le Tour-du-Parc.,Haguenau,1,43
+comment aller a lhor en partant de saint-alyre-es-montagne ?,saint-alyre-es-montagne,lhor,saint-alyre-es-montagne,lhor,1,60
+Prochain départ de Appenwihr pour Han-devant-Pierrepont,Appenwihr,Han-devant-Pierrepont,Appenwihr,Han-devant-Pierrepont,1,55
+Je décolle de Genouillé direction Simiane-la-Rotonde,Genouillé,Simiane-la-Rotonde,Genouillé,Simiane-la-Rotonde,1,52
+Je passe par Lyon pour aller de Saint-Léger-le-Guérétois à Bouquet,Saint-Léger-le-Guérétois,Bouquet,Saint-Léger-le-Guérétois,Bouquet,1,66
+Itinéraire Saint-Éman vers Hurecourt,Saint-Éman,Hurecourt,Saint-Éman,Hurecourt,1,36
+Trajet pour Conde-les-Autry depuis Marigny-Le-Lozon,Marigny-Le-Lozon,Conde-les-Autry,Marigny-Le-Lozon,Conde-les-Autry,1,51
+"Je vais à Niozelles, je pars de Vyans-le-Val",Vyans-le-Val,Niozelles,Vyans-le-Val,Niozelles,1,44
+Velle-le-Châtel jusqu'à Montaignac-sur-Doustre,Velle-le-Châtel,Montaignac-sur-Doustre,Velle-le-Châtel,Montaignac-sur-Doustre,1,46
+il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Liaison Saint-Roman-de-Malegarde-Frétoy,Saint-Roman-de-Malegarde,Frétoy,Saint-Roman-de-Malegarde,Frétoy,1,39
+liaison montels-ébréon,montels,ébréon,montels,ébréon,1,22
+nancy m'a dit d'aller à marcilly-ogny,INVALID,marcilly-ogny,INVALID,,1,37
+"Faut que j'aille à Le Triadou, je suis actuellement à Bach",Bach,Le Triadou,Bach,Le Triadou,1,58
+Gare de Lorlanges,INVALID,Lorlanges,INVALID,,1,17
+Est-ce qu'on peut rejoindre Brou-sur-Chantereine en venant de Saint-Pardoux-le-Lac ?,Saint-Pardoux-le-Lac,Brou-sur-Chantereine,Saint-Pardoux-le-Lac,Brou-sur-Chantereine,1,84
+Comment aller de Maxéville à Saint-Geniès-de-Fontedit ?,Maxéville,Saint-Geniès-de-Fontedit,Maxéville,Saint-Geniès-de-Fontedit,1,55
+y'a quoi comme transport entre saint-jouan-des-guérets et bournoncle-saint-pierre ?,saint-jouan-des-guérets,bournoncle-saint-pierre,saint-jouan-des-guérets,bournoncle-saint-pierre,1,83
+"demain, je vais voir mon amie florence qui habite à goult, je pars de gueltas",gueltas,goult,gueltas,goult,1,77
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+le temps est à l'averse,INVALID,,INVALID,,1,23
+Faut qu'jaille a Suriauville,INVALID,Suriauville,INVALID,,1,28
+Je suis à Serbonnes et je dois me rendre à Othe,Serbonnes,Othe,Serbonnes,Othe,1,47
+Aller de Vellexon-Queutrey-et-Vaudey à Bourg-Blanc,Vellexon-Queutrey-et-Vaudey,Bourg-Blanc,Vellexon-Queutrey-et-Vaudey,Bourg-Blanc,1,50
+Je vais à Guagno,INVALID,Guagno,INVALID,,1,16
+Liaison Saint-Léger-des-Prés-Payzac,Saint-Léger-des-Prés,Payzac,Saint-Léger-des-Prés,Payzac,1,35
+est-ce qu'on peut rejoindre villemontais en venant de la bastide-de-bousignac ?,la bastide-de-bousignac,villemontais,la bastide-de-bousignac,villemontais,1,79
+J'aime voyager,INVALID,,INVALID,,1,14
+Direction Saint-Quirc,INVALID,Saint-Quirc,INVALID,,1,21
+"Faut que j'aille à Ambès, je suis actuellement à Maël-Pestivien",Maël-Pestivien,Ambès,Maël-Pestivien,Ambès,1,63
+"Je vais à Violot, je pars de Bussac-Forêt",Bussac-Forêt,Violot,Bussac-Forêt,Violot,1,41
+trajet ornaisons mesanger,ornaisons,mesanger,ornaisons,mesanger,1,25
+Je veux me rendre à Montureux-lès-Baulay de Montabot,Montureux-lès-Baulay,Montabot,Montureux-lès-Baulay,Montabot,1,52
+Prochain train pour Arcenant,INVALID,Arcenant,INVALID,,1,28
+comment aller à vosbles-valfin en partant de landes-vieilles-et-neuves ?,landes-vieilles-et-neuves,vosbles-valfin,landes-vieilles-et-neuves,vosbles-valfin,1,72
+Je passe par Lyon pour aller de Le Tallud à Fieulaine,Le Tallud,Fieulaine,Le Tallud,Fieulaine,1,53
+Gare de Alban,INVALID,Alban,INVALID,,1,13
+je veux me rendre a rotalier de le truel,rotalier,le truel,rotalier,le truel,1,40
+Comment aller a Pezens en partant de Courcelles-les-Montbeliard ?,Courcelles-les-Montbeliard,Pezens,Courcelles-les-Montbeliard,Pezens,1,65
+Je passe par Lyon pour aller de Poudenx à Saint-Just-Malmont,Poudenx,Saint-Just-Malmont,Poudenx,Saint-Just-Malmont,1,60
+Direction Lavergne,INVALID,Lavergne,INVALID,,1,18
+Direction Scorbe-Clairvaux,INVALID,Scorbe-Clairvaux,INVALID,,1,26
+je vais au restaurant avec mon ami maxime,INVALID,,INVALID,,1,41
+je pars pour Trappes de Jonchères,Jonchères,Trappes,Jonchères,Trappes,1,33
+Jvais a Castelviel dpuis Gommerville,Gommerville,Castelviel,Gommerville,Castelviel,1,36
+"Demain, je vais voir mon amie Naya qui habite a Aillianville, je pars de Orvilliers",Orvilliers,Aillianville,Orvilliers,Aillianville,1,83
+Direction Braud-et-Saint-Louis,INVALID,Braud-et-Saint-Louis,INVALID,,1,30
+je passe par lyon pour aller de casteide-doat à chérisy,casteide-doat,chérisy,casteide-doat,chérisy,1,55
+prochain train pour aillianville,INVALID,aillianville,INVALID,,1,32
+Comment aller de Ludesse à Marignac-Laspeyres ?,Ludesse,Marignac-Laspeyres,Ludesse,Marignac-Laspeyres,1,47
+Je souhaite aller de Thoard à Coustaussa,Thoard,Coustaussa,Thoard,Coustaussa,1,40
+Quelle heure est-il ?,INVALID,,INVALID,,1,21
+Il fait beau aujourd'hui,INVALID,,INVALID,,1,24
+Je veux aller de Val-d'Étangson vers Laval-Roquecezière,Val-d'Étangson,Laval-Roquecezière,Val-d'Étangson,Laval-Roquecezière,1,55
+Comment aller à Tracy-sur-Mer en partant de Le Val-de-Guéblange ?,Le Val-de-Guéblange,Tracy-sur-Mer,Le Val-de-Guéblange,Tracy-sur-Mer,1,65
+Je décolle de Germaines direction Sillegny,Germaines,Sillegny,Germaines,Sillegny,1,42
