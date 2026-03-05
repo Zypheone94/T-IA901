@@ -8,12 +8,18 @@ import re
 from pathlib import Path
 from dataclasses import dataclass
 from typing import Dict, List, Tuple, Optional, Set
-
+import json
+import queue
+import sounddevice as sd
+from vosk import Model, KaldiRecognizer
 import pandas as pd
 import geopandas as gpd
 from scipy.spatial import cKDTree
 from pyproj import Transformer
+import folium
 
+VOSK_MODEL_DIR = "./vosk-model-fr"
+VOICE_SAMPLE_RATE = 16000
 def time_to_sec(t: str) -> int:
     h, m, s = str(t).split(":")
     return int(h) * 3600 + int(m) * 60 + int(s)
@@ -23,7 +29,14 @@ def sec_to_hhmm(sec: int) -> str:
     h = sec // 3600
     m = (sec % 3600) // 60
     return f"{h:02d}:{m:02d}"
-
+def sec_to_day_hhmm(sec: int) -> str:
+    day = sec // 86400
+    rem = sec % 86400
+    h = rem // 3600
+    m = (rem % 3600) // 60
+    if day == 0:
+        return f"{h:02d}:{m:02d}"
+    return f"J+{day} {h:02d}:{m:02d}"
 
 def yyyymmdd(date_str: str) -> int:
     return int(str(date_str).replace("-", ""))
@@ -112,31 +125,22 @@ def active_service_ids(gtfs_dir: str, date_yyyymmdd: int) -> Set[str]:
         active = set(trips["service_id"].astype(str).unique().tolist())
 
     return active
-
-
-def build_stops_xy_2154(gtfs_dir: str) -> pd.DataFrame:
+def load_stops_with_xy(gtfs_dir: str) -> pd.DataFrame:
     stops = read_gtfs_csv(
         gtfs_dir,
         "stops.txt",
         usecols=["stop_id", "stop_lat", "stop_lon", "stop_name", "parent_station", "location_type"],
     )
     stops["stop_id"] = stops["stop_id"].astype(str)
+    stops["stop_lat"] = pd.to_numeric(stops["stop_lat"], errors="coerce")
+    stops["stop_lon"] = pd.to_numeric(stops["stop_lon"], errors="coerce")
+    stops = stops.dropna(subset=["stop_lat", "stop_lon"]).copy()
     tr = Transformer.from_crs("EPSG:4326", "EPSG:2154", always_xy=True)
-    xs, ys = tr.transform(
-        stops["stop_lon"].astype(float).to_numpy(),
-        stops["stop_lat"].astype(float).to_numpy()
-    )
-    out = pd.DataFrame(
-        {
-            "stop_id": stops["stop_id"].to_numpy(),
-            "x": xs,
-            "y": ys,
-            "stop_name": stops["stop_name"].astype(str).to_numpy(),
-            "parent_station": stops.get("parent_station", pd.Series([None] * len(stops))).astype(str).to_numpy(),
-            "location_type": stops.get("location_type", pd.Series(["0"] * len(stops))).astype(str).to_numpy(),
-        }
-    )
-    return out
+    xs, ys = tr.transform(stops["stop_lon"].to_numpy(), stops["stop_lat"].to_numpy())
+    stops["x"] = xs
+    stops["y"] = ys
+
+    return stops
 
 
 def load_trip_stops(gtfs_dir: str, trip_id: str) -> pd.DataFrame:
@@ -235,7 +239,57 @@ def pretty_trip_calling_pattern_segment(
         out.append("  ... (tronqué)")
     return "\n".join(out)
 
+def _load_vosk():
 
+    model_path = Path(VOSK_MODEL_DIR)
+    if not model_path.exists():
+        raise FileNotFoundError(
+            f"Modèle Vosk introuvable: {VOSK_MODEL_DIR}. "
+            f"Télécharge un modèle FR et dézippe-le à cet endroit."
+        )
+
+    model = Model(str(model_path))
+    return model
+def listen_sentence_vosk(timeout_sec: int = 8) -> str:
+    model = _load_vosk()
+    rec = KaldiRecognizer(model, VOICE_SAMPLE_RATE)
+    rec.SetWords(False)
+
+    q = queue.Queue()
+
+    def callback(indata, frames, time, status):
+        if status:
+            print(status)
+            pass
+        q.put(bytes(indata))
+
+    print("🎙️ Parle maintenant... (silence pour terminer)")
+    text_final = ""
+
+    with sd.RawInputStream(
+        samplerate=VOICE_SAMPLE_RATE,
+        blocksize=8000,
+        dtype="int16",
+        channels=1,
+        callback=callback,
+    ):
+        start = datetime.datetime.now()
+        while True:
+            if (datetime.datetime.now() - start).total_seconds() > timeout_sec:
+                break
+
+            data = q.get()
+            if rec.AcceptWaveform(data):
+                res = json.loads(rec.Result())
+                text_final = (res.get("text") or "").strip()
+                if text_final:
+                    break
+
+        if not text_final:
+            res = json.loads(rec.FinalResult())
+            text_final = (res.get("text") or "").strip()
+
+    return text_final
 def commune_access_stops(
     communes_gdf: gpd.GeoDataFrame,
     insee: str,
@@ -564,9 +618,7 @@ def pretty_itinerary(
         i = j
 
     return "\n".join(lines)
-
-
-def best_of_day(
+def top_k_of_day(
     conns: List[Connection],
     foot: Dict[str, List[Tuple[str, int]]],
     origin_stops: List[Tuple[str, int]],
@@ -574,50 +626,57 @@ def best_of_day(
     start_hhmm: str = "06:00:00",
     end_hhmm: str = "20:00:00",
     step_minutes: int = 30,
+    k_results: int = 5,
 ):
     dep_list = [c.dep for c in conns]
     t0 = time_to_sec(start_hhmm)
     t1 = time_to_sec(end_hhmm)
     step = step_minutes * 60
-    best = None
-    best_path = None
+
+    cands = []
 
     for dep in range(t0, t1 + 1, step):
         start_idx = bisect.bisect_left(dep_list, dep)
 
         earliest, pred = csa_earliest_arrival(
-            conns,
-            foot,
-            origin_stops,
+            conns, foot, origin_stops,
             departure_sec=dep,
             start_index=start_idx
         )
 
-        best_arr = 10**18
+        best_arr_total = 10**18
         best_dest = None
+        best_arr_stop = None
+
         for sid, egress in dest_stops_with_egress:
             arr = earliest.get(sid, 10**18)
             if arr >= 10**18:
                 continue
             arr_total = arr + egress
-            if arr_total < best_arr:
-                best_arr = arr_total
+            if arr_total < best_arr_total:
+                best_arr_total = arr_total
                 best_dest = sid
+                best_arr_stop = arr
 
         if best_dest is None:
             continue
 
         path = reconstruct(pred, best_dest)
         transfers = count_transfers(path)
-        duration = best_arr - dep
+        duration = best_arr_total - dep
+        cands.append((duration, transfers, best_arr_total, dep, best_dest, path, best_arr_stop))
 
-        cand = (duration, transfers, best_arr, dep, best_dest, pred)
-        if best is None or cand < best:
-            best = cand
-            best_path = path
+    cands.sort(key=lambda x: (x[0], x[1], x[2], x[3]))
+    out = []
+    last_dep = None
+    for cand in cands:
+        if last_dep is None or abs(cand[3] - last_dep) >= 20 * 60:  # au moins 20 min d'écart
+            out.append(cand)
+            last_dep = cand[3]
+        if len(out) >= k_results:
+            break
 
-    return best, best_path
-
+    return out
 def ensure_model_ready(model_dir: str = "./model") -> str:
     model_path = Path(model_dir)
     needed = ["config.json", "model.safetensors", "tokenizer.json"]
@@ -707,7 +766,6 @@ def extract_depart_arrivee(sentence: str, ner) -> Tuple[str, str]:
         raise ValueError("Extraction départ/arrivée ambiguë. Essaye: 'de X à Y'.")
 
     return dep, arr
-
 def plan_itinerary(
     from_commune: str,
     to_commune: str,
@@ -720,13 +778,24 @@ def plan_itinerary(
     ACCESS_K_ORIGIN: int = 25,
     ACCESS_K_DEST: int = 35,
     ACCESS_RADIUS_M: float = 50_000,
+    K_RESULTS: int = 5,
+    MAX_DAYS_AHEAD: int = 3,
+    FALLBACK_LEVELS: Optional[List[Tuple[int, int, float]]] = None,
 ):
+
+    if FALLBACK_LEVELS is None:
+        FALLBACK_LEVELS = [
+            (ACCESS_K_ORIGIN, ACCESS_K_DEST, ACCESS_RADIUS_M),
+            (max(50, ACCESS_K_ORIGIN * 2), max(70, ACCESS_K_DEST * 2), max(80_000, ACCESS_RADIUS_M)),
+            (max(80, ACCESS_K_ORIGIN * 3), max(120, ACCESS_K_DEST * 3), max(120_000, ACCESS_RADIUS_M)),
+        ]
+
     communes = load_communes(COMMUNES_SHP)
     src_insee, src_nom = pick_commune_by_name(communes, from_commune)
     dst_insee, dst_nom = pick_commune_by_name(communes, to_commune)
-
-    stops_xy = build_stops_xy_2154(GTFS_DIR)
-
+    stops_df = load_stops_with_xy(GTFS_DIR)
+    stops_xy = stops_df[["stop_id", "x", "y", "stop_name", "parent_station", "location_type"]].copy()
+    stops_ll = stops_df[["stop_id", "stop_lat", "stop_lon", "stop_name", "parent_station", "location_type"]].copy()
     foot_cache = os.path.join(GTFS_DIR, "footpaths.pkl")
     if os.path.exists(foot_cache):
         with open(foot_cache, "rb") as f:
@@ -736,62 +805,116 @@ def plan_itinerary(
         with open(foot_cache, "wb") as f:
             pickle.dump(foot, f)
 
-    date_i = yyyymmdd(date_str)
-    conn_cache = os.path.join(GTFS_DIR, f"connections_{date_i}.pkl")
-    meta_cache = os.path.join(GTFS_DIR, f"conn_meta_{date_i}.pkl")
+    base_date = datetime.date.fromisoformat(date_str)
 
-    if os.path.exists(conn_cache) and os.path.exists(meta_cache):
-        with open(conn_cache, "rb") as f:
-            conns = pickle.load(f)
-        with open(meta_cache, "rb") as f:
-            stop_name, route_label, trip_label = pickle.load(f)
-    else:
-        conns, stop_name, route_label, trip_label = build_connections_for_date(GTFS_DIR, date_i)
-        with open(conn_cache, "wb") as f:
-            pickle.dump(conns, f)
-        with open(meta_cache, "wb") as f:
-            pickle.dump((stop_name, route_label, trip_label), f)
+    def _load_or_build_conns(date_i: int):
+        conn_cache = os.path.join(GTFS_DIR, f"connections_{date_i}.pkl")
+        meta_cache = os.path.join(GTFS_DIR, f"conn_meta_{date_i}.pkl")
+        if os.path.exists(conn_cache) and os.path.exists(meta_cache):
+            with open(conn_cache, "rb") as f:
+                conns_local = pickle.load(f)
+            with open(meta_cache, "rb") as f:
+                stop_name_local, route_label_local, trip_label_local = pickle.load(f)
+        else:
+            conns_local, stop_name_local, route_label_local, trip_label_local = build_connections_for_date(GTFS_DIR, date_i)
+            with open(conn_cache, "wb") as f:
+                pickle.dump(conns_local, f)
+            with open(meta_cache, "wb") as f:
+                pickle.dump((stop_name_local, route_label_local, trip_label_local), f)
+        return conns_local, stop_name_local, route_label_local, trip_label_local
 
-    if not conns:
-        print("Aucune connection trouvée. Vérifie DATE et calendar_dates.txt.")
+    best_found = None
+    chosen_date = None
+    chosen_level = None
+    chosen_conns = None
+    chosen_meta = None
+    chosen_origin = None
+    chosen_dest = None
+
+    for (kO, kD, rad) in FALLBACK_LEVELS:
+        origin = commune_access_stops(
+            communes, src_insee, stops_xy,
+            k=kO, max_radius_m=rad
+        )
+        dest = commune_access_stops(
+            communes, dst_insee, stops_xy,
+            k=kD, max_radius_m=rad
+        )
+        if not origin:
+            print(f"Aucun stop trouvé autour de {src_nom} (K={kO}, rayon={int(rad/1000)}km).")
+            continue
+        if not dest:
+            print(f"Aucun stop trouvé autour de {dst_nom} (K={kD}, rayon={int(rad/1000)}km).")
+            continue
+
+        for day_offset in range(MAX_DAYS_AHEAD):
+            date_test = (base_date + datetime.timedelta(days=day_offset)).isoformat()
+            date_i = yyyymmdd(date_test)
+
+            conns, stop_name, route_label, trip_label = _load_or_build_conns(date_i)
+            if not conns:
+                continue
+
+            cands = top_k_of_day(
+                conns, foot,
+                origin_stops=origin,
+                dest_stops_with_egress=dest,
+                start_hhmm=PROFILE_START,
+                end_hhmm=PROFILE_END,
+                step_minutes=PROFILE_STEP_MIN,
+                k_results=K_RESULTS
+            )
+
+            if cands:
+                best_found = cands
+                chosen_date = date_test
+                chosen_level = (kO, kD, rad)
+                chosen_conns = conns
+                chosen_meta = (stop_name, route_label, trip_label)
+                chosen_origin = origin
+                chosen_dest = dest
+                break
+
+        if best_found:
+            break
+
+    if not best_found:
+        print(f"Aucun itinéraire trouvé sur {MAX_DAYS_AHEAD} jour(s), même après fallback K/rayon.")
         return
 
-    origin = commune_access_stops(
-        communes, src_insee, stops_xy,
-        k=ACCESS_K_ORIGIN, max_radius_m=ACCESS_RADIUS_M
-    )
-    dest = commune_access_stops(
-        communes, dst_insee, stops_xy,
-        k=ACCESS_K_DEST, max_radius_m=ACCESS_RADIUS_M
-    )
-    dest_with_egress = dest
+    stop_name, route_label, trip_label = chosen_meta
+    kO, kD, rad = chosen_level
 
-    if not origin:
-        print(f"Aucun stop trouvé autour de {src_nom} (augmente ACCESS_RADIUS_M).")
-        return
-    if not dest:
-        print(f"Aucun stop trouvé autour de {dst_nom} (augmente ACCESS_RADIUS_M).")
-        return
-
-    best, path = best_of_day(
-        conns, foot,
-        origin_stops=origin,
-        dest_stops_with_egress=dest_with_egress,
-        start_hhmm=PROFILE_START,
-        end_hhmm=PROFILE_END,
-        step_minutes=PROFILE_STEP_MIN,
-    )
-
-    if best is None or path is None:
-        print("Aucun itinéraire trouvé sur cette journée.")
-        print("Essaye: autre DATE, élargis ACCESS_RADIUS_M, ou step=60.")
-        return
-
-    duration, transfers, arr_abs, dep_abs, best_dest, _pred = best
-
+    print(f"\n Itinéraires trouvés ({len(best_found)})")
     print(f"Départ : {src_nom} (commune)")
     print(f"Arrivée: {dst_nom} (commune)")
-    print(f"Date   : {date_str}")
+    print(f"Date   : {chosen_date}  (K={kO}/{kD}, rayon={int(rad/1000)}km)")
+    print(f"Fenêtre départ: {PROFILE_START} → {PROFILE_END} (pas {PROFILE_STEP_MIN} min)\n")
+
+    for i, (duration, transfers, arr_total, dep, best_dest, path, arr_stop) in enumerate(best_found, 1):
+        print(
+            f"[{i}] Départ {sec_to_hhmm(dep)} -> Arrivée {sec_to_day_hhmm(arr_total)} | "
+            f"Durée {duration//60} min | transferts {transfers}"
+        )
+    while True:
+        try:
+            s = input(f"\nChoisis une option (1-{len(best_found)}) pour afficher le détail + carte, ou 'q' : ").strip().lower()
+        except (EOFError, KeyboardInterrupt):
+            print("\nbye")
+            return
+        if s in {"q", "quit", "exit"}:
+            return
+        if s.isdigit():
+            idx = int(s)
+            if 1 <= idx <= len(best_found):
+                break
+        print("Entrée invalide.")
+
+    duration, transfers, arr_abs, dep_abs, best_dest, path, arr_stop = best_found[idx - 1]
+
+    print("\n" + "=" * 80)
+    print(f"OPTION [{idx}]")
+    print(f"Date         : {chosen_date}")
     print(f"Départ choisi : {sec_to_hhmm(dep_abs)}")
     print(f"Arrivée      : {sec_to_hhmm(arr_abs)}")
     print(f"Durée        : {int(duration // 60)} min")
@@ -799,7 +922,51 @@ def plan_itinerary(
 
     print("Itinéraire RÉEL (trip_id + stop_times):")
     print(pretty_itinerary(GTFS_DIR, path, stop_name, route_label, trip_label))
+    try:
+        export_path_map_html(
+            "route.html",
+            path,
+            stops_ll=stops_ll,
+            stop_name=stop_name,
+            title=f"{src_nom} → {dst_nom} ({chosen_date})"
+        )
+        print("\n Carte générée: route.html\n")
+    except Exception as e:
+        print(f"\n[MAP ERR] {e}\n")
+def export_path_map_html(
+    html_path: str,
+    path: List[Tuple[str, Pred]],
+    stops_ll: pd.DataFrame,
+    stop_name: Dict[str, str],
+    title: str = "Itinéraire"
+):
 
+    df = stops_ll.copy()
+    df["stop_id"] = df["stop_id"].astype(str)
+    idx = {sid: (float(lat), float(lon)) for sid, lat, lon in zip(df["stop_id"], df["stop_lat"], df["stop_lon"])}
+
+    pts = []
+    for sid, _ in path:
+        sid = str(sid)
+        if sid in idx:
+            pts.append(idx[sid])
+
+    if not pts:
+        raise ValueError("Aucun stop du path n'a de lat/lon pour exporter la carte.")
+
+    m = folium.Map(location=pts[0], zoom_start=7, control_scale=True)
+
+    folium.Marker(pts[0], tooltip="Départ", popup=stop_name.get(path[0][0], path[0][0])).add_to(m)
+    folium.Marker(pts[-1], tooltip="Arrivée", popup=stop_name.get(path[-1][0], path[-1][0])).add_to(m)
+
+    folium.PolyLine(pts, weight=5, opacity=0.8).add_to(m)
+    step = max(1, len(pts)//20)
+    for i in range(0, len(pts), step):
+        folium.CircleMarker(pts[i], radius=3, fill=True).add_to(m)
+
+    folium.map.Marker(pts[0], icon=folium.DivIcon(html=f"<div style='font-weight:700'>{title}</div>")).add_to(m)
+
+    m.save(html_path)
 def main():
     date_str = datetime.date.today().isoformat()
 
@@ -807,12 +974,11 @@ def main():
     ner = load_ner_pipeline("./model")
 
     print(f"Date par défaut: {date_str}")
-    print("Tape une phrase (ex: 'je veux aller de Nevers à Rouen').")
+    print("Tape une phrase.")
     print("Écris 'quit' pour sortir.\n")
-
     while True:
         try:
-            sentence = input("> ").strip()
+            sentence = input("> (texte / 'v' voix / quit) ").strip()
         except (EOFError, KeyboardInterrupt):
             print("\nbye")
             break
@@ -821,6 +987,17 @@ def main():
             continue
         if sentence.lower() in {"q", "quit", "exit"}:
             break
+
+        if sentence.lower() in {"v", "voice", "mic"}:
+            try:
+                sentence = listen_sentence_vosk(timeout_sec=10)
+                if not sentence:
+                    print("[VOICE] recommencez svp.\n")
+                    continue
+                print(f"[VOICE] Tu as dit: {sentence}\n")
+            except Exception as e:
+                print(f"[VOICE ERR] {e}\n")
+                continue
 
         try:
             dep, arr = extract_depart_arrivee(sentence, ner)
