@@ -32,9 +32,9 @@ parser = argparse.ArgumentParser(description="Chatbot itineraire SNCF")
 parser.add_argument("--model",  type=str,
                     default=str(THIS_FILE.parent / "camembert-ner-essai1"))
 parser.add_argument("--gtfs",   type=str,
-                    default=str(SHORTESTPATH_DIR / "data" / "sncf_gtfs"))
+                    default=str(SHORTESTPATH_DIR / "data" / "sncf_gtfs"))                  
 parser.add_argument("--shp",    type=str,
-                    default="/home/majid/Desktop/MS2/data/110/data/communes-20220101-shp/communes-20220101.shp")
+    default=str(THIS_FILE.parent.parent / "data" / "communes-20220101-shp" / "communes-20220101.shp"))
 parser.add_argument("--date",   type=str, default=None)
 parser.add_argument("--phrase", type=str, default=None)
 args = parser.parse_args()
